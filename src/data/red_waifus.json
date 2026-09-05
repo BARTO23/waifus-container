@@ -1,0 +1,418 @@
+[
+  {
+    "id": "manga-001",
+    "name": "Rias Gremory",
+    "origin": "manga",
+    "series": "High School DxD",
+    "description": "Crimson-Haired Ruin Princess and heiress of the Gremory Clan.",
+    "tags": [
+      "demon",
+      "magic",
+      "occult"
+    ],
+    "image": "https://media.kitsu.app/characters/images/35597/original.jpg"
+  },
+  {
+    "id": "manga-002",
+    "name": "Erza Scarlet",
+    "origin": "manga",
+    "series": "Fairy Tail",
+    "description": "Titania, S-Class Requip mage of Fairy Tail with iron resolve.",
+    "tags": [
+      "magic",
+      "swordsman",
+      "guild"
+    ],
+    "image": "https://media.kitsu.app/characters/images/29661/original.jpg"
+  },
+  {
+    "id": "manga-003",
+    "name": "Yoko Littner",
+    "origin": "manga",
+    "series": "Gurren Lagann",
+    "description": "Marksman of Team Dai-Gurren wielding a high-caliber sniper rifle.",
+    "tags": [
+      "sniper",
+      "mecha",
+      "rebel"
+    ],
+    "image": "https://media.kitsu.app/characters/images/19270/original.jpg"
+  },
+  {
+    "id": "manga-004",
+    "name": "Shana",
+    "origin": "manga",
+    "series": "Shakugan no Shana",
+    "description": "Flame-Haired Burning-Eyed Hunter wielding the broadsword Nietono no Shana.",
+    "tags": [
+      "flame-haze",
+      "swordsman",
+      "tsundere"
+    ],
+    "image": "https://media.kitsu.app/characters/images/6522/original.jpg"
+  },
+  {
+    "id": "manga-005",
+    "name": "Kallen Stadtfeld",
+    "origin": "manga",
+    "series": "Code Geass",
+    "description": "Ace Guren pilot of the Black Knights fighting for Japanese independence.",
+    "tags": [
+      "mecha",
+      "pilot",
+      "rebellion"
+    ],
+    "image": "https://media.kitsu.app/characters/images/16461/original.jpg"
+  },
+  {
+    "id": "manga-006",
+    "name": "Shirayuki",
+    "origin": "manga",
+    "series": "Snow White with the Red Hair",
+    "description": "Skilled court herbalist of Clarines with rare apple-red hair.",
+    "tags": [
+      "herbalist",
+      "royalty",
+      "medic"
+    ],
+    "image": "https://media.kitsu.app/characters/images/63782/original.jpg"
+  },
+  {
+    "id": "manga-007",
+    "name": "Maki Nishikino",
+    "origin": "manga",
+    "series": "Love Live!",
+    "description": "Talented pianist, composer, and tsundere idol for the group μ's.",
+    "tags": [
+      "idol",
+      "music",
+      "piano"
+    ],
+    "image": "https://media.kitsu.app/characters/images/33299/original.jpg"
+  },
+  {
+    "id": "manga-008",
+    "name": "Holo",
+    "origin": "manga",
+    "series": "Spice and Wolf",
+    "description": "Wise Wolf of Yoitsu with auburn hair who travels as a harvest deity.",
+    "tags": [
+      "wolf-deity",
+      "harvest",
+      "traveler"
+    ],
+    "image": "https://media.kitsu.app/characters/images/22846/original.jpg"
+  },
+  {
+    "id": "manga-009",
+    "name": "Kurisu Makise",
+    "origin": "manga",
+    "series": "Steins;Gate",
+    "description": "Brilliant neuroscientist and Future Gadget Lab Member 004.",
+    "tags": [
+      "science",
+      "genius",
+      "time-travel"
+    ],
+    "image": "https://media.kitsu.app/characters/images/32510/original.jpg"
+  },
+  {
+    "id": "manga-010",
+    "name": "Kushina Uzumaki",
+    "origin": "manga",
+    "series": "Naruto",
+    "description": "The Red Hot Habanero and previous jinchuriki of the Nine-Tails.",
+    "tags": [
+      "ninja",
+      "uzumaki",
+      "jinchuriki"
+    ],
+    "image": "https://media.kitsu.app/characters/images/17959/original.jpg"
+  },
+  {
+    "id": "manga-016",
+    "name": "Lisara Restall",
+    "origin": "manga",
+    "series": "Dakara Boku wa, H ga Dekinai",
+    "description": "Grim Reaper noble searching the human realm for an energetic contractor.",
+    "tags": [
+      "shinigami",
+      "scythe",
+      "supernatural"
+    ],
+    "image": "https://media.kitsu.app/characters/images/37891/original.jpg"
+  },
+  {
+    "id": "manga-018",
+    "name": "Tomo Aizawa",
+    "origin": "manga",
+    "series": "Tomo-chan Is a Girl!",
+    "description": "Tomboy karate champion striving to be seen as a girl by her childhood friend.",
+    "tags": [
+      "karate",
+      "tomboy",
+      "martial-arts"
+    ],
+    "image": "https://media.kitsu.app/characters/images/88810/original.jpg"
+  },
+  {
+    "id": "manga-019",
+    "name": "Minori Kushieda",
+    "origin": "manga",
+    "series": "Toradora!",
+    "description": "High-energy softball captain working tireless jobs to fund her dream.",
+    "tags": [
+      "softball",
+      "athletics",
+      "friendship"
+    ],
+    "image": "https://media.kitsu.app/characters/images/25933/original.jpg"
+  },
+  {
+    "id": "manga-021",
+    "name": "Lina Inverse",
+    "origin": "manga",
+    "series": "Slayers",
+    "description": "Feared wandering sorceress capable of casting the legendary Dragon Slave.",
+    "tags": [
+      "sorceress",
+      "dragon-slave",
+      "magic"
+    ],
+    "image": "https://media.kitsu.app/characters/images/8507/original.jpg"
+  },
+  {
+    "id": "manga-024",
+    "name": "Yona",
+    "origin": "manga",
+    "series": "Akatsuki no Yona",
+    "description": "Exiled princess who gathers the Four Dragons to defend the Kouka Kingdom.",
+    "tags": [
+      "princess",
+      "archery",
+      "dragon-warriors"
+    ],
+    "image": "https://media.kitsu.app/characters/images/50980/original.jpg"
+  },
+  {
+    "id": "manga-036",
+    "name": "Gou Matsuoka",
+    "origin": "manga",
+    "series": "Free!",
+    "description": "Passionate swim team manager with a sharp eye for athletic form.",
+    "tags": [
+      "swimming",
+      "manager",
+      "sports"
+    ],
+    "image": "https://media.kitsu.app/characters/images/39628/original.jpg"
+  },
+  {
+    "id": "manga-043",
+    "name": "Ranma Saotome (Girl)",
+    "origin": "manga",
+    "series": "Ranma 1/2",
+    "description": "Cursed martial artist who transforms into a red-haired woman with cold water.",
+    "tags": [
+      "martial-arts",
+      "curse",
+      "classic"
+    ],
+    "image": "https://media.kitsu.app/characters/images/3969/original.jpg"
+  },
+  {
+    "id": "manga-052",
+    "name": "Tiese Shtolienen",
+    "origin": "manga",
+    "series": "Sword Art Online",
+    "description": "Swordcraft Academy valet dedicated to advancing the Knight order.",
+    "tags": [
+      "underworld",
+      "swordcraft",
+      "valet"
+    ],
+    "image": "https://media.kitsu.app/characters/images/50947/original.jpg"
+  },
+  {
+    "id": "manga-053",
+    "name": "Rosalia",
+    "origin": "manga",
+    "series": "Sword Art Online",
+    "description": "Leader of the Titan's Hand bandit guild preying on Aincrad players.",
+    "tags": [
+      "aincrad",
+      "spear",
+      "bandit"
+    ],
+    "image": "https://media.kitsu.app/characters/images/35747/original.jpg"
+  },
+  {
+    "id": "manga-065",
+    "name": "Baccarat",
+    "origin": "manga",
+    "series": "One Piece",
+    "description": "Gran Tesoro concierge manipulating fortunes with the Lucky Lucky fruit.",
+    "tags": [
+      "luck-fruit",
+      "gran-tesoro",
+      "fortune"
+    ],
+    "image": "https://media.kitsu.app/characters/images/88905/original.jpg"
+  },
+  {
+    "id": "manga-073",
+    "name": "Aoko Aozaki",
+    "origin": "manga",
+    "series": "Mahoutsukai no Yoru",
+    "description": "Fifth Magician channeling catastrophic time acceleration spells.",
+    "tags": [
+      "fifth-magic",
+      "magician",
+      "sorcery"
+    ],
+    "image": "https://media.kitsu.app/characters/images/3410/original.jpg"
+  },
+  {
+    "id": "manga-076",
+    "name": "Flay Allster",
+    "origin": "manga",
+    "series": "Gundam SEED",
+    "description": "Earth Alliance survivor navigating political intrigue aboard Archangel.",
+    "tags": [
+      "gundam",
+      "archangel",
+      "drama"
+    ],
+    "image": "https://media.kitsu.app/characters/images/2005/original.jpg"
+  },
+  {
+    "id": "manga-077",
+    "name": "Meyrin Hawke",
+    "origin": "manga",
+    "series": "Gundam SEED Destiny",
+    "description": "Zaft communication operator guiding ace pilots through deep orbital space.",
+    "tags": [
+      "zaft",
+      "operator",
+      "gundam"
+    ],
+    "image": "https://media.kitsu.app/characters/images/2060/original.jpg"
+  },
+  {
+    "id": "manga-078",
+    "name": "Lunamaria Hawke",
+    "origin": "manga",
+    "series": "Gundam SEED Destiny",
+    "description": "Red coat mobile suit pilot defending the Minerva against Earth warships.",
+    "tags": [
+      "gundam",
+      "pilot",
+      "red-coat"
+    ],
+    "image": "https://media.kitsu.app/characters/images/2048/original.jpg"
+  },
+  {
+    "id": "manga-093",
+    "name": "Mahiru Koizumi",
+    "origin": "manga",
+    "series": "Danganronpa 2",
+    "description": "Ultimate Photographer documenting honest moments among island classmates.",
+    "tags": [
+      "photographer",
+      "hope's-peak",
+      "ultimate"
+    ],
+    "image": "https://media.kitsu.app/characters/images/47775/original.jpg"
+  },
+  {
+    "id": "manga-094",
+    "name": "Chisa Yukizome",
+    "origin": "manga",
+    "series": "Danganronpa 3",
+    "description": "Ultimate Housekeeper and teacher protecting the 77th Class with devotion.",
+    "tags": [
+      "housekeeper",
+      "teacher",
+      "ultimate"
+    ],
+    "image": "https://media.kitsu.app/characters/images/66491/original.jpg"
+  },
+  {
+    "id": "manhwa-014",
+    "name": "Alice Verdier",
+    "origin": "manhwa",
+    "series": "Betrayal of Dignity",
+    "description": "Devoted maid accompanying Chloe into high aristocratic imperial circles.",
+    "tags": [
+      "maid",
+      "aristocracy",
+      "loyalty"
+    ],
+    "image": "https://media.kitsu.app/characters/images/27662/original.jpg"
+  },
+  {
+    "id": "manhwa-017",
+    "name": "Rowena Parvis",
+    "origin": "manhwa",
+    "series": "Actually, I Was the Real One",
+    "description": "Loyal knight defending the Grand Duchy of Parvis against demonic corruption.",
+    "tags": [
+      "knight",
+      "noble",
+      "spirit-contract"
+    ],
+    "image": "https://media.kitsu.app/characters/images/16342/original.jpg"
+  },
+  {
+    "id": "manhwa-028",
+    "name": "Marianne de Elmir",
+    "origin": "manhwa",
+    "series": "Into the Light Once Again",
+    "description": "High priestess cultivating miracle plants in the sun gardens for the imperial palace.",
+    "tags": [
+      "priestess",
+      "sun-garden",
+      "miracles"
+    ],
+    "image": "https://media.kitsu.app/characters/images/6530/original.jpg"
+  },
+  {
+    "id": "manhwa-032",
+    "name": "Silvia",
+    "origin": "manhwa",
+    "series": "The Great Wish",
+    "description": "Royal palace archivist chronicling prophetic visions of the empire's future.",
+    "tags": [
+      "archivist",
+      "prophecy",
+      "royalty"
+    ],
+    "image": "https://media.kitsu.app/characters/images/79240/original.jpg"
+  },
+  {
+    "id": "manhwa-043",
+    "name": "Gina",
+    "origin": "manhwa",
+    "series": "Solo Leveling",
+    "description": "Hunters Guild strike squad member wielding formidable psychokinetic force.",
+    "tags": [
+      "hunters-guild",
+      "psychokinesis",
+      "raid"
+    ],
+    "image": "https://media.kitsu.app/characters/images/597/original.jpg"
+  },
+  {
+    "id": "manhwa-051",
+    "name": "Lady Hwa",
+    "origin": "manhwa",
+    "series": "Nano Machine",
+    "description": "High matriarch of the Fire Phoenix Clan governing sacred molten cultivation caves.",
+    "tags": [
+      "fire-phoenix",
+      "matriarch",
+      "cultivation"
+    ],
+    "image": "https://media.kitsu.app/characters/images/53810/original.jpg"
+  }
+]

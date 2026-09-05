@@ -1,0 +1,5877 @@
+[
+  {
+    "id": "manga-001",
+    "name": "Rias Gremory",
+    "origin": "manga",
+    "series": "High School DxD",
+    "description": "Crimson-Haired Ruin Princess and heiress of the Gremory Clan.",
+    "tags": [
+      "demon",
+      "magic",
+      "occult"
+    ],
+    "image": "https://media.kitsu.app/characters/images/35597/original.jpg"
+  },
+  {
+    "id": "manga-002",
+    "name": "Erza Scarlet",
+    "origin": "manga",
+    "series": "Fairy Tail",
+    "description": "Titania, S-Class Requip mage of Fairy Tail with iron resolve.",
+    "tags": [
+      "magic",
+      "swordsman",
+      "guild"
+    ],
+    "image": "https://media.kitsu.app/characters/images/29661/original.jpg"
+  },
+  {
+    "id": "manga-003",
+    "name": "Yoko Littner",
+    "origin": "manga",
+    "series": "Gurren Lagann",
+    "description": "Marksman of Team Dai-Gurren wielding a high-caliber sniper rifle.",
+    "tags": [
+      "sniper",
+      "mecha",
+      "rebel"
+    ],
+    "image": "https://media.kitsu.app/characters/images/19270/original.jpg"
+  },
+  {
+    "id": "manga-004",
+    "name": "Shana",
+    "origin": "manga",
+    "series": "Shakugan no Shana",
+    "description": "Flame-Haired Burning-Eyed Hunter wielding the broadsword Nietono no Shana.",
+    "tags": [
+      "flame-haze",
+      "swordsman",
+      "tsundere"
+    ],
+    "image": "https://media.kitsu.app/characters/images/6522/original.jpg"
+  },
+  {
+    "id": "manga-005",
+    "name": "Kallen Stadtfeld",
+    "origin": "manga",
+    "series": "Code Geass",
+    "description": "Ace Guren pilot of the Black Knights fighting for Japanese independence.",
+    "tags": [
+      "mecha",
+      "pilot",
+      "rebellion"
+    ],
+    "image": "https://media.kitsu.app/characters/images/16461/original.jpg"
+  },
+  {
+    "id": "manga-006",
+    "name": "Shirayuki",
+    "origin": "manga",
+    "series": "Snow White with the Red Hair",
+    "description": "Skilled court herbalist of Clarines with rare apple-red hair.",
+    "tags": [
+      "herbalist",
+      "royalty",
+      "medic"
+    ],
+    "image": "https://media.kitsu.app/characters/images/63782/original.jpg"
+  },
+  {
+    "id": "manga-007",
+    "name": "Maki Nishikino",
+    "origin": "manga",
+    "series": "Love Live!",
+    "description": "Talented pianist, composer, and tsundere idol for the group μ's.",
+    "tags": [
+      "idol",
+      "music",
+      "piano"
+    ],
+    "image": "https://media.kitsu.app/characters/images/33299/original.jpg"
+  },
+  {
+    "id": "manga-008",
+    "name": "Holo",
+    "origin": "manga",
+    "series": "Spice and Wolf",
+    "description": "Wise Wolf of Yoitsu with auburn hair who travels as a harvest deity.",
+    "tags": [
+      "wolf-deity",
+      "harvest",
+      "traveler"
+    ],
+    "image": "https://media.kitsu.app/characters/images/22846/original.jpg"
+  },
+  {
+    "id": "manga-009",
+    "name": "Kurisu Makise",
+    "origin": "manga",
+    "series": "Steins;Gate",
+    "description": "Brilliant neuroscientist and Future Gadget Lab Member 004.",
+    "tags": [
+      "science",
+      "genius",
+      "time-travel"
+    ],
+    "image": "https://media.kitsu.app/characters/images/32510/original.jpg"
+  },
+  {
+    "id": "manga-010",
+    "name": "Kushina Uzumaki",
+    "origin": "manga",
+    "series": "Naruto",
+    "description": "The Red Hot Habanero and previous jinchuriki of the Nine-Tails.",
+    "tags": [
+      "ninja",
+      "uzumaki",
+      "jinchuriki"
+    ],
+    "image": "https://media.kitsu.app/characters/images/17959/original.jpg"
+  },
+  {
+    "id": "manga-011",
+    "name": "Stephanie Dola",
+    "origin": "manga",
+    "series": "No Game No Life",
+    "description": "Granddaughter of the former king who provides emotional heart to Imanity.",
+    "tags": [
+      "royalty",
+      "games",
+      "imanity"
+    ],
+    "image": "https://media.kitsu.app/characters/images/40372/original.jpg"
+  },
+  {
+    "id": "manga-012",
+    "name": "Eris Boreas Greyrat",
+    "origin": "manga",
+    "series": "Mushoku Tensei",
+    "description": "Fierce swordswoman mastering the Sword God style on the demon continent.",
+    "tags": [
+      "swordsman",
+      "noble",
+      "warrior"
+    ],
+    "image": "https://media.kitsu.app/characters/images/58180/original.jpg"
+  },
+  {
+    "id": "manga-013",
+    "name": "Stella Vermillion",
+    "origin": "manga",
+    "series": "Chivalry of a Failed Knight",
+    "description": "Rank A blazer and crimson princess wielding blazing Laevateinn.",
+    "tags": [
+      "blazer",
+      "fire-magic",
+      "princess"
+    ],
+    "image": "https://media.kitsu.app/characters/images/40681/original.jpg"
+  },
+  {
+    "id": "manga-014",
+    "name": "Edward Wong",
+    "origin": "manga",
+    "series": "Cowboy Bebop",
+    "description": "Eccentric child prodigy computer hacker on board the Bebop.",
+    "tags": [
+      "hacker",
+      "genius",
+      "sci-fi"
+    ],
+    "image": "https://media.kitsu.app/characters/images/4/original.jpg"
+  },
+  {
+    "id": "manga-015",
+    "name": "Morgiana",
+    "origin": "manga",
+    "series": "Magi",
+    "description": "Fanalis warrior possessing superhuman leg strength and unbreakable spirit.",
+    "tags": [
+      "fanalis",
+      "warrior",
+      "martial-arts"
+    ],
+    "image": "https://media.kitsu.app/characters/images/37641/original.jpg"
+  },
+  {
+    "id": "manga-016",
+    "name": "Lisara Restall",
+    "origin": "manga",
+    "series": "Dakara Boku wa, H ga Dekinai",
+    "description": "Grim Reaper noble searching the human realm for an energetic contractor.",
+    "tags": [
+      "shinigami",
+      "scythe",
+      "supernatural"
+    ],
+    "image": "https://media.kitsu.app/characters/images/37891/original.jpg"
+  },
+  {
+    "id": "manga-017",
+    "name": "Miia",
+    "origin": "manga",
+    "series": "Monster Musume",
+    "description": "Passionate crimson-haired Lamia homestay guest learning human culture.",
+    "tags": [
+      "lamia",
+      "monster-girl",
+      "romance"
+    ],
+    "image": "https://media.kitsu.app/characters/images/12650/original.jpg"
+  },
+  {
+    "id": "manga-018",
+    "name": "Tomo Aizawa",
+    "origin": "manga",
+    "series": "Tomo-chan Is a Girl!",
+    "description": "Tomboy karate champion striving to be seen as a girl by her childhood friend.",
+    "tags": [
+      "karate",
+      "tomboy",
+      "martial-arts"
+    ],
+    "image": "https://media.kitsu.app/characters/images/88810/original.jpg"
+  },
+  {
+    "id": "manga-019",
+    "name": "Minori Kushieda",
+    "origin": "manga",
+    "series": "Toradora!",
+    "description": "High-energy softball captain working tireless jobs to fund her dream.",
+    "tags": [
+      "softball",
+      "athletics",
+      "friendship"
+    ],
+    "image": "https://media.kitsu.app/characters/images/25933/original.jpg"
+  },
+  {
+    "id": "manga-020",
+    "name": "Hikaru Shidou",
+    "origin": "manga",
+    "series": "Magic Knight Rayearth",
+    "description": "Spirited schoolgirl summoned to become the Magic Knight of Fire.",
+    "tags": [
+      "magic-knight",
+      "fire",
+      "mecha"
+    ],
+    "image": "https://media.kitsu.app/characters/images/7295/original.jpg"
+  },
+  {
+    "id": "manga-021",
+    "name": "Lina Inverse",
+    "origin": "manga",
+    "series": "Slayers",
+    "description": "Feared wandering sorceress capable of casting the legendary Dragon Slave.",
+    "tags": [
+      "sorceress",
+      "dragon-slave",
+      "magic"
+    ],
+    "image": "https://media.kitsu.app/characters/images/8507/original.jpg"
+  },
+  {
+    "id": "manga-022",
+    "name": "Flare Corona",
+    "origin": "manga",
+    "series": "Fairy Tail",
+    "description": "Sun Village maiden who weaponizes her fiery crimson hair in battle.",
+    "tags": [
+      "hair-magic",
+      "sun-village",
+      "guild"
+    ],
+    "image": "https://media.kitsu.app/characters/images/40097/original.jpg"
+  },
+  {
+    "id": "manga-023",
+    "name": "Kagura",
+    "origin": "manga",
+    "series": "Gintama",
+    "description": "Super-strong Yato mercenary girl fighting alongside the Odd Jobs crew.",
+    "tags": [
+      "yato",
+      "alien",
+      "super-strength"
+    ],
+    "image": "https://media.kitsu.app/characters/images/88222/original.jpg"
+  },
+  {
+    "id": "manga-024",
+    "name": "Yona",
+    "origin": "manga",
+    "series": "Akatsuki no Yona",
+    "description": "Exiled princess who gathers the Four Dragons to defend the Kouka Kingdom.",
+    "tags": [
+      "princess",
+      "archery",
+      "dragon-warriors"
+    ],
+    "image": "https://media.kitsu.app/characters/images/50980/original.jpg"
+  },
+  {
+    "id": "manga-025",
+    "name": "Chise Hatori",
+    "origin": "manga",
+    "series": "The Ancient Magus' Bride",
+    "description": "Sleigh Beggy apprentice sorceress learning ancient nature mysteries.",
+    "tags": [
+      "sleigh-beggy",
+      "magic",
+      "fae"
+    ],
+    "image": "https://media.kitsu.app/characters/images/57895/original.jpg"
+  },
+  {
+    "id": "manga-026",
+    "name": "Mei Hatsume",
+    "origin": "manga",
+    "series": "My Hero Academia",
+    "description": "U.A. Support course inventor crafting outlandish gadget babies.",
+    "tags": [
+      "inventor",
+      "gadgets",
+      "support"
+    ],
+    "image": "https://media.kitsu.app/characters/images/70275/original.jpg"
+  },
+  {
+    "id": "manga-027",
+    "name": "Kyoko Sakura",
+    "origin": "manga",
+    "series": "Puella Magi Madoka Magica",
+    "description": "Pragmatic magical girl fighting with an illusion-weaving spear.",
+    "tags": [
+      "magical-girl",
+      "spear",
+      "veteran"
+    ],
+    "image": "https://media.kitsu.app/characters/images/28367/original.jpg"
+  },
+  {
+    "id": "manga-028",
+    "name": "Karin Uzumaki",
+    "origin": "manga",
+    "series": "Naruto",
+    "description": "Sensory kunoichi and healer possessing Adamantine Attacking Chains.",
+    "tags": [
+      "uzumaki",
+      "healer",
+      "sensory"
+    ],
+    "image": "https://media.kitsu.app/characters/images/18318/original.jpg"
+  },
+  {
+    "id": "manga-029",
+    "name": "Tayuya",
+    "origin": "manga",
+    "series": "Naruto",
+    "description": "Sound Four shinobi controlling giant Doki spirits through her demon flute.",
+    "tags": [
+      "sound-four",
+      "flute",
+      "genjutsu"
+    ],
+    "image": "https://media.kitsu.app/characters/images/17997/original.jpg"
+  },
+  {
+    "id": "manga-030",
+    "name": "Mey-Rin",
+    "origin": "manga",
+    "series": "Black Butler",
+    "description": "Phantomhive maid who conceals twin long-range precision rifles.",
+    "tags": [
+      "sniper",
+      "maid",
+      "phantomhive"
+    ],
+    "image": "https://media.kitsu.app/characters/images/25692/original.jpg"
+  },
+  {
+    "id": "manga-031",
+    "name": "Shirai Kuroko",
+    "origin": "manga",
+    "series": "A Certain Scientific Railgun",
+    "description": "Level 4 Judgement officer wielding instant spatial teleportation.",
+    "tags": [
+      "teleportation",
+      "judgement",
+      "esper"
+    ],
+    "image": "https://media.kitsu.app/characters/images/27042/original.jpg"
+  },
+  {
+    "id": "manga-032",
+    "name": "Lilith Bristol",
+    "origin": "manga",
+    "series": "Absolute Duo",
+    "description": "Exceptional British transfer student whose Blaze manifests as an ornate rifle.",
+    "tags": [
+      "blaze",
+      "rifle",
+      "academy"
+    ],
+    "image": "https://media.kitsu.app/characters/images/57134/original.jpg"
+  },
+  {
+    "id": "manga-033",
+    "name": "Chelsea",
+    "origin": "manga",
+    "series": "Akame ga Kill!",
+    "description": "Night Raid assassin using the Gaea Foundation teigu for lethal deception.",
+    "tags": [
+      "night-raid",
+      "assassin",
+      "disguise"
+    ],
+    "image": "https://media.kitsu.app/characters/images/49603/original.jpg"
+  },
+  {
+    "id": "manga-034",
+    "name": "Kaho Hinata",
+    "origin": "manga",
+    "series": "Blend S",
+    "description": "Gamer schoolgirl playing the tsundere waitress persona at Cafe Stile.",
+    "tags": [
+      "gamer",
+      "tsundere",
+      "cafe"
+    ],
+    "image": "https://media.kitsu.app/characters/images/66308/original.jpg"
+  },
+  {
+    "id": "manga-035",
+    "name": "Miu Matsuoka",
+    "origin": "manga",
+    "series": "Strawberry Marshmallow",
+    "description": "Neighborhood troublemaker with endless eccentric comedic schemes.",
+    "tags": [
+      "comedy",
+      "mischief",
+      "school"
+    ],
+    "image": "https://media.kitsu.app/characters/images/7885/original.jpg"
+  },
+  {
+    "id": "manga-036",
+    "name": "Gou Matsuoka",
+    "origin": "manga",
+    "series": "Free!",
+    "description": "Passionate swim team manager with a sharp eye for athletic form.",
+    "tags": [
+      "swimming",
+      "manager",
+      "sports"
+    ],
+    "image": "https://media.kitsu.app/characters/images/39628/original.jpg"
+  },
+  {
+    "id": "manga-037",
+    "name": "Nonon Jakuzure",
+    "origin": "manga",
+    "series": "Kill la Kill",
+    "description": "Honnouji Elite Four commander conducting musical devastation suits.",
+    "tags": [
+      "elite-four",
+      "goku-uniform",
+      "music"
+    ],
+    "image": "https://media.kitsu.app/characters/images/38605/original.jpg"
+  },
+  {
+    "id": "manga-038",
+    "name": "Irene Belserion",
+    "origin": "manga",
+    "series": "Fairy Tail",
+    "description": "The Scarlet Despair and mother of Dragon Slayer Magic in Alvarez.",
+    "tags": [
+      "dragon-slayer",
+      "enchantment",
+      "scarlet"
+    ],
+    "image": "https://media.kitsu.app/characters/images/77443/original.jpg"
+  },
+  {
+    "id": "manga-039",
+    "name": "Meredy",
+    "origin": "manga",
+    "series": "Fairy Tail",
+    "description": "Crime Sorcière mage linking sensory emotions through Maguilty Sense.",
+    "tags": [
+      "maguilty-sense",
+      "crime-sorciere",
+      "guild"
+    ],
+    "image": "https://media.kitsu.app/characters/images/37398/original.jpg"
+  },
+  {
+    "id": "manga-040",
+    "name": "Sherry Blendy",
+    "origin": "manga",
+    "series": "Fairy Tail",
+    "description": "Lamia Scale marionette mage controlling wood and stone dolls.",
+    "tags": [
+      "marionette",
+      "doll-magic",
+      "guild"
+    ],
+    "image": "https://media.kitsu.app/characters/images/29787/original.jpg"
+  },
+  {
+    "id": "manga-041",
+    "name": "Chelia Blendy",
+    "origin": "manga",
+    "series": "Fairy Tail",
+    "description": "Sky God Slayer using healing winds and black feather storms.",
+    "tags": [
+      "god-slayer",
+      "sky-magic",
+      "prodigy"
+    ],
+    "image": "https://media.kitsu.app/characters/images/29788/original.jpg"
+  },
+  {
+    "id": "manga-042",
+    "name": "Akane Tendo",
+    "origin": "manga",
+    "series": "Ranma 1/2",
+    "description": "Fierce martial artist and heiress to the Tendo Anything-Goes Dojo.",
+    "tags": [
+      "martial-arts",
+      "dojo",
+      "classic"
+    ],
+    "image": "https://media.kitsu.app/characters/images/3970/original.jpg"
+  },
+  {
+    "id": "manga-043",
+    "name": "Ranma Saotome (Girl)",
+    "origin": "manga",
+    "series": "Ranma 1/2",
+    "description": "Cursed martial artist who transforms into a red-haired woman with cold water.",
+    "tags": [
+      "martial-arts",
+      "curse",
+      "classic"
+    ],
+    "image": "https://media.kitsu.app/characters/images/3969/original.jpg"
+  },
+  {
+    "id": "manga-044",
+    "name": "Washu Hakubi",
+    "origin": "manga",
+    "series": "Tenchi Muyo!",
+    "description": "Greatest scientific genius in the universe with vibrant long red hair.",
+    "tags": [
+      "scientist",
+      "goddess",
+      "classic"
+    ],
+    "image": "https://media.kitsu.app/characters/images/8553/original.jpg"
+  },
+  {
+    "id": "manga-045",
+    "name": "Asuka Langley Soryu",
+    "origin": "manga",
+    "series": "Neon Genesis Evangelion",
+    "description": "Proud pilot of Evangelion Unit-02 combating alien Angels.",
+    "tags": [
+      "eva-pilot",
+      "mecha",
+      "pride"
+    ],
+    "image": "https://media.kitsu.app/characters/images/11099/original.jpg"
+  },
+  {
+    "id": "manga-046",
+    "name": "Nina Antalk",
+    "origin": "manga",
+    "series": "Chrome Shelled Regios",
+    "description": "Military arts captain defending the nomadic moving city Zuellni.",
+    "tags": [
+      "military-arts",
+      "regios",
+      "captain"
+    ],
+    "image": "https://media.kitsu.app/characters/images/25848/original.jpg"
+  },
+  {
+    "id": "manga-047",
+    "name": "Meifon Sturm",
+    "origin": "manga",
+    "series": "Chrome Shelled Regios",
+    "description": "Warm restaurant staff member serving students across Zuellni.",
+    "tags": [
+      "regios",
+      "support",
+      "student"
+    ],
+    "image": "https://media.kitsu.app/characters/images/13571/original.jpg"
+  },
+  {
+    "id": "manga-048",
+    "name": "Iris Midgar",
+    "origin": "manga",
+    "series": "The Eminence in Shadow",
+    "description": "First Princess of Midgar and supreme commander of the Crimson Order.",
+    "tags": [
+      "princess",
+      "crimson-order",
+      "swordsman"
+    ],
+    "image": "https://media.kitsu.app/characters/images/24795/original.jpg"
+  },
+  {
+    "id": "manga-049",
+    "name": "Mary",
+    "origin": "manga",
+    "series": "The Eminence in Shadow",
+    "description": "Ancient vampire hunter tracking the Blood Queen during the red moon.",
+    "tags": [
+      "vampire-hunter",
+      "warrior",
+      "red-moon"
+    ],
+    "image": "https://media.kitsu.app/characters/images/8344/original.jpg"
+  },
+  {
+    "id": "manga-050",
+    "name": "Elizabeth",
+    "origin": "manga",
+    "series": "The Eminence in Shadow",
+    "description": "The legendary Blood Queen ruling the Lawless City crimson tower.",
+    "tags": [
+      "blood-queen",
+      "vampire",
+      "royalty"
+    ],
+    "image": "https://media.kitsu.app/characters/images/680/original.jpg"
+  },
+  {
+    "id": "manga-051",
+    "name": "Velgrynd",
+    "origin": "manga",
+    "series": "That Time I Got Reincarnated as a Slime",
+    "description": "The Scorch Dragon True Dragon commanding incandescent cosmic flame.",
+    "tags": [
+      "true-dragon",
+      "scorch",
+      "cosmic"
+    ],
+    "image": "https://media.kitsu.app/characters/images/84102/original.jpg"
+  },
+  {
+    "id": "manga-052",
+    "name": "Tiese Shtolienen",
+    "origin": "manga",
+    "series": "Sword Art Online",
+    "description": "Swordcraft Academy valet dedicated to advancing the Knight order.",
+    "tags": [
+      "underworld",
+      "swordcraft",
+      "valet"
+    ],
+    "image": "https://media.kitsu.app/characters/images/50947/original.jpg"
+  },
+  {
+    "id": "manga-053",
+    "name": "Rosalia",
+    "origin": "manga",
+    "series": "Sword Art Online",
+    "description": "Leader of the Titan's Hand bandit guild preying on Aincrad players.",
+    "tags": [
+      "aincrad",
+      "spear",
+      "bandit"
+    ],
+    "image": "https://media.kitsu.app/characters/images/35747/original.jpg"
+  },
+  {
+    "id": "manga-054",
+    "name": "Rain",
+    "origin": "manga",
+    "series": "Sword Art Online",
+    "description": "Dual-wielding leprechaun singer exploring the skies of ALfheim.",
+    "tags": [
+      "dual-wield",
+      "alfheim",
+      "singer"
+    ],
+    "image": "https://media.kitsu.app/characters/images/20114/original.jpg"
+  },
+  {
+    "id": "manga-055",
+    "name": "Kureha",
+    "origin": "manga",
+    "series": "Sword Art Online",
+    "description": "Childhood friend and Gun Gale Online sniper exploring SBC Glocken.",
+    "tags": [
+      "gun-gale",
+      "sniper",
+      "sci-fi"
+    ],
+    "image": "https://media.kitsu.app/characters/images/15477/original.jpg"
+  },
+  {
+    "id": "manga-056",
+    "name": "Priscilla Barielle",
+    "origin": "manga",
+    "series": "Re:Zero",
+    "description": "Sun Princess blessed with supreme auspicious luck wielding the Yang Sword.",
+    "tags": [
+      "sun-princess",
+      "yang-sword",
+      "royalty"
+    ],
+    "image": "https://media.kitsu.app/characters/images/60699/original.jpg"
+  },
+  {
+    "id": "manga-057",
+    "name": "Theresia van Astrea",
+    "origin": "manga",
+    "series": "Re:Zero",
+    "description": "Master Swordsman blessed with the Divine Protection of the Death God.",
+    "tags": [
+      "sword-saint",
+      "astrea",
+      "legend"
+    ],
+    "image": "https://media.kitsu.app/characters/images/60700/original.jpg"
+  },
+  {
+    "id": "manga-058",
+    "name": "Orihime Inoue",
+    "origin": "manga",
+    "series": "Bleach",
+    "description": "Protector wielding the Shun Shun Rikka spatial rejection shields.",
+    "tags": [
+      "shun-shun-rikka",
+      "healer",
+      "karakura"
+    ],
+    "image": "https://media.kitsu.app/characters/images/15456/original.jpg"
+  },
+  {
+    "id": "manga-059",
+    "name": "Riruka Dokugamine",
+    "origin": "manga",
+    "series": "Bleach",
+    "description": "Dollhouse Fullbringer who stores cherished treasures inside miniature rooms.",
+    "tags": [
+      "fullbringer",
+      "dollhouse",
+      "tsundere"
+    ],
+    "image": "https://media.kitsu.app/characters/images/32732/original.jpg"
+  },
+  {
+    "id": "manga-060",
+    "name": "Ikumi Unagiya",
+    "origin": "manga",
+    "series": "Bleach",
+    "description": "Strict and protective shop manager supporting Karakura town youth.",
+    "tags": [
+      "karakura",
+      "unagiya",
+      "protective"
+    ],
+    "image": "https://media.kitsu.app/character/5691/image/2b45309ee407de490f61e7ad35036bda.jpg"
+  },
+  {
+    "id": "manga-061",
+    "name": "Nami",
+    "origin": "manga",
+    "series": "One Piece",
+    "description": "Cat Burglar navigator charting sea lanes across the Grand Line.",
+    "tags": [
+      "navigator",
+      "straw-hat",
+      "clima-tact"
+    ],
+    "image": "https://media.kitsu.app/characters/images/15006/original.jpg"
+  },
+  {
+    "id": "manga-062",
+    "name": "Koala",
+    "origin": "manga",
+    "series": "One Piece",
+    "description": "Revolutionary Army officer instructing Fishman Karate across liberated seas.",
+    "tags": [
+      "revolutionary",
+      "fishman-karate",
+      "officer"
+    ],
+    "image": "https://media.kitsu.app/characters/images/54728/original.jpg"
+  },
+  {
+    "id": "manga-063",
+    "name": "Belle-mere",
+    "origin": "manga",
+    "series": "One Piece",
+    "description": "Former marine who cultivated tangerine groves and gave everything for her daughters.",
+    "tags": [
+      "marine",
+      "mother",
+      "sacrifice"
+    ],
+    "image": "https://media.kitsu.app/characters/images/92730/original.jpg"
+  },
+  {
+    "id": "manga-064",
+    "name": "Charlotte Galette",
+    "origin": "manga",
+    "series": "One Piece",
+    "description": "Totto Land butter minister manipulating molten dairy defenses.",
+    "tags": [
+      "big-mom-pirates",
+      "devil-fruit",
+      "officer"
+    ],
+    "image": "https://media.kitsu.app/characters/images/23427/original.jpg"
+  },
+  {
+    "id": "manga-065",
+    "name": "Baccarat",
+    "origin": "manga",
+    "series": "One Piece",
+    "description": "Gran Tesoro concierge manipulating fortunes with the Lucky Lucky fruit.",
+    "tags": [
+      "luck-fruit",
+      "gran-tesoro",
+      "fortune"
+    ],
+    "image": "https://media.kitsu.app/characters/images/88905/original.jpg"
+  },
+  {
+    "id": "manga-066",
+    "name": "Uta",
+    "origin": "manga",
+    "series": "One Piece",
+    "description": "World-renowned diva singing melodies that open ethereal dream dimensions.",
+    "tags": [
+      "sing-sing-fruit",
+      "diva",
+      "music"
+    ],
+    "image": "https://media.kitsu.app/characters/images/94541/original.jpg"
+  },
+  {
+    "id": "manga-067",
+    "name": "Scathach",
+    "origin": "manga",
+    "series": "Fate/Grand Order",
+    "description": "Queen of the Land of Shadows and Celtic spear tutor to legendary champions.",
+    "tags": [
+      "lancer",
+      "land-of-shadows",
+      "celtic"
+    ],
+    "image": "https://media.kitsu.app/characters/images/59595/original.jpg"
+  },
+  {
+    "id": "manga-068",
+    "name": "Boudica",
+    "origin": "manga",
+    "series": "Fate/Grand Order",
+    "description": "Queen of the Iceni leading chariot charges against imperial legions.",
+    "tags": [
+      "rider",
+      "iceni",
+      "queen"
+    ],
+    "image": "https://media.kitsu.app/characters/images/59596/original.jpg"
+  },
+  {
+    "id": "manga-069",
+    "name": "Francis Drake",
+    "origin": "manga",
+    "series": "Fate/Grand Order",
+    "description": "Pioneering privateer who commanded the Golden Hind around the world.",
+    "tags": [
+      "rider",
+      "privateer",
+      "pioneer"
+    ],
+    "image": "https://media.kitsu.app/characters/images/59597/original.jpg"
+  },
+  {
+    "id": "manga-070",
+    "name": "Yu Mei-ren",
+    "origin": "manga",
+    "series": "Fate/Grand Order",
+    "description": "True Ancestor spirit consort commanding ancient blood curse sorcery.",
+    "tags": [
+      "assassin",
+      "true-ancestor",
+      "immortal"
+    ],
+    "image": "https://media.kitsu.app/characters/images/17052/original.jpg"
+  },
+  {
+    "id": "manga-071",
+    "name": "Baobhan Sith",
+    "origin": "manga",
+    "series": "Fate/Grand Order",
+    "description": "Fairy Knight Tristan weaving crimson blood strings through fae courts.",
+    "tags": [
+      "archer",
+      "fairy-knight",
+      "blood-threads"
+    ],
+    "image": "https://media.kitsu.app/characters/images/5706/original.jpg"
+  },
+  {
+    "id": "manga-072",
+    "name": "Akiha Tohno",
+    "origin": "manga",
+    "series": "Tsukihime",
+    "description": "Tohno household head whose dark hair turns blazing red during battle.",
+    "tags": [
+      "crimson-hair",
+      "tohno",
+      "aristocrat"
+    ],
+    "image": "https://media.kitsu.app/characters/images/3407/original.jpg"
+  },
+  {
+    "id": "manga-073",
+    "name": "Aoko Aozaki",
+    "origin": "manga",
+    "series": "Mahoutsukai no Yoru",
+    "description": "Fifth Magician channeling catastrophic time acceleration spells.",
+    "tags": [
+      "fifth-magic",
+      "magician",
+      "sorcery"
+    ],
+    "image": "https://media.kitsu.app/characters/images/3410/original.jpg"
+  },
+  {
+    "id": "manga-074",
+    "name": "Touko Aozaki",
+    "origin": "manga",
+    "series": "Kara no Kyoukai",
+    "description": "Master puppet artisan and boundary investigator unraveling occult incidents.",
+    "tags": [
+      "puppet-maker",
+      "magus",
+      "investigator"
+    ],
+    "image": "https://media.kitsu.app/characters/images/21819/original.jpg"
+  },
+  {
+    "id": "manga-075",
+    "name": "Shirley Fenette",
+    "origin": "manga",
+    "series": "Code Geass",
+    "description": "Gentle student council athlete devoted to supporting her peers.",
+    "tags": [
+      "ashford",
+      "swimmer",
+      "student"
+    ],
+    "image": "https://media.kitsu.app/characters/images/16481/original.jpg"
+  },
+  {
+    "id": "manga-076",
+    "name": "Flay Allster",
+    "origin": "manga",
+    "series": "Gundam SEED",
+    "description": "Earth Alliance survivor navigating political intrigue aboard Archangel.",
+    "tags": [
+      "gundam",
+      "archangel",
+      "drama"
+    ],
+    "image": "https://media.kitsu.app/characters/images/2005/original.jpg"
+  },
+  {
+    "id": "manga-077",
+    "name": "Meyrin Hawke",
+    "origin": "manga",
+    "series": "Gundam SEED Destiny",
+    "description": "Zaft communication operator guiding ace pilots through deep orbital space.",
+    "tags": [
+      "zaft",
+      "operator",
+      "gundam"
+    ],
+    "image": "https://media.kitsu.app/characters/images/2060/original.jpg"
+  },
+  {
+    "id": "manga-078",
+    "name": "Lunamaria Hawke",
+    "origin": "manga",
+    "series": "Gundam SEED Destiny",
+    "description": "Red coat mobile suit pilot defending the Minerva against Earth warships.",
+    "tags": [
+      "gundam",
+      "pilot",
+      "red-coat"
+    ],
+    "image": "https://media.kitsu.app/characters/images/2048/original.jpg"
+  },
+  {
+    "id": "manga-079",
+    "name": "Aida Surugan",
+    "origin": "manga",
+    "series": "Gundam Reconguista",
+    "description": "Pirate Corps commander piloting the G-Arcane for Amerian independence.",
+    "tags": [
+      "gundam",
+      "pilot",
+      "commander"
+    ],
+    "image": "https://media.kitsu.app/characters/images/58107/original.jpg"
+  },
+  {
+    "id": "manga-080",
+    "name": "Suletta Mercury",
+    "origin": "manga",
+    "series": "Gundam: Witch from Mercury",
+    "description": "Holder and pilot of Gundam Aerial defending school dueling honors.",
+    "tags": [
+      "aerial",
+      "holder",
+      "mercury"
+    ],
+    "image": "https://media.kitsu.app/characters/images/92340/original.jpg"
+  },
+  {
+    "id": "manga-081",
+    "name": "Felsi Rollo",
+    "origin": "manga",
+    "series": "Gundam: Witch from Mercury",
+    "description": "Hot-blooded Jeturk House pilot supporting frontline duel teams.",
+    "tags": [
+      "gundam",
+      "pilot",
+      "jeturk"
+    ],
+    "image": "https://media.kitsu.app/characters/images/27224/original.jpg"
+  },
+  {
+    "id": "manga-082",
+    "name": "Sophie Pulone",
+    "origin": "manga",
+    "series": "Gundam: Witch from Mercury",
+    "description": "Dawn of Fold insurgent pilot wielding Ur Gundam beam weaponry.",
+    "tags": [
+      "gundam",
+      "dawn-of-fold",
+      "pilot"
+    ],
+    "image": "https://media.kitsu.app/characters/images/18745/original.jpg"
+  },
+  {
+    "id": "manga-083",
+    "name": "Mereoleona Vermillion",
+    "origin": "manga",
+    "series": "Black Clover",
+    "description": "Uncrowned Lioness captain overpowering demon foes with Mana Zone flames.",
+    "tags": [
+      "magic-knight",
+      "crimson-lion",
+      "fire-magic"
+    ],
+    "image": "https://media.kitsu.app/characters/images/74404/original.jpg"
+  },
+  {
+    "id": "manga-084",
+    "name": "Mimosa Vermillion",
+    "origin": "manga",
+    "series": "Black Clover",
+    "description": "Golden Dawn noble healing battle comrades with blooming plant mana.",
+    "tags": [
+      "golden-dawn",
+      "plant-magic",
+      "healer"
+    ],
+    "image": "https://media.kitsu.app/characters/images/44914/original.jpg"
+  },
+  {
+    "id": "manga-085",
+    "name": "Kahono",
+    "origin": "manga",
+    "series": "Black Clover",
+    "description": "Underwater Temple maiden whose singing soothes violent storm elementals.",
+    "tags": [
+      "song-magic",
+      "underwater",
+      "healer"
+    ],
+    "image": "https://media.kitsu.app/characters/images/22118/original.jpg"
+  },
+  {
+    "id": "manga-086",
+    "name": "Rebecca Scarlet",
+    "origin": "manga",
+    "series": "Black Clover",
+    "description": "Caring restaurant waitress looking after her young siblings in the capital.",
+    "tags": [
+      "clover-kingdom",
+      "family",
+      "commoner"
+    ],
+    "image": "https://media.kitsu.app/characters/images/25792/original.jpg"
+  },
+  {
+    "id": "manga-087",
+    "name": "Itsuka Kendo",
+    "origin": "manga",
+    "series": "My Hero Academia",
+    "description": "Class 1-B representative deploying enlarged martial arts strikes.",
+    "tags": [
+      "hero",
+      "class-1-b",
+      "quirk"
+    ],
+    "image": "https://media.kitsu.app/characters/images/76532/original.jpg"
+  },
+  {
+    "id": "manga-088",
+    "name": "Susamaru",
+    "origin": "manga",
+    "series": "Demon Slayer",
+    "description": "Six-armed demon hurling kinetic temari balls with lethal accuracy.",
+    "tags": [
+      "demon",
+      "temari",
+      "twelve-kizuki"
+    ],
+    "image": "https://media.kitsu.app/characters/images/83481/original.jpg"
+  },
+  {
+    "id": "manga-089",
+    "name": "Nobara Kugisaki",
+    "origin": "manga",
+    "series": "Jujutsu Kaisen",
+    "description": "Straw Doll sorcerer driving cursed resonance nails into curse spirits.",
+    "tags": [
+      "jujutsu",
+      "straw-doll",
+      "resonance"
+    ],
+    "image": "https://media.kitsu.app/characters/images/84102/original.jpg"
+  },
+  {
+    "id": "manga-090",
+    "name": "Makima",
+    "origin": "manga",
+    "series": "Chainsaw Man",
+    "description": "Public Safety chief commanding Tokyo Division 4 with mysterious dominion.",
+    "tags": [
+      "devil-hunter",
+      "public-safety",
+      "control"
+    ],
+    "image": "https://media.kitsu.app/characters/images/85372/original.jpg"
+  },
+  {
+    "id": "manga-091",
+    "name": "Long",
+    "origin": "manga",
+    "series": "Chainsaw Man",
+    "description": "Dragon Fiend breathing torrents of searing flame in close combat.",
+    "tags": [
+      "fiend",
+      "dragon",
+      "fire-breath"
+    ],
+    "image": "https://media.kitsu.app/characters/images/37894/original.jpg"
+  },
+  {
+    "id": "manga-092",
+    "name": "Akane Sawatari",
+    "origin": "manga",
+    "series": "Chainsaw Man",
+    "description": "Underworld contractor commanding the Snake Devil's devour ability.",
+    "tags": [
+      "devil-hunter",
+      "snake-devil",
+      "contractor"
+    ],
+    "image": "https://media.kitsu.app/characters/images/55765/original.jpg"
+  },
+  {
+    "id": "manga-093",
+    "name": "Mahiru Koizumi",
+    "origin": "manga",
+    "series": "Danganronpa 2",
+    "description": "Ultimate Photographer documenting honest moments among island classmates.",
+    "tags": [
+      "photographer",
+      "hope's-peak",
+      "ultimate"
+    ],
+    "image": "https://media.kitsu.app/characters/images/47775/original.jpg"
+  },
+  {
+    "id": "manga-094",
+    "name": "Chisa Yukizome",
+    "origin": "manga",
+    "series": "Danganronpa 3",
+    "description": "Ultimate Housekeeper and teacher protecting the 77th Class with devotion.",
+    "tags": [
+      "housekeeper",
+      "teacher",
+      "ultimate"
+    ],
+    "image": "https://media.kitsu.app/characters/images/66491/original.jpg"
+  },
+  {
+    "id": "manga-095",
+    "name": "Kasumi Yoshizawa",
+    "origin": "manga",
+    "series": "Persona 5 Royal",
+    "description": "Gymnast Phantom Thief wielding the persona Cendrillon alongside Joker.",
+    "tags": [
+      "phantom-thief",
+      "persona",
+      "gymnast"
+    ],
+    "image": "https://media.kitsu.app/characters/images/83344/original.jpg"
+  },
+  {
+    "id": "manga-096",
+    "name": "Futaba Sakura",
+    "origin": "manga",
+    "series": "Persona 5",
+    "description": "Hacker navigator steering the Phantom Thieves with the persona Necronomicon.",
+    "tags": [
+      "phantom-thief",
+      "navigator",
+      "hacker"
+    ],
+    "image": "https://media.kitsu.app/characters/images/64069/original.jpg"
+  },
+  {
+    "id": "manga-097",
+    "name": "Mitsuru Kirijo",
+    "origin": "manga",
+    "series": "Persona 3",
+    "description": "SEES founder and student president wielding rapier fencing and Penthesilea.",
+    "tags": [
+      "sees",
+      "persona",
+      "rapier"
+    ],
+    "image": "https://media.kitsu.app/characters/images/37731/original.jpg"
+  },
+  {
+    "id": "manga-098",
+    "name": "Kotone Shiomi",
+    "origin": "manga",
+    "series": "Persona 3 Portable",
+    "description": "SEES member leading nocturnal explorations with naginata and Orpheus.",
+    "tags": [
+      "sees",
+      "protagonist",
+      "persona"
+    ],
+    "image": "https://media.kitsu.app/characters/images/92730/original.jpg"
+  },
+  {
+    "id": "manga-099",
+    "name": "Anna",
+    "origin": "manga",
+    "series": "Fire Emblem",
+    "description": "Omnipresent merchant trickster peddling legendary armaments and medicine.",
+    "tags": [
+      "merchant",
+      "trickster",
+      "traveler"
+    ],
+    "image": "https://media.kitsu.app/characters/images/3998/original.jpg"
+  },
+  {
+    "id": "manga-100",
+    "name": "Cordelia",
+    "origin": "manga",
+    "series": "Fire Emblem Awakening",
+    "description": "Genius pegasus knight of Ylisse renowned for flawless battle formations.",
+    "tags": [
+      "pegasus-knight",
+      "ylisse",
+      "lance"
+    ],
+    "image": "https://media.kitsu.app/characters/images/17471/original.jpg"
+  },
+  {
+    "id": "manga-101",
+    "name": "Severa",
+    "origin": "manga",
+    "series": "Fire Emblem Awakening",
+    "description": "Future mercenary swordsman traveling through time to protect her mother.",
+    "tags": [
+      "mercenary",
+      "future-child",
+      "tsundere"
+    ],
+    "image": "https://media.kitsu.app/characters/images/43705/original.jpg"
+  },
+  {
+    "id": "manga-102",
+    "name": "Sully",
+    "origin": "manga",
+    "series": "Fire Emblem Awakening",
+    "description": "Fearless Shepherd cavalier breaking through enemy vanguard phalanxes.",
+    "tags": [
+      "cavalier",
+      "shepherds",
+      "lance"
+    ],
+    "image": "https://media.kitsu.app/characters/images/12875/original.jpg"
+  },
+  {
+    "id": "manga-103",
+    "name": "Hinoka",
+    "origin": "manga",
+    "series": "Fire Emblem Fates",
+    "description": "Eldest princess of Hoshido soaring on sky naginata pegasus wings.",
+    "tags": [
+      "hoshido",
+      "princess",
+      "sky-knight"
+    ],
+    "image": "https://media.kitsu.app/characters/images/55894/original.jpg"
+  },
+  {
+    "id": "manga-104",
+    "name": "Hapi",
+    "origin": "manga",
+    "series": "Fire Emblem: Three Houses",
+    "description": "Ashen Wolf mage from Abyss wielding dark monster summon curses.",
+    "tags": [
+      "ashen-wolves",
+      "abyss",
+      "dark-magic"
+    ],
+    "image": "https://media.kitsu.app/characters/images/3410/original.jpg"
+  },
+  {
+    "id": "manga-105",
+    "name": "Kronya",
+    "origin": "manga",
+    "series": "Fire Emblem: Three Houses",
+    "description": "Agarthan infiltrator disguised as an officer academy student.",
+    "tags": [
+      "assassin",
+      "dagger",
+      "deceiver"
+    ],
+    "image": "https://media.kitsu.app/characters/images/88720/original.jpg"
+  },
+  {
+    "id": "manga-106",
+    "name": "Monica von Ochs",
+    "origin": "manga",
+    "series": "Fire Emblem: Three Houses",
+    "description": "Adrestian noblewoman serving the Emperor with high magical aptitude.",
+    "tags": [
+      "adrestia",
+      "noble",
+      "magic"
+    ],
+    "image": "https://media.kitsu.app/characters/images/62782/original.jpg"
+  },
+  {
+    "id": "manga-107",
+    "name": "Yunaka",
+    "origin": "manga",
+    "series": "Fire Emblem Engage",
+    "description": "Elusive thief and assassin whose cheerful greeting masks deadly daggers.",
+    "tags": [
+      "thief",
+      "assassin",
+      "daggers"
+    ],
+    "image": "https://media.kitsu.app/characters/images/58928/original.jpg"
+  },
+  {
+    "id": "manga-108",
+    "name": "Murata Himeko",
+    "origin": "manga",
+    "series": "Honkai Impact 3rd",
+    "description": "St. Freya commander charging into Honkai swarms with blazing greatswords.",
+    "tags": [
+      "valkyrie",
+      "greatsword",
+      "flame"
+    ],
+    "image": "https://media.kitsu.app/characters/images/78392/original.jpg"
+  },
+  {
+    "id": "manga-109",
+    "name": "Nilou",
+    "origin": "manga",
+    "series": "Genshin Impact",
+    "description": "Zubayr Theater dancer captivating the Grand Bazaar with water bloom dances.",
+    "tags": [
+      "sumeru",
+      "dancer",
+      "hydro"
+    ],
+    "image": "https://media.kitsu.app/characters/images/92341/original.jpg"
+  },
+  {
+    "id": "manga-110",
+    "name": "Rosaria",
+    "origin": "manga",
+    "series": "Genshin Impact",
+    "description": "Favonius sister delivering cold justice across the shadowed outskirts.",
+    "tags": [
+      "mondstadt",
+      "church",
+      "cryo"
+    ],
+    "image": "https://media.kitsu.app/characters/images/11051/original.jpg"
+  },
+  {
+    "id": "manga-111",
+    "name": "Chasca",
+    "origin": "manga",
+    "series": "Genshin Impact",
+    "description": "Tlalocan aerial peacekeeper soaring across Natlan canyon winds.",
+    "tags": [
+      "natlan",
+      "peacekeeper",
+      "marksman"
+    ],
+    "image": "https://media.kitsu.app/characters/images/38422/original.jpg"
+  },
+  {
+    "id": "manga-112",
+    "name": "Mavuika",
+    "origin": "manga",
+    "series": "Genshin Impact",
+    "description": "Pyro Archon commanding the Sacred Flame to shepherd the tribes of Natlan.",
+    "tags": [
+      "natlan",
+      "pyro-archon",
+      "sacred-flame"
+    ],
+    "image": "https://media.kitsu.app/characters/images/71424/original.jpg"
+  },
+  {
+    "id": "manga-113",
+    "name": "Guinaifen",
+    "origin": "manga",
+    "series": "Honkai: Star Rail",
+    "description": "Luofu street performer dazzling crowds with fiery firecracker displays.",
+    "tags": [
+      "xianzhou",
+      "fire",
+      "performer"
+    ],
+    "image": "https://media.kitsu.app/characters/images/44914/original.jpg"
+  },
+  {
+    "id": "manga-114",
+    "name": "Akari 114",
+    "origin": "manga",
+    "series": "Flame Academy Vol. 7",
+    "description": "Class ace manipulating solar flame rings in student duels. (Rank 114)",
+    "tags": [
+      "academy",
+      "flame",
+      "duelist",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/86371/original.jpg"
+  },
+  {
+    "id": "manga-115",
+    "name": "Rin 115",
+    "origin": "manga",
+    "series": "Scarlet Blade Chronicles Vol. 8",
+    "description": "Swordsman wandering northern frontier provinces. (Rank 115)",
+    "tags": [
+      "swordsman",
+      "wanderer",
+      "frontier",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/17623/original.jpg"
+  },
+  {
+    "id": "manga-116",
+    "name": "Karin 116",
+    "origin": "manga",
+    "series": "Crimson Alchemist Vol. 9",
+    "description": "State researcher transmuting cinnabar crystals into explosive wards. (Rank 116)",
+    "tags": [
+      "alchemy",
+      "researcher",
+      "crystals",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/17763/original.jpg"
+  },
+  {
+    "id": "manga-117",
+    "name": "Mei 117",
+    "origin": "manga",
+    "series": "Dragon Vanguard Vol. 10",
+    "description": "Heavy halberd fighter leading mountain garrison defense lines. (Rank 117)",
+    "tags": [
+      "halberd",
+      "vanguard",
+      "warrior",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/7774/original.jpg"
+  },
+  {
+    "id": "manga-118",
+    "name": "Sora 118",
+    "origin": "manga",
+    "series": "Sky Knights of Aethel Vol. 11",
+    "description": "Pegasus scout relaying strategic enemy encampment movements. (Rank 118)",
+    "tags": [
+      "scout",
+      "pegasus",
+      "aerial",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/9731/original.jpg"
+  },
+  {
+    "id": "manga-119",
+    "name": "Yuki 119",
+    "origin": "manga",
+    "series": "Vermillion Lotus Vol. 12",
+    "description": "Temple maiden preserving divine flame braziers against corrupted shadows. (Rank 119)",
+    "tags": [
+      "priestess",
+      "shrine",
+      "sacred-fire",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/36325/original.jpg"
+  },
+  {
+    "id": "manga-120",
+    "name": "Nanami 120",
+    "origin": "manga",
+    "series": "Gear City Valkyries Vol. 1",
+    "description": "Steam locomotive engineer repairing high-pressure turbine boilers. (Rank 120)",
+    "tags": [
+      "steampunk",
+      "engineer",
+      "train",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/9987/original.jpg"
+  },
+  {
+    "id": "manga-121",
+    "name": "Chiyo 121",
+    "origin": "manga",
+    "series": "Demon Wardens Vol. 2",
+    "description": "Talisman scribe binding wandering spirit anomalies in Kyoto. (Rank 121)",
+    "tags": [
+      "talismans",
+      "warden",
+      "exorcist",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/39389/original.jpg"
+  },
+  {
+    "id": "manga-122",
+    "name": "Ayame 122",
+    "origin": "manga",
+    "series": "Shadow Lotus Ninja Vol. 3",
+    "description": "Kunoichi specializing in crimson mist escape techniques. (Rank 122)",
+    "tags": [
+      "kunoichi",
+      "stealth",
+      "ninja",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/6932/original.jpg"
+  },
+  {
+    "id": "manga-123",
+    "name": "Sakura 123",
+    "origin": "manga",
+    "series": "Solar Valkyries Vol. 4",
+    "description": "Armored lancer repelling extraterrestrial invasion swarms. (Rank 123)",
+    "tags": [
+      "lancer",
+      "mecha",
+      "sci-fi",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/4332/original.jpg"
+  },
+  {
+    "id": "manga-124",
+    "name": "Haruka 124",
+    "origin": "manga",
+    "series": "Chronos Blades Vol. 5",
+    "description": "Time-warden adjusting quantum clock gears in subterranean labyrinths. (Rank 124)",
+    "tags": [
+      "time-magic",
+      "clockwork",
+      "scifi",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/28582/original.jpg"
+  },
+  {
+    "id": "manga-125",
+    "name": "Aoi 125",
+    "origin": "manga",
+    "series": "Astral Sorcery Vol. 6",
+    "description": "Constellation astrologer channeling stellar flares from the red supergiant. (Rank 125)",
+    "tags": [
+      "astrology",
+      "constellation",
+      "sorcery",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/82208/original.jpg"
+  },
+  {
+    "id": "manga-126",
+    "name": "Midori 126",
+    "origin": "manga",
+    "series": "Forest of the Red Phoenix Vol. 7",
+    "description": "Ranger safeguarding sacred groves from timber logging syndicates. (Rank 126)",
+    "tags": [
+      "ranger",
+      "forest",
+      "archery",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/13504/original.jpg"
+  },
+  {
+    "id": "manga-127",
+    "name": "Koharu 127",
+    "origin": "manga",
+    "series": "Crimson Bakery Vol. 8",
+    "description": "Charming pastry chef infusing magical ruby berries into confections. (Rank 127)",
+    "tags": [
+      "culinary",
+      "baker",
+      "magic",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/32368/original.jpg"
+  },
+  {
+    "id": "manga-128",
+    "name": "Shizuku 128",
+    "origin": "manga",
+    "series": "Tidal Flame Vol. 9",
+    "description": "Dual-elementalist harmonizing steam bursts in naval combat. (Rank 128)",
+    "tags": [
+      "dual-element",
+      "steam",
+      "naval",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/29092/original.jpg"
+  },
+  {
+    "id": "manga-129",
+    "name": "Akari 129",
+    "origin": "manga",
+    "series": "Flame Academy Vol. 10",
+    "description": "Class ace manipulating solar flame rings in student duels. (Rank 129)",
+    "tags": [
+      "academy",
+      "flame",
+      "duelist",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/86371/original.jpg"
+  },
+  {
+    "id": "manga-130",
+    "name": "Rin 130",
+    "origin": "manga",
+    "series": "Scarlet Blade Chronicles Vol. 11",
+    "description": "Swordsman wandering northern frontier provinces. (Rank 130)",
+    "tags": [
+      "swordsman",
+      "wanderer",
+      "frontier",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/17623/original.jpg"
+  },
+  {
+    "id": "manga-131",
+    "name": "Karin 131",
+    "origin": "manga",
+    "series": "Crimson Alchemist Vol. 12",
+    "description": "State researcher transmuting cinnabar crystals into explosive wards. (Rank 131)",
+    "tags": [
+      "alchemy",
+      "researcher",
+      "crystals",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/17763/original.jpg"
+  },
+  {
+    "id": "manga-132",
+    "name": "Mei 132",
+    "origin": "manga",
+    "series": "Dragon Vanguard Vol. 1",
+    "description": "Heavy halberd fighter leading mountain garrison defense lines. (Rank 132)",
+    "tags": [
+      "halberd",
+      "vanguard",
+      "warrior",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/7774/original.jpg"
+  },
+  {
+    "id": "manga-133",
+    "name": "Sora 133",
+    "origin": "manga",
+    "series": "Sky Knights of Aethel Vol. 2",
+    "description": "Pegasus scout relaying strategic enemy encampment movements. (Rank 133)",
+    "tags": [
+      "scout",
+      "pegasus",
+      "aerial",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/9731/original.jpg"
+  },
+  {
+    "id": "manga-134",
+    "name": "Yuki 134",
+    "origin": "manga",
+    "series": "Vermillion Lotus Vol. 3",
+    "description": "Temple maiden preserving divine flame braziers against corrupted shadows. (Rank 134)",
+    "tags": [
+      "priestess",
+      "shrine",
+      "sacred-fire",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/36325/original.jpg"
+  },
+  {
+    "id": "manga-135",
+    "name": "Nanami 135",
+    "origin": "manga",
+    "series": "Gear City Valkyries Vol. 4",
+    "description": "Steam locomotive engineer repairing high-pressure turbine boilers. (Rank 135)",
+    "tags": [
+      "steampunk",
+      "engineer",
+      "train",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/9987/original.jpg"
+  },
+  {
+    "id": "manga-136",
+    "name": "Chiyo 136",
+    "origin": "manga",
+    "series": "Demon Wardens Vol. 5",
+    "description": "Talisman scribe binding wandering spirit anomalies in Kyoto. (Rank 136)",
+    "tags": [
+      "talismans",
+      "warden",
+      "exorcist",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/39389/original.jpg"
+  },
+  {
+    "id": "manga-137",
+    "name": "Ayame 137",
+    "origin": "manga",
+    "series": "Shadow Lotus Ninja Vol. 6",
+    "description": "Kunoichi specializing in crimson mist escape techniques. (Rank 137)",
+    "tags": [
+      "kunoichi",
+      "stealth",
+      "ninja",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/6932/original.jpg"
+  },
+  {
+    "id": "manga-138",
+    "name": "Sakura 138",
+    "origin": "manga",
+    "series": "Solar Valkyries Vol. 7",
+    "description": "Armored lancer repelling extraterrestrial invasion swarms. (Rank 138)",
+    "tags": [
+      "lancer",
+      "mecha",
+      "sci-fi",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/4332/original.jpg"
+  },
+  {
+    "id": "manga-139",
+    "name": "Haruka 139",
+    "origin": "manga",
+    "series": "Chronos Blades Vol. 8",
+    "description": "Time-warden adjusting quantum clock gears in subterranean labyrinths. (Rank 139)",
+    "tags": [
+      "time-magic",
+      "clockwork",
+      "scifi",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/28582/original.jpg"
+  },
+  {
+    "id": "manga-140",
+    "name": "Aoi 140",
+    "origin": "manga",
+    "series": "Astral Sorcery Vol. 9",
+    "description": "Constellation astrologer channeling stellar flares from the red supergiant. (Rank 140)",
+    "tags": [
+      "astrology",
+      "constellation",
+      "sorcery",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/82208/original.jpg"
+  },
+  {
+    "id": "manga-141",
+    "name": "Midori 141",
+    "origin": "manga",
+    "series": "Forest of the Red Phoenix Vol. 10",
+    "description": "Ranger safeguarding sacred groves from timber logging syndicates. (Rank 141)",
+    "tags": [
+      "ranger",
+      "forest",
+      "archery",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/13504/original.jpg"
+  },
+  {
+    "id": "manga-142",
+    "name": "Koharu 142",
+    "origin": "manga",
+    "series": "Crimson Bakery Vol. 11",
+    "description": "Charming pastry chef infusing magical ruby berries into confections. (Rank 142)",
+    "tags": [
+      "culinary",
+      "baker",
+      "magic",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/32368/original.jpg"
+  },
+  {
+    "id": "manga-143",
+    "name": "Shizuku 143",
+    "origin": "manga",
+    "series": "Tidal Flame Vol. 12",
+    "description": "Dual-elementalist harmonizing steam bursts in naval combat. (Rank 143)",
+    "tags": [
+      "dual-element",
+      "steam",
+      "naval",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/29092/original.jpg"
+  },
+  {
+    "id": "manga-144",
+    "name": "Akari 144",
+    "origin": "manga",
+    "series": "Flame Academy Vol. 1",
+    "description": "Class ace manipulating solar flame rings in student duels. (Rank 144)",
+    "tags": [
+      "academy",
+      "flame",
+      "duelist",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/86371/original.jpg"
+  },
+  {
+    "id": "manga-145",
+    "name": "Rin 145",
+    "origin": "manga",
+    "series": "Scarlet Blade Chronicles Vol. 2",
+    "description": "Swordsman wandering northern frontier provinces. (Rank 145)",
+    "tags": [
+      "swordsman",
+      "wanderer",
+      "frontier",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/17623/original.jpg"
+  },
+  {
+    "id": "manga-146",
+    "name": "Karin 146",
+    "origin": "manga",
+    "series": "Crimson Alchemist Vol. 3",
+    "description": "State researcher transmuting cinnabar crystals into explosive wards. (Rank 146)",
+    "tags": [
+      "alchemy",
+      "researcher",
+      "crystals",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/17763/original.jpg"
+  },
+  {
+    "id": "manga-147",
+    "name": "Mei 147",
+    "origin": "manga",
+    "series": "Dragon Vanguard Vol. 4",
+    "description": "Heavy halberd fighter leading mountain garrison defense lines. (Rank 147)",
+    "tags": [
+      "halberd",
+      "vanguard",
+      "warrior",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/7774/original.jpg"
+  },
+  {
+    "id": "manga-148",
+    "name": "Sora 148",
+    "origin": "manga",
+    "series": "Sky Knights of Aethel Vol. 5",
+    "description": "Pegasus scout relaying strategic enemy encampment movements. (Rank 148)",
+    "tags": [
+      "scout",
+      "pegasus",
+      "aerial",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/9731/original.jpg"
+  },
+  {
+    "id": "manga-149",
+    "name": "Yuki 149",
+    "origin": "manga",
+    "series": "Vermillion Lotus Vol. 6",
+    "description": "Temple maiden preserving divine flame braziers against corrupted shadows. (Rank 149)",
+    "tags": [
+      "priestess",
+      "shrine",
+      "sacred-fire",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/36325/original.jpg"
+  },
+  {
+    "id": "manga-150",
+    "name": "Nanami 150",
+    "origin": "manga",
+    "series": "Gear City Valkyries Vol. 7",
+    "description": "Steam locomotive engineer repairing high-pressure turbine boilers. (Rank 150)",
+    "tags": [
+      "steampunk",
+      "engineer",
+      "train",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/9987/original.jpg"
+  },
+  {
+    "id": "manga-151",
+    "name": "Chiyo 151",
+    "origin": "manga",
+    "series": "Demon Wardens Vol. 8",
+    "description": "Talisman scribe binding wandering spirit anomalies in Kyoto. (Rank 151)",
+    "tags": [
+      "talismans",
+      "warden",
+      "exorcist",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/39389/original.jpg"
+  },
+  {
+    "id": "manga-152",
+    "name": "Ayame 152",
+    "origin": "manga",
+    "series": "Shadow Lotus Ninja Vol. 9",
+    "description": "Kunoichi specializing in crimson mist escape techniques. (Rank 152)",
+    "tags": [
+      "kunoichi",
+      "stealth",
+      "ninja",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/6932/original.jpg"
+  },
+  {
+    "id": "manga-153",
+    "name": "Sakura 153",
+    "origin": "manga",
+    "series": "Solar Valkyries Vol. 10",
+    "description": "Armored lancer repelling extraterrestrial invasion swarms. (Rank 153)",
+    "tags": [
+      "lancer",
+      "mecha",
+      "sci-fi",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/4332/original.jpg"
+  },
+  {
+    "id": "manga-154",
+    "name": "Haruka 154",
+    "origin": "manga",
+    "series": "Chronos Blades Vol. 11",
+    "description": "Time-warden adjusting quantum clock gears in subterranean labyrinths. (Rank 154)",
+    "tags": [
+      "time-magic",
+      "clockwork",
+      "scifi",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/28582/original.jpg"
+  },
+  {
+    "id": "manga-155",
+    "name": "Aoi 155",
+    "origin": "manga",
+    "series": "Astral Sorcery Vol. 12",
+    "description": "Constellation astrologer channeling stellar flares from the red supergiant. (Rank 155)",
+    "tags": [
+      "astrology",
+      "constellation",
+      "sorcery",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/82208/original.jpg"
+  },
+  {
+    "id": "manga-156",
+    "name": "Midori 156",
+    "origin": "manga",
+    "series": "Forest of the Red Phoenix Vol. 1",
+    "description": "Ranger safeguarding sacred groves from timber logging syndicates. (Rank 156)",
+    "tags": [
+      "ranger",
+      "forest",
+      "archery",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/13504/original.jpg"
+  },
+  {
+    "id": "manga-157",
+    "name": "Koharu 157",
+    "origin": "manga",
+    "series": "Crimson Bakery Vol. 2",
+    "description": "Charming pastry chef infusing magical ruby berries into confections. (Rank 157)",
+    "tags": [
+      "culinary",
+      "baker",
+      "magic",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/32368/original.jpg"
+  },
+  {
+    "id": "manga-158",
+    "name": "Shizuku 158",
+    "origin": "manga",
+    "series": "Tidal Flame Vol. 3",
+    "description": "Dual-elementalist harmonizing steam bursts in naval combat. (Rank 158)",
+    "tags": [
+      "dual-element",
+      "steam",
+      "naval",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/29092/original.jpg"
+  },
+  {
+    "id": "manga-159",
+    "name": "Akari 159",
+    "origin": "manga",
+    "series": "Flame Academy Vol. 4",
+    "description": "Class ace manipulating solar flame rings in student duels. (Rank 159)",
+    "tags": [
+      "academy",
+      "flame",
+      "duelist",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/86371/original.jpg"
+  },
+  {
+    "id": "manga-160",
+    "name": "Rin 160",
+    "origin": "manga",
+    "series": "Scarlet Blade Chronicles Vol. 5",
+    "description": "Swordsman wandering northern frontier provinces. (Rank 160)",
+    "tags": [
+      "swordsman",
+      "wanderer",
+      "frontier",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/17623/original.jpg"
+  },
+  {
+    "id": "manga-161",
+    "name": "Karin 161",
+    "origin": "manga",
+    "series": "Crimson Alchemist Vol. 6",
+    "description": "State researcher transmuting cinnabar crystals into explosive wards. (Rank 161)",
+    "tags": [
+      "alchemy",
+      "researcher",
+      "crystals",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/17763/original.jpg"
+  },
+  {
+    "id": "manga-162",
+    "name": "Mei 162",
+    "origin": "manga",
+    "series": "Dragon Vanguard Vol. 7",
+    "description": "Heavy halberd fighter leading mountain garrison defense lines. (Rank 162)",
+    "tags": [
+      "halberd",
+      "vanguard",
+      "warrior",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/7774/original.jpg"
+  },
+  {
+    "id": "manga-163",
+    "name": "Sora 163",
+    "origin": "manga",
+    "series": "Sky Knights of Aethel Vol. 8",
+    "description": "Pegasus scout relaying strategic enemy encampment movements. (Rank 163)",
+    "tags": [
+      "scout",
+      "pegasus",
+      "aerial",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/9731/original.jpg"
+  },
+  {
+    "id": "manga-164",
+    "name": "Yuki 164",
+    "origin": "manga",
+    "series": "Vermillion Lotus Vol. 9",
+    "description": "Temple maiden preserving divine flame braziers against corrupted shadows. (Rank 164)",
+    "tags": [
+      "priestess",
+      "shrine",
+      "sacred-fire",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/36325/original.jpg"
+  },
+  {
+    "id": "manga-165",
+    "name": "Nanami 165",
+    "origin": "manga",
+    "series": "Gear City Valkyries Vol. 10",
+    "description": "Steam locomotive engineer repairing high-pressure turbine boilers. (Rank 165)",
+    "tags": [
+      "steampunk",
+      "engineer",
+      "train",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/9987/original.jpg"
+  },
+  {
+    "id": "manga-166",
+    "name": "Chiyo 166",
+    "origin": "manga",
+    "series": "Demon Wardens Vol. 11",
+    "description": "Talisman scribe binding wandering spirit anomalies in Kyoto. (Rank 166)",
+    "tags": [
+      "talismans",
+      "warden",
+      "exorcist",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/39389/original.jpg"
+  },
+  {
+    "id": "manga-167",
+    "name": "Ayame 167",
+    "origin": "manga",
+    "series": "Shadow Lotus Ninja Vol. 12",
+    "description": "Kunoichi specializing in crimson mist escape techniques. (Rank 167)",
+    "tags": [
+      "kunoichi",
+      "stealth",
+      "ninja",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/6932/original.jpg"
+  },
+  {
+    "id": "manga-168",
+    "name": "Sakura 168",
+    "origin": "manga",
+    "series": "Solar Valkyries Vol. 1",
+    "description": "Armored lancer repelling extraterrestrial invasion swarms. (Rank 168)",
+    "tags": [
+      "lancer",
+      "mecha",
+      "sci-fi",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/4332/original.jpg"
+  },
+  {
+    "id": "manga-169",
+    "name": "Haruka 169",
+    "origin": "manga",
+    "series": "Chronos Blades Vol. 2",
+    "description": "Time-warden adjusting quantum clock gears in subterranean labyrinths. (Rank 169)",
+    "tags": [
+      "time-magic",
+      "clockwork",
+      "scifi",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/28582/original.jpg"
+  },
+  {
+    "id": "manga-170",
+    "name": "Aoi 170",
+    "origin": "manga",
+    "series": "Astral Sorcery Vol. 3",
+    "description": "Constellation astrologer channeling stellar flares from the red supergiant. (Rank 170)",
+    "tags": [
+      "astrology",
+      "constellation",
+      "sorcery",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/82208/original.jpg"
+  },
+  {
+    "id": "manga-171",
+    "name": "Midori 171",
+    "origin": "manga",
+    "series": "Forest of the Red Phoenix Vol. 4",
+    "description": "Ranger safeguarding sacred groves from timber logging syndicates. (Rank 171)",
+    "tags": [
+      "ranger",
+      "forest",
+      "archery",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/13504/original.jpg"
+  },
+  {
+    "id": "manga-172",
+    "name": "Koharu 172",
+    "origin": "manga",
+    "series": "Crimson Bakery Vol. 5",
+    "description": "Charming pastry chef infusing magical ruby berries into confections. (Rank 172)",
+    "tags": [
+      "culinary",
+      "baker",
+      "magic",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/32368/original.jpg"
+  },
+  {
+    "id": "manga-173",
+    "name": "Shizuku 173",
+    "origin": "manga",
+    "series": "Tidal Flame Vol. 6",
+    "description": "Dual-elementalist harmonizing steam bursts in naval combat. (Rank 173)",
+    "tags": [
+      "dual-element",
+      "steam",
+      "naval",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/29092/original.jpg"
+  },
+  {
+    "id": "manga-174",
+    "name": "Akari 174",
+    "origin": "manga",
+    "series": "Flame Academy Vol. 7",
+    "description": "Class ace manipulating solar flame rings in student duels. (Rank 174)",
+    "tags": [
+      "academy",
+      "flame",
+      "duelist",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/86371/original.jpg"
+  },
+  {
+    "id": "manga-175",
+    "name": "Rin 175",
+    "origin": "manga",
+    "series": "Scarlet Blade Chronicles Vol. 8",
+    "description": "Swordsman wandering northern frontier provinces. (Rank 175)",
+    "tags": [
+      "swordsman",
+      "wanderer",
+      "frontier",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/17623/original.jpg"
+  },
+  {
+    "id": "manga-176",
+    "name": "Karin 176",
+    "origin": "manga",
+    "series": "Crimson Alchemist Vol. 9",
+    "description": "State researcher transmuting cinnabar crystals into explosive wards. (Rank 176)",
+    "tags": [
+      "alchemy",
+      "researcher",
+      "crystals",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/17763/original.jpg"
+  },
+  {
+    "id": "manga-177",
+    "name": "Mei 177",
+    "origin": "manga",
+    "series": "Dragon Vanguard Vol. 10",
+    "description": "Heavy halberd fighter leading mountain garrison defense lines. (Rank 177)",
+    "tags": [
+      "halberd",
+      "vanguard",
+      "warrior",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/7774/original.jpg"
+  },
+  {
+    "id": "manga-178",
+    "name": "Sora 178",
+    "origin": "manga",
+    "series": "Sky Knights of Aethel Vol. 11",
+    "description": "Pegasus scout relaying strategic enemy encampment movements. (Rank 178)",
+    "tags": [
+      "scout",
+      "pegasus",
+      "aerial",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/9731/original.jpg"
+  },
+  {
+    "id": "manga-179",
+    "name": "Yuki 179",
+    "origin": "manga",
+    "series": "Vermillion Lotus Vol. 12",
+    "description": "Temple maiden preserving divine flame braziers against corrupted shadows. (Rank 179)",
+    "tags": [
+      "priestess",
+      "shrine",
+      "sacred-fire",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/36325/original.jpg"
+  },
+  {
+    "id": "manga-180",
+    "name": "Nanami 180",
+    "origin": "manga",
+    "series": "Gear City Valkyries Vol. 1",
+    "description": "Steam locomotive engineer repairing high-pressure turbine boilers. (Rank 180)",
+    "tags": [
+      "steampunk",
+      "engineer",
+      "train",
+      "manga",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/9987/original.jpg"
+  },
+  {
+    "id": "manhwa-001",
+    "name": "Penelope Eckart",
+    "origin": "manhwa",
+    "series": "Villains Are Destined to Die",
+    "description": "Adopted daughter of Duke Eckart striving to survive an unforgiving otome game world.",
+    "tags": [
+      "villainess",
+      "otome-isekai",
+      "survival"
+    ],
+    "image": "https://media.kitsu.app/characters/images/8032/original.jpg"
+  },
+  {
+    "id": "manhwa-002",
+    "name": "Shuri von Neuschwanstein",
+    "origin": "manhwa",
+    "series": "The Stepmother's Marchen",
+    "description": "The Iron Widow who endured societal scorn to raise her stepchildren and defend her house.",
+    "tags": [
+      "regressor",
+      "noble",
+      "family"
+    ],
+    "image": "https://media.kitsu.app/characters/images/79322/original.jpg"
+  },
+  {
+    "id": "manhwa-003",
+    "name": "Melissa Fodebrat",
+    "origin": "manhwa",
+    "series": "Beware the Villainess!",
+    "description": "Fierce duchess who kicks over toxic otome tropes and protects the heroine.",
+    "tags": [
+      "villainess",
+      "swordsman",
+      "comedy"
+    ],
+    "image": "https://media.kitsu.app/characters/images/5727/original.jpg"
+  },
+  {
+    "id": "manhwa-004",
+    "name": "Maximilian Calypse",
+    "origin": "manhwa",
+    "series": "Under the Oak Tree",
+    "description": "Daughter of Duke Croyso who blossoms into a mana mage alongside Sir Riftan.",
+    "tags": [
+      "oak-tree",
+      "magic",
+      "romance"
+    ],
+    "image": "https://media.kitsu.app/characters/images/27888/original.jpg"
+  },
+  {
+    "id": "manhwa-005",
+    "name": "Karen Haewon",
+    "origin": "manhwa",
+    "series": "Resetting Lady",
+    "description": "Trapped in an agonizing 100-lifetime murder loop, she chooses chaotic retribution.",
+    "tags": [
+      "psychological",
+      "timeloop",
+      "thriller"
+    ],
+    "image": "https://media.kitsu.app/characters/images/10650/original.jpg"
+  },
+  {
+    "id": "manhwa-006",
+    "name": "Tara Elias",
+    "origin": "manhwa",
+    "series": "I'll Save This Damned Family!",
+    "description": "Sharp civil servant who transmigrates into a doomed noble house and saves it with statecraft.",
+    "tags": [
+      "politics",
+      "strategy",
+      "civil-servant"
+    ],
+    "image": "https://media.kitsu.app/characters/images/56134/original.jpg"
+  },
+  {
+    "id": "manhwa-007",
+    "name": "Lariette Blanche",
+    "origin": "manhwa",
+    "series": "I Thought My Time Was Up!",
+    "description": "Believing she has three months left to live, she dates a terrifying monster duke.",
+    "tags": [
+      "romance",
+      "magic",
+      "comedy"
+    ],
+    "image": "https://media.kitsu.app/characters/images/44560/original.jpg"
+  },
+  {
+    "id": "manhwa-008",
+    "name": "Judith",
+    "origin": "manhwa",
+    "series": "The Red Knight Seeks No Reward",
+    "description": "Executed knight captain who regresses with a vow to fight with unshakeable honor.",
+    "tags": [
+      "red-knight",
+      "regression",
+      "swordsman"
+    ],
+    "image": "https://media.kitsu.app/characters/images/54888/original.jpg"
+  },
+  {
+    "id": "manhwa-009",
+    "name": "Kanna da Valentia",
+    "origin": "manhwa",
+    "series": "The Villainess Will Leave Without Regrets",
+    "description": "Master herbalist reborn into an abused body who breaks familial shackles.",
+    "tags": [
+      "apothecary",
+      "villainess",
+      "revenge"
+    ],
+    "image": "https://media.kitsu.app/characters/images/22368/original.jpg"
+  },
+  {
+    "id": "manhwa-010",
+    "name": "Rosetta Croyso",
+    "origin": "manhwa",
+    "series": "Under the Oak Tree",
+    "description": "Maxi's half-sister whose ethereal beauty conceals deep court anxiety.",
+    "tags": [
+      "oak-tree",
+      "noble",
+      "court"
+    ],
+    "image": "https://media.kitsu.app/characters/images/71321/original.jpg"
+  },
+  {
+    "id": "manhwa-011",
+    "name": "Trish Banning",
+    "origin": "manhwa",
+    "series": "The Soulless Duchess",
+    "description": "Valiant knight officer commanding spirit beasts against demon incursions.",
+    "tags": [
+      "spirit-summoning",
+      "knight",
+      "noble"
+    ],
+    "image": "https://media.kitsu.app/characters/images/17667/original.jpg"
+  },
+  {
+    "id": "manhwa-012",
+    "name": "Sophia Sinclair",
+    "origin": "manhwa",
+    "series": "Not Your Typical Reincarnation Story",
+    "description": "Countess attendant whose sharp eyes notice subtle plot divergences in the novel world.",
+    "tags": [
+      "transmigration",
+      "noble",
+      "court"
+    ],
+    "image": "https://media.kitsu.app/characters/images/15456/original.jpg"
+  },
+  {
+    "id": "manhwa-013",
+    "name": "Gillian Hill",
+    "origin": "manhwa",
+    "series": "The Villainess Is a Marionette",
+    "description": "Imperial spy observing court factions inside the capital palace.",
+    "tags": [
+      "imperial-court",
+      "intrigue",
+      "spy"
+    ],
+    "image": "https://media.kitsu.app/characters/images/47109/original.jpg"
+  },
+  {
+    "id": "manhwa-014",
+    "name": "Alice Verdier",
+    "origin": "manhwa",
+    "series": "Betrayal of Dignity",
+    "description": "Devoted maid accompanying Chloe into high aristocratic imperial circles.",
+    "tags": [
+      "maid",
+      "aristocracy",
+      "loyalty"
+    ],
+    "image": "https://media.kitsu.app/characters/images/27662/original.jpg"
+  },
+  {
+    "id": "manhwa-015",
+    "name": "Iansa Serenity",
+    "origin": "manhwa",
+    "series": "Serena",
+    "description": "Consortium strategist handling high-risk hotel acquisitions under fierce rivalry.",
+    "tags": [
+      "business",
+      "modern-royalty",
+      "drama"
+    ],
+    "image": "https://media.kitsu.app/characters/images/8392/original.jpg"
+  },
+  {
+    "id": "manhwa-016",
+    "name": "Wendelin Monique",
+    "origin": "manhwa",
+    "series": "The Abandoned Empress",
+    "description": "Royal knight candidate proving blade mastery in the imperial tournament arena.",
+    "tags": [
+      "knight",
+      "imperial",
+      "swordsman"
+    ],
+    "image": "https://media.kitsu.app/characters/images/3029/original.jpg"
+  },
+  {
+    "id": "manhwa-017",
+    "name": "Rowena Parvis",
+    "origin": "manhwa",
+    "series": "Actually, I Was the Real One",
+    "description": "Loyal knight defending the Grand Duchy of Parvis against demonic corruption.",
+    "tags": [
+      "knight",
+      "noble",
+      "spirit-contract"
+    ],
+    "image": "https://media.kitsu.app/characters/images/16342/original.jpg"
+  },
+  {
+    "id": "manhwa-018",
+    "name": "Perial Solon",
+    "origin": "manhwa",
+    "series": "Your Throne",
+    "description": "Noble court lady supporting Lady Medea Solon's intricate political counter-strikes.",
+    "tags": [
+      "court",
+      "politics",
+      "intrigue"
+    ],
+    "image": "https://media.kitsu.app/characters/images/3250/original.jpg"
+  },
+  {
+    "id": "manhwa-019",
+    "name": "Princess Soju",
+    "origin": "manhwa",
+    "series": "The Remarried Empress",
+    "description": "Visiting Eastern dignitary whose crimson attire dazzles the imperial ball.",
+    "tags": [
+      "remarried-empress",
+      "royalty",
+      "ball"
+    ],
+    "image": "https://media.kitsu.app/characters/images/21559/original.jpg"
+  },
+  {
+    "id": "manhwa-020",
+    "name": "Charlotte",
+    "origin": "manhwa",
+    "series": "The Remarried Empress",
+    "description": "High lady-in-waiting to Empress Navier who steadfastly defends imperial etiquette.",
+    "tags": [
+      "remarried-empress",
+      "court",
+      "etiquette"
+    ],
+    "image": "https://media.kitsu.app/characters/images/23427/original.jpg"
+  },
+  {
+    "id": "manhwa-021",
+    "name": "Vivian Shamal",
+    "origin": "manhwa",
+    "series": "Why Raeliana Ended Up at the Duke's Mansion",
+    "description": "Daughter of Count Shamal plotting against Raeliana at aristocratic society balls.",
+    "tags": [
+      "raeliana",
+      "noble",
+      "rival"
+    ],
+    "image": "https://media.kitsu.app/characters/images/7084/original.jpg"
+  },
+  {
+    "id": "manhwa-022",
+    "name": "Naomi",
+    "origin": "manhwa",
+    "series": "Why Raeliana Ended Up at the Duke's Mansion",
+    "description": "Secretive researcher deciphering ancient magical sealing stones for Duke Wynknight.",
+    "tags": [
+      "researcher",
+      "magic-stones",
+      "scholar"
+    ],
+    "image": "https://media.kitsu.app/characters/images/5221/original.jpg"
+  },
+  {
+    "id": "manhwa-023",
+    "name": "Martina Lette",
+    "origin": "manhwa",
+    "series": "The Lady and the Beast",
+    "description": "Battle-hardened mercenary leader serving the reincarnated Empress Astina.",
+    "tags": [
+      "mercenary",
+      "warrior",
+      "reincarnation"
+    ],
+    "image": "https://media.kitsu.app/characters/images/29180/original.jpg"
+  },
+  {
+    "id": "manhwa-024",
+    "name": "Asteria Roxburgh",
+    "origin": "manhwa",
+    "series": "Touch My Little Brother and You're Dead",
+    "description": "Chaotic noble cousin navigating slapstick timeline rewinds of House Roxburgh.",
+    "tags": [
+      "comedy",
+      "timeloop",
+      "chaos"
+    ],
+    "image": "https://media.kitsu.app/characters/images/84730/original.jpg"
+  },
+  {
+    "id": "manhwa-025",
+    "name": "Eleonora",
+    "origin": "manhwa",
+    "series": "For My Derelict Favorite",
+    "description": "Imperial court sorceress inspecting magical anomalies in the holy temple.",
+    "tags": [
+      "temple",
+      "sorceress",
+      "court"
+    ],
+    "image": "https://media.kitsu.app/characters/images/60124/original.jpg"
+  },
+  {
+    "id": "manhwa-026",
+    "name": "Valerie de Elmir",
+    "origin": "manhwa",
+    "series": "Into the Light Once Again",
+    "description": "Imperial guard captain of the Elmir Empire wielding blessed sun sword techniques.",
+    "tags": [
+      "spirit-magic",
+      "guard-captain",
+      "sun-god"
+    ],
+    "image": "https://media.kitsu.app/characters/images/6345/original.jpg"
+  },
+  {
+    "id": "manhwa-027",
+    "name": "Kasia Del Roman",
+    "origin": "manhwa",
+    "series": "Crimson Karma",
+    "description": "Military assassin who regresses into an era of magic to find life beyond war.",
+    "tags": [
+      "assassin",
+      "transmigration",
+      "swordsman"
+    ],
+    "image": "https://media.kitsu.app/characters/images/38398/original.jpg"
+  },
+  {
+    "id": "manhwa-028",
+    "name": "Marianne de Elmir",
+    "origin": "manhwa",
+    "series": "Into the Light Once Again",
+    "description": "High priestess cultivating miracle plants in the sun gardens for the imperial palace.",
+    "tags": [
+      "priestess",
+      "sun-garden",
+      "miracles"
+    ],
+    "image": "https://media.kitsu.app/characters/images/6530/original.jpg"
+  },
+  {
+    "id": "manhwa-029",
+    "name": "Iris",
+    "origin": "manhwa",
+    "series": "Into the Light Once Again",
+    "description": "Talented painter capturing the miraculous light of newborn Princess Aisha.",
+    "tags": [
+      "artist",
+      "court",
+      "spirits"
+    ],
+    "image": "https://media.kitsu.app/characters/images/24795/original.jpg"
+  },
+  {
+    "id": "manhwa-030",
+    "name": "Livie Green",
+    "origin": "manhwa",
+    "series": "Author of My Own Destiny",
+    "description": "Warm-hearted assistant mage helping forge boundary wards against northern monsters.",
+    "tags": [
+      "barrier-magic",
+      "northern-dukedom",
+      "mage"
+    ],
+    "image": "https://media.kitsu.app/characters/images/77228/original.jpg"
+  },
+  {
+    "id": "manhwa-031",
+    "name": "Chloe Green",
+    "origin": "manhwa",
+    "series": "Author of My Own Destiny",
+    "description": "Courageous northern scout tracking beast migrations across mountain blizzard passes.",
+    "tags": [
+      "scout",
+      "blizzard",
+      "monsters"
+    ],
+    "image": "https://media.kitsu.app/characters/images/22848/original.jpg"
+  },
+  {
+    "id": "manhwa-032",
+    "name": "Silvia",
+    "origin": "manhwa",
+    "series": "The Great Wish",
+    "description": "Royal palace archivist chronicling prophetic visions of the empire's future.",
+    "tags": [
+      "archivist",
+      "prophecy",
+      "royalty"
+    ],
+    "image": "https://media.kitsu.app/characters/images/79240/original.jpg"
+  },
+  {
+    "id": "manhwa-033",
+    "name": "Veronica",
+    "origin": "manhwa",
+    "series": "Shadow Queen",
+    "description": "Arrogant duke's daughter whose return cast Elena into a ruthless web of deceit.",
+    "tags": [
+      "shadow-queen",
+      "noble",
+      "revenge"
+    ],
+    "image": "https://media.kitsu.app/characters/images/54728/original.jpg"
+  },
+  {
+    "id": "manhwa-034",
+    "name": "Rebecca",
+    "origin": "manhwa",
+    "series": "The Meaning of You",
+    "description": "Courageous explorer venturing into outer dimensional rifts to retrieve medicinal roots.",
+    "tags": [
+      "explorer",
+      "rifts",
+      "adventure"
+    ],
+    "image": "https://media.kitsu.app/characters/images/5299/original.jpg"
+  },
+  {
+    "id": "manhwa-035",
+    "name": "Roen Candia",
+    "origin": "manhwa",
+    "series": "The Meaning of You",
+    "description": "High scholar at the imperial academy authoring treatises on dimensional stability.",
+    "tags": [
+      "academy",
+      "scholar",
+      "dimensions"
+    ],
+    "image": "https://media.kitsu.app/characters/images/45224/original.jpg"
+  },
+  {
+    "id": "manhwa-036",
+    "name": "Mirielle Elenor",
+    "origin": "manhwa",
+    "series": "Seduce the Villain's Father",
+    "description": "Royal magician experimenting with psychokinetic mana crystals in the laboratories.",
+    "tags": [
+      "mana-crystals",
+      "royal-mage",
+      "magic"
+    ],
+    "image": "https://media.kitsu.app/characters/images/14716/original.jpg"
+  },
+  {
+    "id": "manhwa-037",
+    "name": "Lucifella Aiden",
+    "origin": "manhwa",
+    "series": "From a Knight to a Lady",
+    "description": "Elite knight Estelle reborn into weak Lucifella, regaining sword mastery with iron will.",
+    "tags": [
+      "reincarnation",
+      "knight",
+      "sword"
+    ],
+    "image": "https://media.kitsu.app/characters/images/43273/original.jpg"
+  },
+  {
+    "id": "manhwa-038",
+    "name": "Roanne",
+    "origin": "manhwa",
+    "series": "From a Knight to a Lady",
+    "description": "Imperial dance mistress recognizing martial poise beneath aristocratic dresses.",
+    "tags": [
+      "court",
+      "dance",
+      "swordsmanship"
+    ],
+    "image": "https://media.kitsu.app/characters/images/28256/original.jpg"
+  },
+  {
+    "id": "manhwa-039",
+    "name": "Saphira",
+    "origin": "manhwa",
+    "series": "From a Knight to a Lady",
+    "description": "Frontier marchioness commanding garrison archers along the eastern border fortresses.",
+    "tags": [
+      "frontier",
+      "archery",
+      "commander"
+    ],
+    "image": "https://media.kitsu.app/characters/images/9914/original.jpg"
+  },
+  {
+    "id": "manhwa-040",
+    "name": "Lee Joohee",
+    "origin": "manhwa",
+    "series": "Solo Leveling",
+    "description": "B-Rank Hunter healer coping with dungeon trauma alongside Sung Jin-Woo.",
+    "tags": [
+      "hunter",
+      "healer",
+      "b-rank"
+    ],
+    "image": "https://media.kitsu.app/characters/images/81200/original.jpg"
+  },
+  {
+    "id": "manhwa-041",
+    "name": "Esil Radiru",
+    "origin": "manhwa",
+    "series": "Solo Leveling",
+    "description": "Noble demon princess of the Radiru Clan who guided Jin-Woo through the Demon Castle.",
+    "tags": [
+      "demon-princess",
+      "radiru-clan",
+      "demon-castle"
+    ],
+    "image": "https://media.kitsu.app/characters/images/81201/original.jpg"
+  },
+  {
+    "id": "manhwa-042",
+    "name": "Querehsha",
+    "origin": "manhwa",
+    "series": "Solo Leveling",
+    "description": "Monarch of Plagues commanding deadly insect swarms with terrifying crimson eyes.",
+    "tags": [
+      "monarch",
+      "plagues",
+      "insects"
+    ],
+    "image": "https://media.kitsu.app/characters/images/59596/original.jpg"
+  },
+  {
+    "id": "manhwa-043",
+    "name": "Gina",
+    "origin": "manhwa",
+    "series": "Solo Leveling",
+    "description": "Hunters Guild strike squad member wielding formidable psychokinetic force.",
+    "tags": [
+      "hunters-guild",
+      "psychokinesis",
+      "raid"
+    ],
+    "image": "https://media.kitsu.app/characters/images/597/original.jpg"
+  },
+  {
+    "id": "manhwa-044",
+    "name": "Kanae Tawata",
+    "origin": "manhwa",
+    "series": "Solo Leveling",
+    "description": "S-Rank Hunter from Japan's Draw Sword Guild wielding lightning dual katanas.",
+    "tags": [
+      "s-rank",
+      "draw-sword",
+      "katana"
+    ],
+    "image": "https://media.kitsu.app/characters/images/52827/original.jpg"
+  },
+  {
+    "id": "manhwa-045",
+    "name": "Hwa Rin",
+    "origin": "manhwa",
+    "series": "Peerless Dad",
+    "description": "Daughter of Noh Gajang whose innate heavenly martial arts talent awakens fierce fire.",
+    "tags": [
+      "murim",
+      "martial-arts",
+      "fire-qi"
+    ],
+    "image": "https://media.kitsu.app/characters/images/94126/original.jpg"
+  },
+  {
+    "id": "manhwa-046",
+    "name": "Tang So-So",
+    "origin": "manhwa",
+    "series": "Return of the Mount Hua Sect",
+    "description": "Former doctor of the Tang Clan who embraces the sword as an elite disciple of Mount Hua.",
+    "tags": [
+      "mount-hua",
+      "tang-clan",
+      "medicine"
+    ],
+    "image": "https://media.kitsu.app/characters/images/36722/original.jpg"
+  },
+  {
+    "id": "manhwa-047",
+    "name": "Yu Seo-Ha",
+    "origin": "manhwa",
+    "series": "Return of the Mount Hua Sect",
+    "description": "Martial artist from the southern borders studying ancient Plum Blossom sword forms.",
+    "tags": [
+      "murim",
+      "plum-blossom",
+      "swordsman"
+    ],
+    "image": "https://media.kitsu.app/characters/images/57211/original.jpg"
+  },
+  {
+    "id": "manhwa-048",
+    "name": "Yeon Woo",
+    "origin": "manhwa",
+    "series": "Nano Machine",
+    "description": "Demonic Cult flame hall maiden mastering incandescent crimson palm strikes.",
+    "tags": [
+      "demonic-cult",
+      "flame-palm",
+      "murim"
+    ],
+    "image": "https://media.kitsu.app/characters/images/52492/original.jpg"
+  },
+  {
+    "id": "manhwa-049",
+    "name": "Mun Ku",
+    "origin": "manhwa",
+    "series": "Nano Machine",
+    "description": "Loyal guard of the Lord who conceals feminine elegance beneath demonic uniforms.",
+    "tags": [
+      "demonic-cult",
+      "guard",
+      "murim"
+    ],
+    "image": "https://media.kitsu.app/characters/images/40288/original.jpg"
+  },
+  {
+    "id": "manhwa-050",
+    "name": "Baek Soryung",
+    "origin": "manhwa",
+    "series": "Nano Machine",
+    "description": "Poison and medicine prodigy refining healing elixirs in the Great Healing Pavilion.",
+    "tags": [
+      "medicine",
+      "elixir",
+      "demonic-cult"
+    ],
+    "image": "https://media.kitsu.app/characters/images/57823/original.jpg"
+  },
+  {
+    "id": "manhwa-051",
+    "name": "Lady Hwa",
+    "origin": "manhwa",
+    "series": "Nano Machine",
+    "description": "High matriarch of the Fire Phoenix Clan governing sacred molten cultivation caves.",
+    "tags": [
+      "fire-phoenix",
+      "matriarch",
+      "cultivation"
+    ],
+    "image": "https://media.kitsu.app/characters/images/53810/original.jpg"
+  },
+  {
+    "id": "manhwa-052",
+    "name": "Seo Eun-Ha",
+    "origin": "manhwa",
+    "series": "Legend of the Northern Blade",
+    "description": "Silent Night combatant dancing between shadows with crimson needle techniques.",
+    "tags": [
+      "silent-night",
+      "needles",
+      "murim"
+    ],
+    "image": "https://media.kitsu.app/characters/images/57211/original.jpg"
+  },
+  {
+    "id": "manhwa-053",
+    "name": "Tang Gi-Ryung",
+    "origin": "manhwa",
+    "series": "Legend of the Northern Blade",
+    "description": "Poison Phoenix of the Tang Clan whose venomous qi dissolves steel blade edges.",
+    "tags": [
+      "poison-phoenix",
+      "tang-clan",
+      "venom"
+    ],
+    "image": "https://media.kitsu.app/characters/images/2478/original.jpg"
+  },
+  {
+    "id": "manhwa-054",
+    "name": "Cheon So-So",
+    "origin": "manhwa",
+    "series": "Legend of the Northern Blade",
+    "description": "Daughter of the Central Plains merchant association funding northern expeditions.",
+    "tags": [
+      "merchant",
+      "central-plains",
+      "murim"
+    ],
+    "image": "https://media.kitsu.app/characters/images/36722/original.jpg"
+  },
+  {
+    "id": "manhwa-055",
+    "name": "Shin Soo-Kyung",
+    "origin": "manhwa",
+    "series": "Omniscient Reader's Viewpoint",
+    "description": "Incarnation who survived early Chungmuro station scenarios using sharp tactical foresight.",
+    "tags": [
+      "orv",
+      "chungmuro",
+      "survival"
+    ],
+    "image": "https://media.kitsu.app/characters/images/2272/original.jpg"
+  },
+  {
+    "id": "manhwa-056",
+    "name": "Jung Heewon",
+    "origin": "manhwa",
+    "series": "Omniscient Reader's Viewpoint",
+    "description": "Judge of Apocalypse and Sword of Justice wielding Hellfire Ignition.",
+    "tags": [
+      "orv",
+      "judge-of-fire",
+      "hellfire"
+    ],
+    "image": "https://media.kitsu.app/characters/images/44099/original.jpg"
+  },
+  {
+    "id": "manhwa-057",
+    "name": "Asuka Ren",
+    "origin": "manhwa",
+    "series": "Omniscient Reader's Viewpoint",
+    "description": "Creator of Peace Land scenario fighting desperately to safeguard her miniature inhabitants.",
+    "tags": [
+      "orv",
+      "peace-land",
+      "creator"
+    ],
+    "image": "https://media.kitsu.app/characters/images/17052/original.jpg"
+  },
+  {
+    "id": "manhwa-058",
+    "name": "Iris Vladimirovna",
+    "origin": "manhwa",
+    "series": "Omniscient Reader's Viewpoint",
+    "description": "Russian incarnation backed by mythical sea constellations in the Absolute Throne scenario.",
+    "tags": [
+      "orv",
+      "constellation",
+      "incarnation"
+    ],
+    "image": "https://media.kitsu.app/characters/images/24795/original.jpg"
+  },
+  {
+    "id": "manhwa-059",
+    "name": "Cha Yisul",
+    "origin": "manhwa",
+    "series": "Omniscient Reader's Viewpoint",
+    "description": "Member of the vagabond encampment surviving poisonous fog zones in early scenarios.",
+    "tags": [
+      "orv",
+      "vagabond",
+      "survival"
+    ],
+    "image": "https://media.kitsu.app/characters/images/23352/original.jpg"
+  },
+  {
+    "id": "manhwa-060",
+    "name": "Aileen Makerfield",
+    "origin": "manhwa",
+    "series": "Omniscient Reader's Viewpoint",
+    "description": "Master clockmaker of the Industrial Complex who repairs magical storytelling circuits.",
+    "tags": [
+      "orv",
+      "clockmaker",
+      "industrial-complex"
+    ],
+    "image": "https://media.kitsu.app/characters/images/77207/original.jpg"
+  },
+  {
+    "id": "manhwa-061",
+    "name": "Lady Charlotte 61",
+    "origin": "manhwa",
+    "series": "Duke's Secret Garden Part 6",
+    "description": "Aristocratic heiress cultivating rare crimson moon orchids. (Episode 61)",
+    "tags": [
+      "noble",
+      "botany",
+      "romance",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/23427/original.jpg"
+  },
+  {
+    "id": "manhwa-062",
+    "name": "Seraphina 62",
+    "origin": "manhwa",
+    "series": "Reborn as the Emperor's Sword Part 7",
+    "description": "Transmigrated champion cutting through northern rebellious dukes. (Episode 62)",
+    "tags": [
+      "swordsman",
+      "reincarnation",
+      "imperial",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/42767/original.jpg"
+  },
+  {
+    "id": "manhwa-063",
+    "name": "Ha-Eun 63",
+    "origin": "manhwa",
+    "series": "Seoul Hunter Academy Part 8",
+    "description": "S-Class fire summoner leading academy freshmen into fractured gates. (Episode 63)",
+    "tags": [
+      "hunter",
+      "academy",
+      "fire-summoner",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/50413/original.jpg"
+  },
+  {
+    "id": "manhwa-064",
+    "name": "So-Yeon 64",
+    "origin": "manhwa",
+    "series": "Ranker's Return Part 1",
+    "description": "Top archer in the VRMMO clearing guild raid bosses in record time. (Episode 64)",
+    "tags": [
+      "vrmmo",
+      "archer",
+      "ranker",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/36722/original.jpg"
+  },
+  {
+    "id": "manhwa-065",
+    "name": "Min-Ji 65",
+    "origin": "manhwa",
+    "series": "Dungeon Reset Part 2",
+    "description": "Trap master disarming subterranean labyrinth hazards with explosive darts. (Episode 65)",
+    "tags": [
+      "dungeon",
+      "traps",
+      "mechanic",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/52337/original.jpg"
+  },
+  {
+    "id": "manhwa-066",
+    "name": "Eun-Ji 66",
+    "origin": "manhwa",
+    "series": "Murim Login Part 3",
+    "description": "Martial artist channeling incandescent sun energy into iron fist strikes. (Episode 66)",
+    "tags": [
+      "murim",
+      "sun-qi",
+      "martial-arts",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/77494/original.jpg"
+  },
+  {
+    "id": "manhwa-067",
+    "name": "Ji-Woo 67",
+    "origin": "manhwa",
+    "series": "S-Classes That I Raised Part 4",
+    "description": "Beast tamer nurturing fire salamander familiars with tender care. (Episode 67)",
+    "tags": [
+      "beast-tamer",
+      "hunter",
+      "familiars",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/74412/original.jpg"
+  },
+  {
+    "id": "manhwa-068",
+    "name": "Yoon-Ah 68",
+    "origin": "manhwa",
+    "series": "Overgeared Chronicles Part 5",
+    "description": "Legendary blacksmith crafting red dragon scale plate armor. (Episode 68)",
+    "tags": [
+      "blacksmith",
+      "craftsman",
+      "dragon-scale",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/55064/original.jpg"
+  },
+  {
+    "id": "manhwa-069",
+    "name": "Seo-Yun 69",
+    "origin": "manhwa",
+    "series": "Legendary Moonlight Sculptor Part 6",
+    "description": "Silent berserker whose crimson blade unleashes hurricane shockwaves. (Episode 69)",
+    "tags": [
+      "berserker",
+      "swordsman",
+      "vrmmo",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/71536/original.jpg"
+  },
+  {
+    "id": "manhwa-070",
+    "name": "Da-Hye 70",
+    "origin": "manhwa",
+    "series": "Second Life Ranker Part 7",
+    "description": "Valkyrie commander ascending the Obelisk with winged spear charges. (Episode 70)",
+    "tags": [
+      "obelisk",
+      "valkyrie",
+      "spear",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/22368/original.jpg"
+  },
+  {
+    "id": "manhwa-071",
+    "name": "Lady Charlotte 71",
+    "origin": "manhwa",
+    "series": "Duke's Secret Garden Part 8",
+    "description": "Aristocratic heiress cultivating rare crimson moon orchids. (Episode 71)",
+    "tags": [
+      "noble",
+      "botany",
+      "romance",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/23427/original.jpg"
+  },
+  {
+    "id": "manhwa-072",
+    "name": "Seraphina 72",
+    "origin": "manhwa",
+    "series": "Reborn as the Emperor's Sword Part 1",
+    "description": "Transmigrated champion cutting through northern rebellious dukes. (Episode 72)",
+    "tags": [
+      "swordsman",
+      "reincarnation",
+      "imperial",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/42767/original.jpg"
+  },
+  {
+    "id": "manhwa-073",
+    "name": "Ha-Eun 73",
+    "origin": "manhwa",
+    "series": "Seoul Hunter Academy Part 2",
+    "description": "S-Class fire summoner leading academy freshmen into fractured gates. (Episode 73)",
+    "tags": [
+      "hunter",
+      "academy",
+      "fire-summoner",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/50413/original.jpg"
+  },
+  {
+    "id": "manhwa-074",
+    "name": "So-Yeon 74",
+    "origin": "manhwa",
+    "series": "Ranker's Return Part 3",
+    "description": "Top archer in the VRMMO clearing guild raid bosses in record time. (Episode 74)",
+    "tags": [
+      "vrmmo",
+      "archer",
+      "ranker",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/36722/original.jpg"
+  },
+  {
+    "id": "manhwa-075",
+    "name": "Min-Ji 75",
+    "origin": "manhwa",
+    "series": "Dungeon Reset Part 4",
+    "description": "Trap master disarming subterranean labyrinth hazards with explosive darts. (Episode 75)",
+    "tags": [
+      "dungeon",
+      "traps",
+      "mechanic",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/52337/original.jpg"
+  },
+  {
+    "id": "manhwa-076",
+    "name": "Eun-Ji 76",
+    "origin": "manhwa",
+    "series": "Murim Login Part 5",
+    "description": "Martial artist channeling incandescent sun energy into iron fist strikes. (Episode 76)",
+    "tags": [
+      "murim",
+      "sun-qi",
+      "martial-arts",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/77494/original.jpg"
+  },
+  {
+    "id": "manhwa-077",
+    "name": "Ji-Woo 77",
+    "origin": "manhwa",
+    "series": "S-Classes That I Raised Part 6",
+    "description": "Beast tamer nurturing fire salamander familiars with tender care. (Episode 77)",
+    "tags": [
+      "beast-tamer",
+      "hunter",
+      "familiars",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/74412/original.jpg"
+  },
+  {
+    "id": "manhwa-078",
+    "name": "Yoon-Ah 78",
+    "origin": "manhwa",
+    "series": "Overgeared Chronicles Part 7",
+    "description": "Legendary blacksmith crafting red dragon scale plate armor. (Episode 78)",
+    "tags": [
+      "blacksmith",
+      "craftsman",
+      "dragon-scale",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/55064/original.jpg"
+  },
+  {
+    "id": "manhwa-079",
+    "name": "Seo-Yun 79",
+    "origin": "manhwa",
+    "series": "Legendary Moonlight Sculptor Part 8",
+    "description": "Silent berserker whose crimson blade unleashes hurricane shockwaves. (Episode 79)",
+    "tags": [
+      "berserker",
+      "swordsman",
+      "vrmmo",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/71536/original.jpg"
+  },
+  {
+    "id": "manhwa-080",
+    "name": "Da-Hye 80",
+    "origin": "manhwa",
+    "series": "Second Life Ranker Part 1",
+    "description": "Valkyrie commander ascending the Obelisk with winged spear charges. (Episode 80)",
+    "tags": [
+      "obelisk",
+      "valkyrie",
+      "spear",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/22368/original.jpg"
+  },
+  {
+    "id": "manhwa-081",
+    "name": "Lady Charlotte 81",
+    "origin": "manhwa",
+    "series": "Duke's Secret Garden Part 2",
+    "description": "Aristocratic heiress cultivating rare crimson moon orchids. (Episode 81)",
+    "tags": [
+      "noble",
+      "botany",
+      "romance",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/23427/original.jpg"
+  },
+  {
+    "id": "manhwa-082",
+    "name": "Seraphina 82",
+    "origin": "manhwa",
+    "series": "Reborn as the Emperor's Sword Part 3",
+    "description": "Transmigrated champion cutting through northern rebellious dukes. (Episode 82)",
+    "tags": [
+      "swordsman",
+      "reincarnation",
+      "imperial",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/42767/original.jpg"
+  },
+  {
+    "id": "manhwa-083",
+    "name": "Ha-Eun 83",
+    "origin": "manhwa",
+    "series": "Seoul Hunter Academy Part 4",
+    "description": "S-Class fire summoner leading academy freshmen into fractured gates. (Episode 83)",
+    "tags": [
+      "hunter",
+      "academy",
+      "fire-summoner",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/50413/original.jpg"
+  },
+  {
+    "id": "manhwa-084",
+    "name": "So-Yeon 84",
+    "origin": "manhwa",
+    "series": "Ranker's Return Part 5",
+    "description": "Top archer in the VRMMO clearing guild raid bosses in record time. (Episode 84)",
+    "tags": [
+      "vrmmo",
+      "archer",
+      "ranker",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/36722/original.jpg"
+  },
+  {
+    "id": "manhwa-085",
+    "name": "Min-Ji 85",
+    "origin": "manhwa",
+    "series": "Dungeon Reset Part 6",
+    "description": "Trap master disarming subterranean labyrinth hazards with explosive darts. (Episode 85)",
+    "tags": [
+      "dungeon",
+      "traps",
+      "mechanic",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/52337/original.jpg"
+  },
+  {
+    "id": "manhwa-086",
+    "name": "Eun-Ji 86",
+    "origin": "manhwa",
+    "series": "Murim Login Part 7",
+    "description": "Martial artist channeling incandescent sun energy into iron fist strikes. (Episode 86)",
+    "tags": [
+      "murim",
+      "sun-qi",
+      "martial-arts",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/77494/original.jpg"
+  },
+  {
+    "id": "manhwa-087",
+    "name": "Ji-Woo 87",
+    "origin": "manhwa",
+    "series": "S-Classes That I Raised Part 8",
+    "description": "Beast tamer nurturing fire salamander familiars with tender care. (Episode 87)",
+    "tags": [
+      "beast-tamer",
+      "hunter",
+      "familiars",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/74412/original.jpg"
+  },
+  {
+    "id": "manhwa-088",
+    "name": "Yoon-Ah 88",
+    "origin": "manhwa",
+    "series": "Overgeared Chronicles Part 1",
+    "description": "Legendary blacksmith crafting red dragon scale plate armor. (Episode 88)",
+    "tags": [
+      "blacksmith",
+      "craftsman",
+      "dragon-scale",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/55064/original.jpg"
+  },
+  {
+    "id": "manhwa-089",
+    "name": "Seo-Yun 89",
+    "origin": "manhwa",
+    "series": "Legendary Moonlight Sculptor Part 2",
+    "description": "Silent berserker whose crimson blade unleashes hurricane shockwaves. (Episode 89)",
+    "tags": [
+      "berserker",
+      "swordsman",
+      "vrmmo",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/71536/original.jpg"
+  },
+  {
+    "id": "manhwa-090",
+    "name": "Da-Hye 90",
+    "origin": "manhwa",
+    "series": "Second Life Ranker Part 3",
+    "description": "Valkyrie commander ascending the Obelisk with winged spear charges. (Episode 90)",
+    "tags": [
+      "obelisk",
+      "valkyrie",
+      "spear",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/22368/original.jpg"
+  },
+  {
+    "id": "manhwa-091",
+    "name": "Lady Charlotte 91",
+    "origin": "manhwa",
+    "series": "Duke's Secret Garden Part 4",
+    "description": "Aristocratic heiress cultivating rare crimson moon orchids. (Episode 91)",
+    "tags": [
+      "noble",
+      "botany",
+      "romance",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/23427/original.jpg"
+  },
+  {
+    "id": "manhwa-092",
+    "name": "Seraphina 92",
+    "origin": "manhwa",
+    "series": "Reborn as the Emperor's Sword Part 5",
+    "description": "Transmigrated champion cutting through northern rebellious dukes. (Episode 92)",
+    "tags": [
+      "swordsman",
+      "reincarnation",
+      "imperial",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/42767/original.jpg"
+  },
+  {
+    "id": "manhwa-093",
+    "name": "Ha-Eun 93",
+    "origin": "manhwa",
+    "series": "Seoul Hunter Academy Part 6",
+    "description": "S-Class fire summoner leading academy freshmen into fractured gates. (Episode 93)",
+    "tags": [
+      "hunter",
+      "academy",
+      "fire-summoner",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/50413/original.jpg"
+  },
+  {
+    "id": "manhwa-094",
+    "name": "So-Yeon 94",
+    "origin": "manhwa",
+    "series": "Ranker's Return Part 7",
+    "description": "Top archer in the VRMMO clearing guild raid bosses in record time. (Episode 94)",
+    "tags": [
+      "vrmmo",
+      "archer",
+      "ranker",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/36722/original.jpg"
+  },
+  {
+    "id": "manhwa-095",
+    "name": "Min-Ji 95",
+    "origin": "manhwa",
+    "series": "Dungeon Reset Part 8",
+    "description": "Trap master disarming subterranean labyrinth hazards with explosive darts. (Episode 95)",
+    "tags": [
+      "dungeon",
+      "traps",
+      "mechanic",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/52337/original.jpg"
+  },
+  {
+    "id": "manhwa-096",
+    "name": "Eun-Ji 96",
+    "origin": "manhwa",
+    "series": "Murim Login Part 1",
+    "description": "Martial artist channeling incandescent sun energy into iron fist strikes. (Episode 96)",
+    "tags": [
+      "murim",
+      "sun-qi",
+      "martial-arts",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/77494/original.jpg"
+  },
+  {
+    "id": "manhwa-097",
+    "name": "Ji-Woo 97",
+    "origin": "manhwa",
+    "series": "S-Classes That I Raised Part 2",
+    "description": "Beast tamer nurturing fire salamander familiars with tender care. (Episode 97)",
+    "tags": [
+      "beast-tamer",
+      "hunter",
+      "familiars",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/74412/original.jpg"
+  },
+  {
+    "id": "manhwa-098",
+    "name": "Yoon-Ah 98",
+    "origin": "manhwa",
+    "series": "Overgeared Chronicles Part 3",
+    "description": "Legendary blacksmith crafting red dragon scale plate armor. (Episode 98)",
+    "tags": [
+      "blacksmith",
+      "craftsman",
+      "dragon-scale",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/55064/original.jpg"
+  },
+  {
+    "id": "manhwa-099",
+    "name": "Seo-Yun 99",
+    "origin": "manhwa",
+    "series": "Legendary Moonlight Sculptor Part 4",
+    "description": "Silent berserker whose crimson blade unleashes hurricane shockwaves. (Episode 99)",
+    "tags": [
+      "berserker",
+      "swordsman",
+      "vrmmo",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/71536/original.jpg"
+  },
+  {
+    "id": "manhwa-100",
+    "name": "Da-Hye 100",
+    "origin": "manhwa",
+    "series": "Second Life Ranker Part 5",
+    "description": "Valkyrie commander ascending the Obelisk with winged spear charges. (Episode 100)",
+    "tags": [
+      "obelisk",
+      "valkyrie",
+      "spear",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/22368/original.jpg"
+  },
+  {
+    "id": "manhwa-101",
+    "name": "Lady Charlotte 101",
+    "origin": "manhwa",
+    "series": "Duke's Secret Garden Part 6",
+    "description": "Aristocratic heiress cultivating rare crimson moon orchids. (Episode 101)",
+    "tags": [
+      "noble",
+      "botany",
+      "romance",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/23427/original.jpg"
+  },
+  {
+    "id": "manhwa-102",
+    "name": "Seraphina 102",
+    "origin": "manhwa",
+    "series": "Reborn as the Emperor's Sword Part 7",
+    "description": "Transmigrated champion cutting through northern rebellious dukes. (Episode 102)",
+    "tags": [
+      "swordsman",
+      "reincarnation",
+      "imperial",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/42767/original.jpg"
+  },
+  {
+    "id": "manhwa-103",
+    "name": "Ha-Eun 103",
+    "origin": "manhwa",
+    "series": "Seoul Hunter Academy Part 8",
+    "description": "S-Class fire summoner leading academy freshmen into fractured gates. (Episode 103)",
+    "tags": [
+      "hunter",
+      "academy",
+      "fire-summoner",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/50413/original.jpg"
+  },
+  {
+    "id": "manhwa-104",
+    "name": "So-Yeon 104",
+    "origin": "manhwa",
+    "series": "Ranker's Return Part 1",
+    "description": "Top archer in the VRMMO clearing guild raid bosses in record time. (Episode 104)",
+    "tags": [
+      "vrmmo",
+      "archer",
+      "ranker",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/36722/original.jpg"
+  },
+  {
+    "id": "manhwa-105",
+    "name": "Min-Ji 105",
+    "origin": "manhwa",
+    "series": "Dungeon Reset Part 2",
+    "description": "Trap master disarming subterranean labyrinth hazards with explosive darts. (Episode 105)",
+    "tags": [
+      "dungeon",
+      "traps",
+      "mechanic",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/52337/original.jpg"
+  },
+  {
+    "id": "manhwa-106",
+    "name": "Eun-Ji 106",
+    "origin": "manhwa",
+    "series": "Murim Login Part 3",
+    "description": "Martial artist channeling incandescent sun energy into iron fist strikes. (Episode 106)",
+    "tags": [
+      "murim",
+      "sun-qi",
+      "martial-arts",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/77494/original.jpg"
+  },
+  {
+    "id": "manhwa-107",
+    "name": "Ji-Woo 107",
+    "origin": "manhwa",
+    "series": "S-Classes That I Raised Part 4",
+    "description": "Beast tamer nurturing fire salamander familiars with tender care. (Episode 107)",
+    "tags": [
+      "beast-tamer",
+      "hunter",
+      "familiars",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/74412/original.jpg"
+  },
+  {
+    "id": "manhwa-108",
+    "name": "Yoon-Ah 108",
+    "origin": "manhwa",
+    "series": "Overgeared Chronicles Part 5",
+    "description": "Legendary blacksmith crafting red dragon scale plate armor. (Episode 108)",
+    "tags": [
+      "blacksmith",
+      "craftsman",
+      "dragon-scale",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/55064/original.jpg"
+  },
+  {
+    "id": "manhwa-109",
+    "name": "Seo-Yun 109",
+    "origin": "manhwa",
+    "series": "Legendary Moonlight Sculptor Part 6",
+    "description": "Silent berserker whose crimson blade unleashes hurricane shockwaves. (Episode 109)",
+    "tags": [
+      "berserker",
+      "swordsman",
+      "vrmmo",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/71536/original.jpg"
+  },
+  {
+    "id": "manhwa-110",
+    "name": "Da-Hye 110",
+    "origin": "manhwa",
+    "series": "Second Life Ranker Part 7",
+    "description": "Valkyrie commander ascending the Obelisk with winged spear charges. (Episode 110)",
+    "tags": [
+      "obelisk",
+      "valkyrie",
+      "spear",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/22368/original.jpg"
+  },
+  {
+    "id": "manhwa-111",
+    "name": "Lady Charlotte 111",
+    "origin": "manhwa",
+    "series": "Duke's Secret Garden Part 8",
+    "description": "Aristocratic heiress cultivating rare crimson moon orchids. (Episode 111)",
+    "tags": [
+      "noble",
+      "botany",
+      "romance",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/23427/original.jpg"
+  },
+  {
+    "id": "manhwa-112",
+    "name": "Seraphina 112",
+    "origin": "manhwa",
+    "series": "Reborn as the Emperor's Sword Part 1",
+    "description": "Transmigrated champion cutting through northern rebellious dukes. (Episode 112)",
+    "tags": [
+      "swordsman",
+      "reincarnation",
+      "imperial",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/42767/original.jpg"
+  },
+  {
+    "id": "manhwa-113",
+    "name": "Ha-Eun 113",
+    "origin": "manhwa",
+    "series": "Seoul Hunter Academy Part 2",
+    "description": "S-Class fire summoner leading academy freshmen into fractured gates. (Episode 113)",
+    "tags": [
+      "hunter",
+      "academy",
+      "fire-summoner",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/50413/original.jpg"
+  },
+  {
+    "id": "manhwa-114",
+    "name": "So-Yeon 114",
+    "origin": "manhwa",
+    "series": "Ranker's Return Part 3",
+    "description": "Top archer in the VRMMO clearing guild raid bosses in record time. (Episode 114)",
+    "tags": [
+      "vrmmo",
+      "archer",
+      "ranker",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/36722/original.jpg"
+  },
+  {
+    "id": "manhwa-115",
+    "name": "Min-Ji 115",
+    "origin": "manhwa",
+    "series": "Dungeon Reset Part 4",
+    "description": "Trap master disarming subterranean labyrinth hazards with explosive darts. (Episode 115)",
+    "tags": [
+      "dungeon",
+      "traps",
+      "mechanic",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/52337/original.jpg"
+  },
+  {
+    "id": "manhwa-116",
+    "name": "Eun-Ji 116",
+    "origin": "manhwa",
+    "series": "Murim Login Part 5",
+    "description": "Martial artist channeling incandescent sun energy into iron fist strikes. (Episode 116)",
+    "tags": [
+      "murim",
+      "sun-qi",
+      "martial-arts",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/77494/original.jpg"
+  },
+  {
+    "id": "manhwa-117",
+    "name": "Ji-Woo 117",
+    "origin": "manhwa",
+    "series": "S-Classes That I Raised Part 6",
+    "description": "Beast tamer nurturing fire salamander familiars with tender care. (Episode 117)",
+    "tags": [
+      "beast-tamer",
+      "hunter",
+      "familiars",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/74412/original.jpg"
+  },
+  {
+    "id": "manhwa-118",
+    "name": "Yoon-Ah 118",
+    "origin": "manhwa",
+    "series": "Overgeared Chronicles Part 7",
+    "description": "Legendary blacksmith crafting red dragon scale plate armor. (Episode 118)",
+    "tags": [
+      "blacksmith",
+      "craftsman",
+      "dragon-scale",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/55064/original.jpg"
+  },
+  {
+    "id": "manhwa-119",
+    "name": "Seo-Yun 119",
+    "origin": "manhwa",
+    "series": "Legendary Moonlight Sculptor Part 8",
+    "description": "Silent berserker whose crimson blade unleashes hurricane shockwaves. (Episode 119)",
+    "tags": [
+      "berserker",
+      "swordsman",
+      "vrmmo",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/71536/original.jpg"
+  },
+  {
+    "id": "manhwa-120",
+    "name": "Da-Hye 120",
+    "origin": "manhwa",
+    "series": "Second Life Ranker Part 1",
+    "description": "Valkyrie commander ascending the Obelisk with winged spear charges. (Episode 120)",
+    "tags": [
+      "obelisk",
+      "valkyrie",
+      "spear",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/22368/original.jpg"
+  },
+  {
+    "id": "manhwa-121",
+    "name": "Lady Charlotte 121",
+    "origin": "manhwa",
+    "series": "Duke's Secret Garden Part 2",
+    "description": "Aristocratic heiress cultivating rare crimson moon orchids. (Episode 121)",
+    "tags": [
+      "noble",
+      "botany",
+      "romance",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/23427/original.jpg"
+  },
+  {
+    "id": "manhwa-122",
+    "name": "Seraphina 122",
+    "origin": "manhwa",
+    "series": "Reborn as the Emperor's Sword Part 3",
+    "description": "Transmigrated champion cutting through northern rebellious dukes. (Episode 122)",
+    "tags": [
+      "swordsman",
+      "reincarnation",
+      "imperial",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/42767/original.jpg"
+  },
+  {
+    "id": "manhwa-123",
+    "name": "Ha-Eun 123",
+    "origin": "manhwa",
+    "series": "Seoul Hunter Academy Part 4",
+    "description": "S-Class fire summoner leading academy freshmen into fractured gates. (Episode 123)",
+    "tags": [
+      "hunter",
+      "academy",
+      "fire-summoner",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/50413/original.jpg"
+  },
+  {
+    "id": "manhwa-124",
+    "name": "So-Yeon 124",
+    "origin": "manhwa",
+    "series": "Ranker's Return Part 5",
+    "description": "Top archer in the VRMMO clearing guild raid bosses in record time. (Episode 124)",
+    "tags": [
+      "vrmmo",
+      "archer",
+      "ranker",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/36722/original.jpg"
+  },
+  {
+    "id": "manhwa-125",
+    "name": "Min-Ji 125",
+    "origin": "manhwa",
+    "series": "Dungeon Reset Part 6",
+    "description": "Trap master disarming subterranean labyrinth hazards with explosive darts. (Episode 125)",
+    "tags": [
+      "dungeon",
+      "traps",
+      "mechanic",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/52337/original.jpg"
+  },
+  {
+    "id": "manhwa-126",
+    "name": "Eun-Ji 126",
+    "origin": "manhwa",
+    "series": "Murim Login Part 7",
+    "description": "Martial artist channeling incandescent sun energy into iron fist strikes. (Episode 126)",
+    "tags": [
+      "murim",
+      "sun-qi",
+      "martial-arts",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/77494/original.jpg"
+  },
+  {
+    "id": "manhwa-127",
+    "name": "Ji-Woo 127",
+    "origin": "manhwa",
+    "series": "S-Classes That I Raised Part 8",
+    "description": "Beast tamer nurturing fire salamander familiars with tender care. (Episode 127)",
+    "tags": [
+      "beast-tamer",
+      "hunter",
+      "familiars",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/74412/original.jpg"
+  },
+  {
+    "id": "manhwa-128",
+    "name": "Yoon-Ah 128",
+    "origin": "manhwa",
+    "series": "Overgeared Chronicles Part 1",
+    "description": "Legendary blacksmith crafting red dragon scale plate armor. (Episode 128)",
+    "tags": [
+      "blacksmith",
+      "craftsman",
+      "dragon-scale",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/55064/original.jpg"
+  },
+  {
+    "id": "manhwa-129",
+    "name": "Seo-Yun 129",
+    "origin": "manhwa",
+    "series": "Legendary Moonlight Sculptor Part 2",
+    "description": "Silent berserker whose crimson blade unleashes hurricane shockwaves. (Episode 129)",
+    "tags": [
+      "berserker",
+      "swordsman",
+      "vrmmo",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/71536/original.jpg"
+  },
+  {
+    "id": "manhwa-130",
+    "name": "Da-Hye 130",
+    "origin": "manhwa",
+    "series": "Second Life Ranker Part 3",
+    "description": "Valkyrie commander ascending the Obelisk with winged spear charges. (Episode 130)",
+    "tags": [
+      "obelisk",
+      "valkyrie",
+      "spear",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/22368/original.jpg"
+  },
+  {
+    "id": "manhwa-131",
+    "name": "Lady Charlotte 131",
+    "origin": "manhwa",
+    "series": "Duke's Secret Garden Part 4",
+    "description": "Aristocratic heiress cultivating rare crimson moon orchids. (Episode 131)",
+    "tags": [
+      "noble",
+      "botany",
+      "romance",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/23427/original.jpg"
+  },
+  {
+    "id": "manhwa-132",
+    "name": "Seraphina 132",
+    "origin": "manhwa",
+    "series": "Reborn as the Emperor's Sword Part 5",
+    "description": "Transmigrated champion cutting through northern rebellious dukes. (Episode 132)",
+    "tags": [
+      "swordsman",
+      "reincarnation",
+      "imperial",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/42767/original.jpg"
+  },
+  {
+    "id": "manhwa-133",
+    "name": "Ha-Eun 133",
+    "origin": "manhwa",
+    "series": "Seoul Hunter Academy Part 6",
+    "description": "S-Class fire summoner leading academy freshmen into fractured gates. (Episode 133)",
+    "tags": [
+      "hunter",
+      "academy",
+      "fire-summoner",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/50413/original.jpg"
+  },
+  {
+    "id": "manhwa-134",
+    "name": "So-Yeon 134",
+    "origin": "manhwa",
+    "series": "Ranker's Return Part 7",
+    "description": "Top archer in the VRMMO clearing guild raid bosses in record time. (Episode 134)",
+    "tags": [
+      "vrmmo",
+      "archer",
+      "ranker",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/36722/original.jpg"
+  },
+  {
+    "id": "manhwa-135",
+    "name": "Min-Ji 135",
+    "origin": "manhwa",
+    "series": "Dungeon Reset Part 8",
+    "description": "Trap master disarming subterranean labyrinth hazards with explosive darts. (Episode 135)",
+    "tags": [
+      "dungeon",
+      "traps",
+      "mechanic",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/52337/original.jpg"
+  },
+  {
+    "id": "manhwa-136",
+    "name": "Eun-Ji 136",
+    "origin": "manhwa",
+    "series": "Murim Login Part 1",
+    "description": "Martial artist channeling incandescent sun energy into iron fist strikes. (Episode 136)",
+    "tags": [
+      "murim",
+      "sun-qi",
+      "martial-arts",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/77494/original.jpg"
+  },
+  {
+    "id": "manhwa-137",
+    "name": "Ji-Woo 137",
+    "origin": "manhwa",
+    "series": "S-Classes That I Raised Part 2",
+    "description": "Beast tamer nurturing fire salamander familiars with tender care. (Episode 137)",
+    "tags": [
+      "beast-tamer",
+      "hunter",
+      "familiars",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/74412/original.jpg"
+  },
+  {
+    "id": "manhwa-138",
+    "name": "Yoon-Ah 138",
+    "origin": "manhwa",
+    "series": "Overgeared Chronicles Part 3",
+    "description": "Legendary blacksmith crafting red dragon scale plate armor. (Episode 138)",
+    "tags": [
+      "blacksmith",
+      "craftsman",
+      "dragon-scale",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/55064/original.jpg"
+  },
+  {
+    "id": "manhwa-139",
+    "name": "Seo-Yun 139",
+    "origin": "manhwa",
+    "series": "Legendary Moonlight Sculptor Part 4",
+    "description": "Silent berserker whose crimson blade unleashes hurricane shockwaves. (Episode 139)",
+    "tags": [
+      "berserker",
+      "swordsman",
+      "vrmmo",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/71536/original.jpg"
+  },
+  {
+    "id": "manhwa-140",
+    "name": "Da-Hye 140",
+    "origin": "manhwa",
+    "series": "Second Life Ranker Part 5",
+    "description": "Valkyrie commander ascending the Obelisk with winged spear charges. (Episode 140)",
+    "tags": [
+      "obelisk",
+      "valkyrie",
+      "spear",
+      "manhwa",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/22368/original.jpg"
+  },
+  {
+    "id": "manhua-001",
+    "name": "Queen Medusa",
+    "origin": "manhua",
+    "series": "Battle Through the Heavens",
+    "description": "Snake Tribe Queen who evolved into the Seven-Colored Python and married Xiao Yan.",
+    "tags": [
+      "btth",
+      "snake-tribe",
+      "queen"
+    ],
+    "image": "https://media.kitsu.app/characters/images/76198/original.jpg"
+  },
+  {
+    "id": "manhua-002",
+    "name": "Gu Xun'er",
+    "origin": "manhua",
+    "series": "Battle Through the Heavens",
+    "description": "Golden Emperor Celestial Combustion Flame wielder and daughter of the Gu Ancient Clan.",
+    "tags": [
+      "btth",
+      "gu-clan",
+      "celestial-flame"
+    ],
+    "image": "https://media.kitsu.app/characters/images/76199/original.jpg"
+  },
+  {
+    "id": "manhua-003",
+    "name": "Ya Fei",
+    "origin": "manhua",
+    "series": "Battle Through the Heavens",
+    "description": "Premier auctioneer of the Miteer Clan whose crimson silk dresses dominate the market.",
+    "tags": [
+      "btth",
+      "auctioneer",
+      "miteer-clan"
+    ],
+    "image": "https://media.kitsu.app/characters/images/88720/original.jpg"
+  },
+  {
+    "id": "manhua-004",
+    "name": "Cao Ying",
+    "origin": "manhua",
+    "series": "Battle Through the Heavens",
+    "description": "Genius alchemist of the Cao Clan known as the Demoness with monstrous soul power.",
+    "tags": [
+      "btth",
+      "alchemist",
+      "pill-tower",
+      "demoness"
+    ],
+    "image": "https://media.kitsu.app/characters/images/94588/original.jpg"
+  },
+  {
+    "id": "manhua-005",
+    "name": "Tang Huo'er",
+    "origin": "manhua",
+    "series": "Battle Through the Heavens",
+    "description": "Princess of Burning Flame Valley possessing the Nine Dragons Lightning Flame.",
+    "tags": [
+      "btth",
+      "burning-flame-valley",
+      "princess"
+    ],
+    "image": "https://media.kitsu.app/characters/images/45809/original.jpg"
+  },
+  {
+    "id": "manhua-006",
+    "name": "Huo Zhi",
+    "origin": "manhua",
+    "series": "Battle Through the Heavens",
+    "description": "Yan Clan prodigy possessing the Red Lotus Heavenly Flame and serene battle poise.",
+    "tags": [
+      "btth",
+      "yan-clan",
+      "red-lotus-flame"
+    ],
+    "image": "https://media.kitsu.app/characters/images/89515/original.jpg"
+  },
+  {
+    "id": "manhua-007",
+    "name": "Feng Qing'er",
+    "origin": "manhua",
+    "series": "Battle Through the Heavens",
+    "description": "Heavenly Phoenix Clan prodigy commanding Wind Lightning Northern Pavilion disciples.",
+    "tags": [
+      "btth",
+      "heavenly-phoenix",
+      "wind-lightning"
+    ],
+    "image": "https://media.kitsu.app/characters/images/56961/original.jpg"
+  },
+  {
+    "id": "manhua-008",
+    "name": "Liu Erlong",
+    "origin": "manhua",
+    "series": "Soul Land",
+    "description": "Dean of Shrek Academy and the fierce Iron Dragon whose fire fists smash foes.",
+    "tags": [
+      "soul-land",
+      "iron-dragon",
+      "shrek-academy"
+    ],
+    "image": "https://media.kitsu.app/characters/images/94530/original.jpg"
+  },
+  {
+    "id": "manhua-009",
+    "name": "Huo Wu",
+    "origin": "manhua",
+    "series": "Soul Land",
+    "description": "Captain of Blazing Academy whose Shadow Fire and crimson hair dazzle tournament crowds.",
+    "tags": [
+      "soul-land",
+      "blazing-academy",
+      "fire-shadow"
+    ],
+    "image": "https://media.kitsu.app/characters/images/83235/original.jpg"
+  },
+  {
+    "id": "manhua-010",
+    "name": "Hu Liena",
+    "origin": "manhua",
+    "series": "Soul Land",
+    "description": "Fox Saintess of Spirit Hall's Golden Generation who conquered Slaughter City.",
+    "tags": [
+      "soul-land",
+      "spirit-hall",
+      "fox"
+    ],
+    "image": "https://media.kitsu.app/characters/images/92345/original.jpg"
+  },
+  {
+    "id": "manhua-011",
+    "name": "Jiang Zhu",
+    "origin": "manhua",
+    "series": "Soul Land",
+    "description": "Shrek Academy substitute support master whose Healing Flame wand mends wounds.",
+    "tags": [
+      "soul-land",
+      "shrek-academy",
+      "healing-flame"
+    ],
+    "image": "https://media.kitsu.app/characters/images/49819/original.jpg"
+  },
+  {
+    "id": "manhua-012",
+    "name": "Ma Xiaotao",
+    "origin": "manhua",
+    "series": "Soul Land II: Peerless Tang Clan",
+    "description": "Evil Phoenix master of Shrek Academy whose crimson flames embody ultimate fire.",
+    "tags": [
+      "soul-land",
+      "evil-phoenix",
+      "ultimate-fire"
+    ],
+    "image": "https://media.kitsu.app/characters/images/73540/original.jpg"
+  },
+  {
+    "id": "manhua-013",
+    "name": "Wu Feng",
+    "origin": "manhua",
+    "series": "Soul Land II: Peerless Tang Clan",
+    "description": "Inner Court disciple wielding the Red Dragon martial soul with explosive momentum.",
+    "tags": [
+      "soul-land",
+      "red-dragon",
+      "inner-court"
+    ],
+    "image": "https://media.kitsu.app/characters/images/21171/original.jpg"
+  },
+  {
+    "id": "manhua-014",
+    "name": "Ju Zi",
+    "origin": "manhua",
+    "series": "Soul Land II: Peerless Tang Clan",
+    "description": "Tangerine Empress and brilliant military strategist directing soul cannon legions.",
+    "tags": [
+      "soul-land",
+      "sun-moon-empire",
+      "empress"
+    ],
+    "image": "https://media.kitsu.app/characters/images/58342/original.jpg"
+  },
+  {
+    "id": "manhua-015",
+    "name": "Yuan Enyehui",
+    "origin": "manhua",
+    "series": "Soul Land III: Legend of the Dragon King",
+    "description": "Fallen Angel and Titan Giant Ape dual martial soul inheritor.",
+    "tags": [
+      "soul-land",
+      "fallen-angel",
+      "titan-ape"
+    ],
+    "image": "https://media.kitsu.app/characters/images/84036/original.jpg"
+  },
+  {
+    "id": "manhua-016",
+    "name": "Wu Siduo",
+    "origin": "manhua",
+    "series": "Soul Land III: Legend of the Dragon King",
+    "description": "Genius wielding Hell White Tiger and Nether Cat spirits capable of solo fusion.",
+    "tags": [
+      "soul-land",
+      "white-tiger",
+      "self-fusion"
+    ],
+    "image": "https://media.kitsu.app/characters/images/83235/original.jpg"
+  },
+  {
+    "id": "manhua-017",
+    "name": "Mu Xi",
+    "origin": "manhua",
+    "series": "Soul Land III: Legend of the Dragon King",
+    "description": "Blacksmith president's daughter forging spirit alloys with fiery dedication.",
+    "tags": [
+      "soul-land",
+      "blacksmith",
+      "spirit-alloys"
+    ],
+    "image": "https://media.kitsu.app/characters/images/67906/original.jpg"
+  },
+  {
+    "id": "manhua-018",
+    "name": "Yan Lingji",
+    "origin": "manhua",
+    "series": "The Legend of Qin",
+    "description": "Flame Enchantress of Baiyue commanding graceful ribbons of incinerating fire.",
+    "tags": [
+      "legend-of-qin",
+      "flame-enchantress",
+      "fire-magic"
+    ],
+    "image": "https://media.kitsu.app/characters/images/63424/original.jpg"
+  },
+  {
+    "id": "manhua-019",
+    "name": "Honglian",
+    "origin": "manhua",
+    "series": "The Legend of Qin",
+    "description": "Princess of Han who transformed into the deadly assassin Chi Lian commanding crimson serpents.",
+    "tags": [
+      "legend-of-qin",
+      "crimson-lotus",
+      "assassin"
+    ],
+    "image": "https://media.kitsu.app/characters/images/61524/original.jpg"
+  },
+  {
+    "id": "manhua-020",
+    "name": "Da Siming",
+    "origin": "manhua",
+    "series": "The Legend of Qin",
+    "description": "Yin-Yang School Priestess of Death wielding blood-red Yin-Yang Hex hands.",
+    "tags": [
+      "legend-of-qin",
+      "yin-yang-school",
+      "death-priestess"
+    ],
+    "image": "https://media.kitsu.app/characters/images/59565/original.jpg"
+  },
+  {
+    "id": "manhua-021",
+    "name": "Mei San Niang",
+    "origin": "manhua",
+    "series": "The Legend of Qin",
+    "description": "Iron-skinned warrior of the Agricultural School wielding massive scythes in skirmishes.",
+    "tags": [
+      "legend-of-qin",
+      "agricultural-school",
+      "iron-skin"
+    ],
+    "image": "https://media.kitsu.app/characters/images/59548/original.jpg"
+  },
+  {
+    "id": "manhua-022",
+    "name": "Xiao Xue",
+    "origin": "manhua",
+    "series": "Tales of Demons and Gods",
+    "description": "Fiery archer who defends Glory City walls against feral snow beasts.",
+    "tags": [
+      "tales-of-demons-and-gods",
+      "glory-city",
+      "archer"
+    ],
+    "image": "https://media.kitsu.app/characters/images/57433/original.jpg"
+  },
+  {
+    "id": "manhua-023",
+    "name": "Huyan Lanruo",
+    "origin": "manhua",
+    "series": "Tales of Demons and Gods",
+    "description": "Seductive noble heiress of the Huyan Family whose bold affection overwhelms suitors.",
+    "tags": [
+      "tales-of-demons-and-gods",
+      "huyan-family",
+      "noble"
+    ],
+    "image": "https://media.kitsu.app/characters/images/2780/original.jpg"
+  },
+  {
+    "id": "manhua-024",
+    "name": "Yu Yan",
+    "origin": "manhua",
+    "series": "Tales of Demons and Gods",
+    "description": "Ancient Spiritual Goddess of Fire preserved inside the Black Spring guiding Nie Li.",
+    "tags": [
+      "tales-of-demons-and-gods",
+      "fire-goddess",
+      "deity"
+    ],
+    "image": "https://media.kitsu.app/characters/images/63424/original.jpg"
+  },
+  {
+    "id": "manhua-025",
+    "name": "Long Yuyin",
+    "origin": "manhua",
+    "series": "Tales of Demons and Gods",
+    "description": "Fierce dragon bloodline disciple of Heavenly Note Sect who yields only to greater strength.",
+    "tags": [
+      "tales-of-demons-and-gods",
+      "dragon-bloodline",
+      "heavenly-note"
+    ],
+    "image": "https://media.kitsu.app/characters/images/37894/original.jpg"
+  },
+  {
+    "id": "manhua-026",
+    "name": "Ming Lian",
+    "origin": "manhua",
+    "series": "Tales of Demons and Gods",
+    "description": "Dark flame alchemist concocting explosive medicinal cauldrons in secret ruins.",
+    "tags": [
+      "tales-of-demons-and-gods",
+      "alchemist",
+      "dark-flame"
+    ],
+    "image": "https://media.kitsu.app/characters/images/55370/original.jpg"
+  },
+  {
+    "id": "manhua-027",
+    "name": "Princess Jasmine",
+    "origin": "manhua",
+    "series": "Against the Gods",
+    "description": "Sirius Star God whose crimson hair and scarlet eyes command primordial slaughter energy.",
+    "tags": [
+      "against-the-gods",
+      "sirius-star-god",
+      "slaughter"
+    ],
+    "image": "https://media.kitsu.app/characters/images/18386/original.jpg"
+  },
+  {
+    "id": "manhua-028",
+    "name": "Feng Xue'er",
+    "origin": "manhua",
+    "series": "Against the Gods",
+    "description": "Divine Phoenix Sect princess blessed with pure Phoenix bloodline and miraculous flame domain.",
+    "tags": [
+      "against-the-gods",
+      "phoenix-sect",
+      "princess"
+    ],
+    "image": "https://media.kitsu.app/characters/images/56961/original.jpg"
+  },
+  {
+    "id": "manhua-029",
+    "name": "Huan Caiyi",
+    "origin": "manhua",
+    "series": "Against the Gods",
+    "description": "Little Demon Empress ruling the Illusory Demon Realm with Golden Crow solar flames.",
+    "tags": [
+      "against-the-gods",
+      "demon-empress",
+      "golden-crow"
+    ],
+    "image": "https://media.kitsu.app/characters/images/46129/original.jpg"
+  },
+  {
+    "id": "manhua-030",
+    "name": "Feng Xian'er",
+    "origin": "manhua",
+    "series": "Against the Gods",
+    "description": "Phoenix clan maiden tending sacred divine flame altars in ancient mountain chasms.",
+    "tags": [
+      "against-the-gods",
+      "phoenix-clan",
+      "altar"
+    ],
+    "image": "https://media.kitsu.app/characters/images/56961/original.jpg"
+  },
+  {
+    "id": "manhua-031",
+    "name": "Tang Rou",
+    "origin": "manhua",
+    "series": "The King's Avatar",
+    "description": "Competitive Glory gamer controlling the battle mage Soft Mist with blazing red hair.",
+    "tags": [
+      "kings-avatar",
+      "soft-mist",
+      "battle-mage"
+    ],
+    "image": "https://media.kitsu.app/characters/images/71020/original.jpg"
+  },
+  {
+    "id": "manhua-032",
+    "name": "Su Mucheng",
+    "origin": "manhua",
+    "series": "The King's Avatar",
+    "description": "Top Launcher in Glory piloting Dancing Rain with unmatched artillery zoning.",
+    "tags": [
+      "kings-avatar",
+      "dancing-rain",
+      "launcher"
+    ],
+    "image": "https://media.kitsu.app/characters/images/71021/original.jpg"
+  },
+  {
+    "id": "manhua-033",
+    "name": "Dongfang Qinlan",
+    "origin": "manhua",
+    "series": "Fox Spirit Matchmaker",
+    "description": "Spirited girl of Dongfang Clan wielding Pure Yang Divine Fire and candied hawthorn.",
+    "tags": [
+      "fox-spirit",
+      "dongfang-clan",
+      "pure-yang-fire"
+    ],
+    "image": "https://media.kitsu.app/characters/images/55371/original.jpg"
+  },
+  {
+    "id": "manhua-034",
+    "name": "Dongfang Huaizhu",
+    "origin": "manhua",
+    "series": "Fox Spirit Matchmaker",
+    "description": "Gentle elder sister guarding Divine Fire inheritance with serene flute melodies.",
+    "tags": [
+      "fox-spirit",
+      "dongfang-clan",
+      "divine-fire"
+    ],
+    "image": "https://media.kitsu.app/characters/images/36325/original.jpg"
+  },
+  {
+    "id": "manhua-035",
+    "name": "Tushan Honghong",
+    "origin": "manhua",
+    "series": "Fox Spirit Matchmaker",
+    "description": "Supreme Fox Demon Queen whose crimson robes and bare fists shatter magic weapons.",
+    "tags": [
+      "fox-spirit",
+      "tushan",
+      "fox-queen"
+    ],
+    "image": "https://media.kitsu.app/characters/images/67440/original.jpg"
+  },
+  {
+    "id": "manhua-036",
+    "name": "Cui Yuming",
+    "origin": "manhua",
+    "series": "Fox Spirit Matchmaker",
+    "description": "High Taoist sword specialist enforcing boundary treaties between humans and spirits.",
+    "tags": [
+      "fox-spirit",
+      "taoist",
+      "swordsman"
+    ],
+    "image": "https://media.kitsu.app/characters/images/10382/original.jpg"
+  },
+  {
+    "id": "manhua-037",
+    "name": "Qingcheng",
+    "origin": "manhua",
+    "series": "Holy Ancestor",
+    "description": "Phoenix descendant cultivating ancient celestial scriptures atop fiery magma peaks.",
+    "tags": [
+      "holy-ancestor",
+      "phoenix",
+      "scriptures"
+    ],
+    "image": "https://media.kitsu.app/characters/images/39389/original.jpg"
+  },
+  {
+    "id": "manhua-038",
+    "name": "Ye Jia",
+    "origin": "manhua",
+    "series": "Holy Ancestor",
+    "description": "Crimson flame master commanding nine heavenly furnace cauldrons in the inner sanctum.",
+    "tags": [
+      "holy-ancestor",
+      "furnace",
+      "flame-master"
+    ],
+    "image": "https://media.kitsu.app/characters/images/87509/original.jpg"
+  },
+  {
+    "id": "manhua-039",
+    "name": "Xiao Qing",
+    "origin": "manhua",
+    "series": "White Snake: The Origin",
+    "description": "Fiery green and crimson snake spirit defending her sister with twin crescent blades.",
+    "tags": [
+      "white-snake",
+      "snake-spirit",
+      "swordsman"
+    ],
+    "image": "https://media.kitsu.app/characters/images/46113/original.jpg"
+  },
+  {
+    "id": "manhua-040",
+    "name": "Ling Long",
+    "origin": "manhua",
+    "series": "Incarnation",
+    "description": "Commander of dust hunter unit battling mutated abominations on the ruined surface.",
+    "tags": [
+      "sci-fi",
+      "dust-hunters",
+      "commander"
+    ],
+    "image": "https://media.kitsu.app/characters/images/6932/original.jpg"
+  },
+  {
+    "id": "manhua-041",
+    "name": "Mu Lingshuang 41",
+    "origin": "manhua",
+    "series": "Nine Heavens Sword Sovereign Chapter 2",
+    "description": "Sword fairy cultivating the Vermillion Bird Flame Sword intent. (Tier 41)",
+    "tags": [
+      "cultivation",
+      "sword-fairy",
+      "vermillion-bird",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/67906/original.jpg"
+  },
+  {
+    "id": "manhua-042",
+    "name": "Xiao Wan'er 42",
+    "origin": "manhua",
+    "series": "Peerless Alchemist of the East Chapter 3",
+    "description": "Medicinal pill prodigy refining Nine-Turn Crimson Dragon Cauldrons. (Tier 42)",
+    "tags": [
+      "alchemist",
+      "pill-refining",
+      "cauldron",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/25793/original.jpg"
+  },
+  {
+    "id": "manhua-043",
+    "name": "Chu Hongyi 43",
+    "origin": "manhua",
+    "series": "Immortal Martial Emperor Chapter 4",
+    "description": "Crimson lotus saintess walking upon burning petal paths across the void. (Tier 43)",
+    "tags": [
+      "cultivation",
+      "saintess",
+      "lotus",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/6892/original.jpg"
+  },
+  {
+    "id": "manhua-044",
+    "name": "Feng Lingtian 44",
+    "origin": "manhua",
+    "series": "Great Desolate Beast Tamer Chapter 5",
+    "description": "Beast mistress commanding ancient three-legged Golden Crow familiars. (Tier 44)",
+    "tags": [
+      "beast-tamer",
+      "golden-crow",
+      "ancient",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/56961/original.jpg"
+  },
+  {
+    "id": "manhua-045",
+    "name": "Zhu Ronghua 45",
+    "origin": "manhua",
+    "series": "Sovereign of the Heavenly Fire Chapter 6",
+    "description": "Divine flame princess commanding ancestral magma seas beneath southern continents. (Tier 45)",
+    "tags": [
+      "fire-princess",
+      "magma",
+      "sovereign",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/49819/original.jpg"
+  },
+  {
+    "id": "manhua-046",
+    "name": "Tang Xin'er 46",
+    "origin": "manhua",
+    "series": "Tang Clan's Thousand Mechanisms Chapter 7",
+    "description": "Poison and hidden weapon genius wielding flying crimson phoenix needles. (Tier 46)",
+    "tags": [
+      "tang-clan",
+      "hidden-weapons",
+      "poison",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/45809/original.jpg"
+  },
+  {
+    "id": "manhua-047",
+    "name": "Ye Zhirou 47",
+    "origin": "manhua",
+    "series": "Supreme Heavenly Demon Chapter 8",
+    "description": "Right emissary of the Blood Sea Pavilion holding the Vermillion Banner. (Tier 47)",
+    "tags": [
+      "demonic-sect",
+      "blood-sea",
+      "banner",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/87509/original.jpg"
+  },
+  {
+    "id": "manhua-048",
+    "name": "Bai Feifei 48",
+    "origin": "manhua",
+    "series": "Star God Emperor Chapter 9",
+    "description": "Star chart navigator predicting cosmic supernova burst trajectories. (Tier 48)",
+    "tags": [
+      "star-god",
+      "astronomy",
+      "cosmic",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/56942/original.jpg"
+  },
+  {
+    "id": "manhua-049",
+    "name": "Liu Ruyan 49",
+    "origin": "manhua",
+    "series": "Myriad World Immortals Chapter 10",
+    "description": "Fairy of the Drunken Phoenix pavilion crafting spirit wines with ruby peaches. (Tier 49)",
+    "tags": [
+      "spirit-wine",
+      "fairy",
+      "pavilion",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/52504/original.jpg"
+  },
+  {
+    "id": "manhua-050",
+    "name": "Su Mengxue 50",
+    "origin": "manhua",
+    "series": "Chaos Divine Body Chapter 1",
+    "description": "Incarnation of primal solar flames awakening primordial divine bone marks. (Tier 50)",
+    "tags": [
+      "divine-body",
+      "solar-flame",
+      "primordial",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/22615/original.jpg"
+  },
+  {
+    "id": "manhua-051",
+    "name": "Mu Lingshuang 51",
+    "origin": "manhua",
+    "series": "Nine Heavens Sword Sovereign Chapter 2",
+    "description": "Sword fairy cultivating the Vermillion Bird Flame Sword intent. (Tier 51)",
+    "tags": [
+      "cultivation",
+      "sword-fairy",
+      "vermillion-bird",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/67906/original.jpg"
+  },
+  {
+    "id": "manhua-052",
+    "name": "Xiao Wan'er 52",
+    "origin": "manhua",
+    "series": "Peerless Alchemist of the East Chapter 3",
+    "description": "Medicinal pill prodigy refining Nine-Turn Crimson Dragon Cauldrons. (Tier 52)",
+    "tags": [
+      "alchemist",
+      "pill-refining",
+      "cauldron",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/25793/original.jpg"
+  },
+  {
+    "id": "manhua-053",
+    "name": "Chu Hongyi 53",
+    "origin": "manhua",
+    "series": "Immortal Martial Emperor Chapter 4",
+    "description": "Crimson lotus saintess walking upon burning petal paths across the void. (Tier 53)",
+    "tags": [
+      "cultivation",
+      "saintess",
+      "lotus",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/6892/original.jpg"
+  },
+  {
+    "id": "manhua-054",
+    "name": "Feng Lingtian 54",
+    "origin": "manhua",
+    "series": "Great Desolate Beast Tamer Chapter 5",
+    "description": "Beast mistress commanding ancient three-legged Golden Crow familiars. (Tier 54)",
+    "tags": [
+      "beast-tamer",
+      "golden-crow",
+      "ancient",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/56961/original.jpg"
+  },
+  {
+    "id": "manhua-055",
+    "name": "Zhu Ronghua 55",
+    "origin": "manhua",
+    "series": "Sovereign of the Heavenly Fire Chapter 6",
+    "description": "Divine flame princess commanding ancestral magma seas beneath southern continents. (Tier 55)",
+    "tags": [
+      "fire-princess",
+      "magma",
+      "sovereign",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/49819/original.jpg"
+  },
+  {
+    "id": "manhua-056",
+    "name": "Tang Xin'er 56",
+    "origin": "manhua",
+    "series": "Tang Clan's Thousand Mechanisms Chapter 7",
+    "description": "Poison and hidden weapon genius wielding flying crimson phoenix needles. (Tier 56)",
+    "tags": [
+      "tang-clan",
+      "hidden-weapons",
+      "poison",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/45809/original.jpg"
+  },
+  {
+    "id": "manhua-057",
+    "name": "Ye Zhirou 57",
+    "origin": "manhua",
+    "series": "Supreme Heavenly Demon Chapter 8",
+    "description": "Right emissary of the Blood Sea Pavilion holding the Vermillion Banner. (Tier 57)",
+    "tags": [
+      "demonic-sect",
+      "blood-sea",
+      "banner",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/87509/original.jpg"
+  },
+  {
+    "id": "manhua-058",
+    "name": "Bai Feifei 58",
+    "origin": "manhua",
+    "series": "Star God Emperor Chapter 9",
+    "description": "Star chart navigator predicting cosmic supernova burst trajectories. (Tier 58)",
+    "tags": [
+      "star-god",
+      "astronomy",
+      "cosmic",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/56942/original.jpg"
+  },
+  {
+    "id": "manhua-059",
+    "name": "Liu Ruyan 59",
+    "origin": "manhua",
+    "series": "Myriad World Immortals Chapter 10",
+    "description": "Fairy of the Drunken Phoenix pavilion crafting spirit wines with ruby peaches. (Tier 59)",
+    "tags": [
+      "spirit-wine",
+      "fairy",
+      "pavilion",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/52504/original.jpg"
+  },
+  {
+    "id": "manhua-060",
+    "name": "Su Mengxue 60",
+    "origin": "manhua",
+    "series": "Chaos Divine Body Chapter 1",
+    "description": "Incarnation of primal solar flames awakening primordial divine bone marks. (Tier 60)",
+    "tags": [
+      "divine-body",
+      "solar-flame",
+      "primordial",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/22615/original.jpg"
+  },
+  {
+    "id": "manhua-061",
+    "name": "Mu Lingshuang 61",
+    "origin": "manhua",
+    "series": "Nine Heavens Sword Sovereign Chapter 2",
+    "description": "Sword fairy cultivating the Vermillion Bird Flame Sword intent. (Tier 61)",
+    "tags": [
+      "cultivation",
+      "sword-fairy",
+      "vermillion-bird",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/67906/original.jpg"
+  },
+  {
+    "id": "manhua-062",
+    "name": "Xiao Wan'er 62",
+    "origin": "manhua",
+    "series": "Peerless Alchemist of the East Chapter 3",
+    "description": "Medicinal pill prodigy refining Nine-Turn Crimson Dragon Cauldrons. (Tier 62)",
+    "tags": [
+      "alchemist",
+      "pill-refining",
+      "cauldron",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/25793/original.jpg"
+  },
+  {
+    "id": "manhua-063",
+    "name": "Chu Hongyi 63",
+    "origin": "manhua",
+    "series": "Immortal Martial Emperor Chapter 4",
+    "description": "Crimson lotus saintess walking upon burning petal paths across the void. (Tier 63)",
+    "tags": [
+      "cultivation",
+      "saintess",
+      "lotus",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/6892/original.jpg"
+  },
+  {
+    "id": "manhua-064",
+    "name": "Feng Lingtian 64",
+    "origin": "manhua",
+    "series": "Great Desolate Beast Tamer Chapter 5",
+    "description": "Beast mistress commanding ancient three-legged Golden Crow familiars. (Tier 64)",
+    "tags": [
+      "beast-tamer",
+      "golden-crow",
+      "ancient",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/56961/original.jpg"
+  },
+  {
+    "id": "manhua-065",
+    "name": "Zhu Ronghua 65",
+    "origin": "manhua",
+    "series": "Sovereign of the Heavenly Fire Chapter 6",
+    "description": "Divine flame princess commanding ancestral magma seas beneath southern continents. (Tier 65)",
+    "tags": [
+      "fire-princess",
+      "magma",
+      "sovereign",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/49819/original.jpg"
+  },
+  {
+    "id": "manhua-066",
+    "name": "Tang Xin'er 66",
+    "origin": "manhua",
+    "series": "Tang Clan's Thousand Mechanisms Chapter 7",
+    "description": "Poison and hidden weapon genius wielding flying crimson phoenix needles. (Tier 66)",
+    "tags": [
+      "tang-clan",
+      "hidden-weapons",
+      "poison",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/45809/original.jpg"
+  },
+  {
+    "id": "manhua-067",
+    "name": "Ye Zhirou 67",
+    "origin": "manhua",
+    "series": "Supreme Heavenly Demon Chapter 8",
+    "description": "Right emissary of the Blood Sea Pavilion holding the Vermillion Banner. (Tier 67)",
+    "tags": [
+      "demonic-sect",
+      "blood-sea",
+      "banner",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/87509/original.jpg"
+  },
+  {
+    "id": "manhua-068",
+    "name": "Bai Feifei 68",
+    "origin": "manhua",
+    "series": "Star God Emperor Chapter 9",
+    "description": "Star chart navigator predicting cosmic supernova burst trajectories. (Tier 68)",
+    "tags": [
+      "star-god",
+      "astronomy",
+      "cosmic",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/56942/original.jpg"
+  },
+  {
+    "id": "manhua-069",
+    "name": "Liu Ruyan 69",
+    "origin": "manhua",
+    "series": "Myriad World Immortals Chapter 10",
+    "description": "Fairy of the Drunken Phoenix pavilion crafting spirit wines with ruby peaches. (Tier 69)",
+    "tags": [
+      "spirit-wine",
+      "fairy",
+      "pavilion",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/52504/original.jpg"
+  },
+  {
+    "id": "manhua-070",
+    "name": "Su Mengxue 70",
+    "origin": "manhua",
+    "series": "Chaos Divine Body Chapter 1",
+    "description": "Incarnation of primal solar flames awakening primordial divine bone marks. (Tier 70)",
+    "tags": [
+      "divine-body",
+      "solar-flame",
+      "primordial",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/22615/original.jpg"
+  },
+  {
+    "id": "manhua-071",
+    "name": "Mu Lingshuang 71",
+    "origin": "manhua",
+    "series": "Nine Heavens Sword Sovereign Chapter 2",
+    "description": "Sword fairy cultivating the Vermillion Bird Flame Sword intent. (Tier 71)",
+    "tags": [
+      "cultivation",
+      "sword-fairy",
+      "vermillion-bird",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/67906/original.jpg"
+  },
+  {
+    "id": "manhua-072",
+    "name": "Xiao Wan'er 72",
+    "origin": "manhua",
+    "series": "Peerless Alchemist of the East Chapter 3",
+    "description": "Medicinal pill prodigy refining Nine-Turn Crimson Dragon Cauldrons. (Tier 72)",
+    "tags": [
+      "alchemist",
+      "pill-refining",
+      "cauldron",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/25793/original.jpg"
+  },
+  {
+    "id": "manhua-073",
+    "name": "Chu Hongyi 73",
+    "origin": "manhua",
+    "series": "Immortal Martial Emperor Chapter 4",
+    "description": "Crimson lotus saintess walking upon burning petal paths across the void. (Tier 73)",
+    "tags": [
+      "cultivation",
+      "saintess",
+      "lotus",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/6892/original.jpg"
+  },
+  {
+    "id": "manhua-074",
+    "name": "Feng Lingtian 74",
+    "origin": "manhua",
+    "series": "Great Desolate Beast Tamer Chapter 5",
+    "description": "Beast mistress commanding ancient three-legged Golden Crow familiars. (Tier 74)",
+    "tags": [
+      "beast-tamer",
+      "golden-crow",
+      "ancient",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/56961/original.jpg"
+  },
+  {
+    "id": "manhua-075",
+    "name": "Zhu Ronghua 75",
+    "origin": "manhua",
+    "series": "Sovereign of the Heavenly Fire Chapter 6",
+    "description": "Divine flame princess commanding ancestral magma seas beneath southern continents. (Tier 75)",
+    "tags": [
+      "fire-princess",
+      "magma",
+      "sovereign",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/49819/original.jpg"
+  },
+  {
+    "id": "manhua-076",
+    "name": "Tang Xin'er 76",
+    "origin": "manhua",
+    "series": "Tang Clan's Thousand Mechanisms Chapter 7",
+    "description": "Poison and hidden weapon genius wielding flying crimson phoenix needles. (Tier 76)",
+    "tags": [
+      "tang-clan",
+      "hidden-weapons",
+      "poison",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/45809/original.jpg"
+  },
+  {
+    "id": "manhua-077",
+    "name": "Ye Zhirou 77",
+    "origin": "manhua",
+    "series": "Supreme Heavenly Demon Chapter 8",
+    "description": "Right emissary of the Blood Sea Pavilion holding the Vermillion Banner. (Tier 77)",
+    "tags": [
+      "demonic-sect",
+      "blood-sea",
+      "banner",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/87509/original.jpg"
+  },
+  {
+    "id": "manhua-078",
+    "name": "Bai Feifei 78",
+    "origin": "manhua",
+    "series": "Star God Emperor Chapter 9",
+    "description": "Star chart navigator predicting cosmic supernova burst trajectories. (Tier 78)",
+    "tags": [
+      "star-god",
+      "astronomy",
+      "cosmic",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/56942/original.jpg"
+  },
+  {
+    "id": "manhua-079",
+    "name": "Liu Ruyan 79",
+    "origin": "manhua",
+    "series": "Myriad World Immortals Chapter 10",
+    "description": "Fairy of the Drunken Phoenix pavilion crafting spirit wines with ruby peaches. (Tier 79)",
+    "tags": [
+      "spirit-wine",
+      "fairy",
+      "pavilion",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/52504/original.jpg"
+  },
+  {
+    "id": "manhua-080",
+    "name": "Su Mengxue 80",
+    "origin": "manhua",
+    "series": "Chaos Divine Body Chapter 1",
+    "description": "Incarnation of primal solar flames awakening primordial divine bone marks. (Tier 80)",
+    "tags": [
+      "divine-body",
+      "solar-flame",
+      "primordial",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/22615/original.jpg"
+  },
+  {
+    "id": "manhua-081",
+    "name": "Mu Lingshuang 81",
+    "origin": "manhua",
+    "series": "Nine Heavens Sword Sovereign Chapter 2",
+    "description": "Sword fairy cultivating the Vermillion Bird Flame Sword intent. (Tier 81)",
+    "tags": [
+      "cultivation",
+      "sword-fairy",
+      "vermillion-bird",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/67906/original.jpg"
+  },
+  {
+    "id": "manhua-082",
+    "name": "Xiao Wan'er 82",
+    "origin": "manhua",
+    "series": "Peerless Alchemist of the East Chapter 3",
+    "description": "Medicinal pill prodigy refining Nine-Turn Crimson Dragon Cauldrons. (Tier 82)",
+    "tags": [
+      "alchemist",
+      "pill-refining",
+      "cauldron",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/25793/original.jpg"
+  },
+  {
+    "id": "manhua-083",
+    "name": "Chu Hongyi 83",
+    "origin": "manhua",
+    "series": "Immortal Martial Emperor Chapter 4",
+    "description": "Crimson lotus saintess walking upon burning petal paths across the void. (Tier 83)",
+    "tags": [
+      "cultivation",
+      "saintess",
+      "lotus",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/6892/original.jpg"
+  },
+  {
+    "id": "manhua-084",
+    "name": "Feng Lingtian 84",
+    "origin": "manhua",
+    "series": "Great Desolate Beast Tamer Chapter 5",
+    "description": "Beast mistress commanding ancient three-legged Golden Crow familiars. (Tier 84)",
+    "tags": [
+      "beast-tamer",
+      "golden-crow",
+      "ancient",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/56961/original.jpg"
+  },
+  {
+    "id": "manhua-085",
+    "name": "Zhu Ronghua 85",
+    "origin": "manhua",
+    "series": "Sovereign of the Heavenly Fire Chapter 6",
+    "description": "Divine flame princess commanding ancestral magma seas beneath southern continents. (Tier 85)",
+    "tags": [
+      "fire-princess",
+      "magma",
+      "sovereign",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/49819/original.jpg"
+  },
+  {
+    "id": "manhua-086",
+    "name": "Tang Xin'er 86",
+    "origin": "manhua",
+    "series": "Tang Clan's Thousand Mechanisms Chapter 7",
+    "description": "Poison and hidden weapon genius wielding flying crimson phoenix needles. (Tier 86)",
+    "tags": [
+      "tang-clan",
+      "hidden-weapons",
+      "poison",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/45809/original.jpg"
+  },
+  {
+    "id": "manhua-087",
+    "name": "Ye Zhirou 87",
+    "origin": "manhua",
+    "series": "Supreme Heavenly Demon Chapter 8",
+    "description": "Right emissary of the Blood Sea Pavilion holding the Vermillion Banner. (Tier 87)",
+    "tags": [
+      "demonic-sect",
+      "blood-sea",
+      "banner",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/87509/original.jpg"
+  },
+  {
+    "id": "manhua-088",
+    "name": "Bai Feifei 88",
+    "origin": "manhua",
+    "series": "Star God Emperor Chapter 9",
+    "description": "Star chart navigator predicting cosmic supernova burst trajectories. (Tier 88)",
+    "tags": [
+      "star-god",
+      "astronomy",
+      "cosmic",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/56942/original.jpg"
+  },
+  {
+    "id": "manhua-089",
+    "name": "Liu Ruyan 89",
+    "origin": "manhua",
+    "series": "Myriad World Immortals Chapter 10",
+    "description": "Fairy of the Drunken Phoenix pavilion crafting spirit wines with ruby peaches. (Tier 89)",
+    "tags": [
+      "spirit-wine",
+      "fairy",
+      "pavilion",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/52504/original.jpg"
+  },
+  {
+    "id": "manhua-090",
+    "name": "Su Mengxue 90",
+    "origin": "manhua",
+    "series": "Chaos Divine Body Chapter 1",
+    "description": "Incarnation of primal solar flames awakening primordial divine bone marks. (Tier 90)",
+    "tags": [
+      "divine-body",
+      "solar-flame",
+      "primordial",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/22615/original.jpg"
+  },
+  {
+    "id": "manhua-091",
+    "name": "Mu Lingshuang 91",
+    "origin": "manhua",
+    "series": "Nine Heavens Sword Sovereign Chapter 2",
+    "description": "Sword fairy cultivating the Vermillion Bird Flame Sword intent. (Tier 91)",
+    "tags": [
+      "cultivation",
+      "sword-fairy",
+      "vermillion-bird",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/67906/original.jpg"
+  },
+  {
+    "id": "manhua-092",
+    "name": "Xiao Wan'er 92",
+    "origin": "manhua",
+    "series": "Peerless Alchemist of the East Chapter 3",
+    "description": "Medicinal pill prodigy refining Nine-Turn Crimson Dragon Cauldrons. (Tier 92)",
+    "tags": [
+      "alchemist",
+      "pill-refining",
+      "cauldron",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/25793/original.jpg"
+  },
+  {
+    "id": "manhua-093",
+    "name": "Chu Hongyi 93",
+    "origin": "manhua",
+    "series": "Immortal Martial Emperor Chapter 4",
+    "description": "Crimson lotus saintess walking upon burning petal paths across the void. (Tier 93)",
+    "tags": [
+      "cultivation",
+      "saintess",
+      "lotus",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/6892/original.jpg"
+  },
+  {
+    "id": "manhua-094",
+    "name": "Feng Lingtian 94",
+    "origin": "manhua",
+    "series": "Great Desolate Beast Tamer Chapter 5",
+    "description": "Beast mistress commanding ancient three-legged Golden Crow familiars. (Tier 94)",
+    "tags": [
+      "beast-tamer",
+      "golden-crow",
+      "ancient",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/56961/original.jpg"
+  },
+  {
+    "id": "manhua-095",
+    "name": "Zhu Ronghua 95",
+    "origin": "manhua",
+    "series": "Sovereign of the Heavenly Fire Chapter 6",
+    "description": "Divine flame princess commanding ancestral magma seas beneath southern continents. (Tier 95)",
+    "tags": [
+      "fire-princess",
+      "magma",
+      "sovereign",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/49819/original.jpg"
+  },
+  {
+    "id": "manhua-096",
+    "name": "Tang Xin'er 96",
+    "origin": "manhua",
+    "series": "Tang Clan's Thousand Mechanisms Chapter 7",
+    "description": "Poison and hidden weapon genius wielding flying crimson phoenix needles. (Tier 96)",
+    "tags": [
+      "tang-clan",
+      "hidden-weapons",
+      "poison",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/45809/original.jpg"
+  },
+  {
+    "id": "manhua-097",
+    "name": "Ye Zhirou 97",
+    "origin": "manhua",
+    "series": "Supreme Heavenly Demon Chapter 8",
+    "description": "Right emissary of the Blood Sea Pavilion holding the Vermillion Banner. (Tier 97)",
+    "tags": [
+      "demonic-sect",
+      "blood-sea",
+      "banner",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/87509/original.jpg"
+  },
+  {
+    "id": "manhua-098",
+    "name": "Bai Feifei 98",
+    "origin": "manhua",
+    "series": "Star God Emperor Chapter 9",
+    "description": "Star chart navigator predicting cosmic supernova burst trajectories. (Tier 98)",
+    "tags": [
+      "star-god",
+      "astronomy",
+      "cosmic",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/56942/original.jpg"
+  },
+  {
+    "id": "manhua-099",
+    "name": "Liu Ruyan 99",
+    "origin": "manhua",
+    "series": "Myriad World Immortals Chapter 10",
+    "description": "Fairy of the Drunken Phoenix pavilion crafting spirit wines with ruby peaches. (Tier 99)",
+    "tags": [
+      "spirit-wine",
+      "fairy",
+      "pavilion",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/52504/original.jpg"
+  },
+  {
+    "id": "manhua-100",
+    "name": "Su Mengxue 100",
+    "origin": "manhua",
+    "series": "Chaos Divine Body Chapter 1",
+    "description": "Incarnation of primal solar flames awakening primordial divine bone marks. (Tier 100)",
+    "tags": [
+      "divine-body",
+      "solar-flame",
+      "primordial",
+      "manhua",
+      "red-hair"
+    ],
+    "image": "https://media.kitsu.app/characters/images/22615/original.jpg"
+  }
+]
