@@ -31,29 +31,36 @@ export default {
       boxShadow: {
         'scarlet-glow': '0 0 25px -5px rgba(225, 29, 72, 0.25)',
         'scarlet-glow-lg': '0 0 45px -5px rgba(225, 29, 72, 0.4)',
-        'card-hover': '0 12px 30px -10px rgba(0, 0, 0, 0.8), 0 0 20px -3px rgba(225, 29, 72, 0.18)',
+        'card-hover': '0 12px 30px -10px rgba(0, 0, 0, 0.8)',
+      },
+      transitionTimingFunction: {
+        // The app's one strong ease-out curve, shared by entrances and press feedback.
+        'out-strong': 'cubic-bezier(0.16, 1, 0.3, 1)',
       },
       animation: {
-        'fade-in': 'fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards',
-        'pulse-subtle': 'pulseSubtle 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-        'shimmer': 'shimmer 2s linear infinite',
+        'content-fade': 'contentFade 180ms cubic-bezier(0.16, 1, 0.3, 1)',
+        'heart-pop': 'heartPop 380ms cubic-bezier(0.16, 1, 0.3, 1)',
       },
       keyframes: {
-        fadeIn: {
-          '0%': { opacity: '0', transform: 'translateY(8px)' },
-          '100%': { opacity: '1', transform: 'translateY(0)' },
+        contentFade: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
         },
-        pulseSubtle: {
-          '0%, 100%': { opacity: '1' },
-          '50%': { opacity: '0.4' },
-        },
-        shimmer: {
-          'from': { backgroundPosition: '200% 0' },
-          'to': { backgroundPosition: '-200% 0' },
+        heartPop: {
+          '0%': { transform: 'scale(1)' },
+          '30%': { transform: 'scale(1.35)' },
+          '60%': { transform: 'scale(0.95)' },
+          '100%': { transform: 'scale(1)' },
         },
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addVariant }) {
+      // Gate hover effects to real hover-capable pointers so a tap on touch
+      // devices can't leave a hover state "stuck" until the next tap.
+      addVariant('hover-hover', '@media (hover: hover) and (pointer: fine)');
+    },
+  ],
 };
 

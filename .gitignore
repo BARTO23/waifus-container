@@ -26,3 +26,8 @@ dist-ssr
 .atl/
 .agents/
 .opencode/
+.claude/
+.codex/
+.impeccable/
+.vercel
+skills-lock.json

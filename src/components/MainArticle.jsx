@@ -1,31 +1,42 @@
 import PropTypes from 'prop-types';
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
+import { MagnifyingGlass, X, Warning, Fire } from '@phosphor-icons/react';
 import { fetchWaifus } from '../services/waifuApi';
 import { WaifuCard } from './WaifuCard';
-
-const FILTERS = [
-  { id: 'all', label: 'All', count: 32 },
-  { id: 'manga', label: 'Manga', count: 26 },
-  { id: 'manhwa', label: 'Manhwa', count: 6 },
-  { id: 'manhua', label: 'Manhua', count: 0 },
-];
 
 export const MainArticle = ({
   activeFilter = 'all',
   onFilterChange = () => {},
+  counts = { all: 0, manga: 0, manhwa: 0, manhua: 0 },
 }) => {
   const [waifus, setWaifus] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
   const [hasMore, setHasMore] = useState(true);
   const [loadingMore, setLoadingMore] = useState(false);
   const [page, setPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedWaifu, setSelectedWaifu] = useState(null);
+  const [modalVisible, setModalVisible] = useState(false);
   const loaderRef = useRef(null);
+  // Tracks whether the grid has ever rendered real content, so the small
+  // first-load stagger never replays on a later filter/search swap.
+  const hasLoadedOnceRef = useRef(false);
   const PAGE_LIMIT = 24;
+
+  const FILTERS = useMemo(
+    () => [
+      { id: 'all', label: 'All', count: counts.all },
+      { id: 'manga', label: 'Manga', count: counts.manga },
+      { id: 'manhwa', label: 'Manhwa', count: counts.manhwa },
+      { id: 'manhua', label: 'Manhua', count: counts.manhua },
+    ],
+    [counts]
+  );
 
   const loadInitial = useCallback(async (filter, search) => {
     setLoading(true);
+    setError(null);
     setPage(1);
     try {
       const res = await fetchWaifus({
@@ -36,10 +47,11 @@ export const MainArticle = ({
       });
       setWaifus(res.items || []);
       setHasMore(!!res.hasNextPage);
-    } catch (error) {
-      console.error('Error loading waifus:', error);
+    } catch (err) {
+      console.error('Error loading waifus:', err);
       setWaifus([]);
       setHasMore(false);
+      setError("Couldn't load characters right now.");
     } finally {
       setLoading(false);
     }
@@ -94,14 +106,43 @@ export const MainArticle = ({
     return () => observer.disconnect();
   }, [hasMore, loadingMore, loading, loadMore]);
 
+  // Materialize the modal a frame after mount so the enter transition actually runs,
+  // and mirror the same transition on the way out before unmounting (Apple HIG:
+  // enter/exit should follow the same path, never just teleport away).
+  useEffect(() => {
+    if (!selectedWaifu) return;
+    const raf = requestAnimationFrame(() => setModalVisible(true));
+    return () => cancelAnimationFrame(raf);
+  }, [selectedWaifu]);
+
+  const closeModal = useCallback(() => {
+    setModalVisible(false);
+    setTimeout(() => setSelectedWaifu(null), 320); // matches the 300ms exit transition, plus a small buffer
+  }, []);
+
   // Handle escape key to close modal
   useEffect(() => {
     const handleKeyDown = (e) => {
-      if (e.key === 'Escape') setSelectedWaifu(null);
+      if (e.key === 'Escape') closeModal();
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, []);
+  }, [closeModal]);
+
+  useEffect(() => {
+    if (!loading && !error && waifus.length > 0) {
+      hasLoadedOnceRef.current = true;
+    }
+  }, [loading, error, waifus]);
+
+  const isFirstLoad = !hasLoadedOnceRef.current;
+  const contentKey = loading
+    ? 'loading'
+    : error
+    ? 'error'
+    : waifus.length === 0
+    ? (activeFilter === 'manhua' ? 'manhua-empty' : 'search-empty')
+    : 'grid';
 
   return (
     <main className="relative flex-1 w-full min-h-screen px-4 sm:px-8 py-8 flex flex-col max-w-[1600px] mx-auto">
@@ -110,16 +151,11 @@ export const MainArticle = ({
 
       {/* Header Section */}
       <header className="flex flex-col items-start mb-8 pt-2">
-        <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-scarlet-950/40 border border-scarlet-900/50 text-[11px] font-mono text-scarlet-400 mb-3 shadow-sm">
-          <span className="w-1.5 h-1.5 rounded-full bg-scarlet-500 animate-pulse" />
-          <span>DATABASE // 32 REDHEAD ENTRIES</span>
-        </div>
-
-        <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white font-heading">
+        <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight text-white font-heading">
           Redhead <span className="text-scarlet-500">Archive</span>
         </h1>
-        <p className="text-xs sm:text-sm text-zinc-400 mt-2 max-w-xl leading-relaxed">
-          High-density directory of red-haired characters curated across Japanese manga, Korean manhwa, and Chinese manhua.
+        <p className="text-xs sm:text-sm text-zinc-300 mt-2 max-w-xl leading-relaxed">
+          A hand-picked collection of {counts.all} red-haired characters from Japanese manga, Korean manhwa, and Chinese manhua.
         </p>
       </header>
 
@@ -129,27 +165,37 @@ export const MainArticle = ({
         <div className="flex items-center gap-1 overflow-x-auto no-scrollbar p-0.5 bg-dark-950/70 rounded-xl border border-zinc-800/60">
           {FILTERS.map((filter) => {
             const isActive = activeFilter === filter.id;
+            const isEmpty = filter.id !== 'all' && filter.count === 0;
             return (
               <button
                 key={filter.id}
                 type="button"
                 onClick={() => onFilterChange(filter.id)}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-all duration-200 shrink-0 ${
+                aria-pressed={isActive}
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition duration-200 active:duration-100 active:scale-95 active:ease-out-strong motion-reduce:transition-none shrink-0 ${
                   isActive
                     ? 'bg-zinc-800 text-white shadow-sm border border-zinc-700/60'
-                    : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-900/50'
+                    : isEmpty
+                    ? 'text-zinc-500 hover-hover:hover:text-zinc-300 hover-hover:hover:bg-zinc-900/40'
+                    : 'text-zinc-400 hover-hover:hover:text-zinc-200 hover-hover:hover:bg-zinc-900/50'
                 }`}
               >
                 <span>{filter.label}</span>
-                <span
-                  className={`text-[10px] font-mono px-1.5 py-0.2 rounded ${
-                    isActive
-                      ? 'bg-scarlet-950 text-scarlet-400 border border-scarlet-900/40'
-                      : 'text-zinc-500'
-                  }`}
-                >
-                  {filter.count}
-                </span>
+                {isEmpty ? (
+                  <span className="text-[10px] font-mono px-1.5 py-0.2 rounded text-zinc-500">
+                    Soon
+                  </span>
+                ) : (
+                  <span
+                    className={`text-[10px] font-mono px-1.5 py-0.2 rounded ${
+                      isActive
+                        ? 'bg-scarlet-950 text-scarlet-400 border border-scarlet-900/40'
+                        : 'text-zinc-400'
+                    }`}
+                  >
+                    {filter.count}
+                  </span>
+                )}
               </button>
             );
           })}
@@ -158,33 +204,31 @@ export const MainArticle = ({
         {/* Search Input */}
         <div className="relative flex-1 md:max-w-xs">
           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-zinc-500">
-            <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <circle cx="11" cy="11" r="8" />
-              <path d="m21 21-4.3-4.3" />
-            </svg>
+            <MagnifyingGlass className="w-4 h-4" weight="regular" aria-hidden="true" />
           </div>
           <input
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="Search by name or series..."
-            className="w-full pl-9 pr-8 py-1.5 bg-dark-950/70 border border-zinc-800/70 rounded-xl text-xs text-white placeholder-zinc-500 focus:outline-none focus:border-scarlet-500/60 focus:ring-1 focus:ring-scarlet-500/40 transition-all font-mono"
+            placeholder="Search by name or series…"
+            className="w-full pl-9 pr-8 py-1.5 bg-dark-950/70 border border-zinc-800/70 rounded-xl text-xs text-white placeholder-zinc-500 focus:outline-none focus:border-scarlet-500/60 focus:ring-1 focus:ring-scarlet-500/40 transition font-mono"
           />
           {searchQuery && (
             <button
               type="button"
               onClick={() => setSearchQuery('')}
-              className="absolute inset-y-0 right-0 pr-2.5 flex items-center text-zinc-500 hover:text-zinc-300"
+              aria-label="Clear search"
+              className="absolute inset-y-0 right-0 pr-2.5 flex items-center text-zinc-500 hover-hover:hover:text-zinc-300 transition active:scale-95 active:ease-out-strong motion-reduce:transition-none"
             >
-              <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M18 6 6 18M6 6l12 12" />
-              </svg>
+              <X className="w-3.5 h-3.5" weight="bold" aria-hidden="true" />
             </button>
           )}
         </div>
       </div>
 
-      {/* Grid Content */}
+      {/* Grid Content — keyed on the current state so it fades in fresh on every swap
+          (loading/error/empty/grid), instead of teleporting between them. */}
+      <div key={contentKey} className="animate-content-fade motion-reduce:animate-none">
       {loading ? (
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 w-full">
           {Array.from({ length: 12 }).map((_, i) => (
@@ -200,73 +244,121 @@ export const MainArticle = ({
             </div>
           ))}
         </div>
+      ) : error ? (
+        <div className="flex flex-col items-center justify-center py-24 text-center">
+          <div className="w-14 h-14 rounded-2xl bg-dark-900 border border-zinc-800 flex items-center justify-center text-scarlet-400 mb-4 shadow-inner">
+            <Warning className="w-6 h-6" weight="regular" aria-hidden="true" />
+          </div>
+          <h3 className="text-base font-semibold text-white">{error}</h3>
+          <p className="text-xs text-zinc-400 mt-1 max-w-sm">
+            Something went wrong while fetching the catalog. Check your connection and try again.
+          </p>
+          <button
+            type="button"
+            onClick={() => loadInitial(activeFilter, searchQuery)}
+            className="mt-4 px-4 py-2 rounded-lg bg-zinc-800 hover-hover:hover:bg-zinc-700 text-xs font-medium text-zinc-200 transition active:scale-95 active:ease-out-strong motion-reduce:transition-none border border-zinc-700/60"
+          >
+            Retry
+          </button>
+        </div>
       ) : (
-        <>
-          {waifus.length === 0 ? (
-            <div className="flex flex-col items-center justify-center py-24 text-center">
-              <div className="w-14 h-14 rounded-2xl bg-dark-900 border border-zinc-800 flex items-center justify-center text-zinc-500 mb-4 shadow-inner">
-                <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                  <circle cx="11" cy="11" r="8" />
-                  <path d="m21 21-4.3-4.3" />
-                </svg>
+          waifus.length === 0 ? (
+            activeFilter === 'manhua' ? (
+              <div className="flex flex-col items-center justify-center py-24 text-center">
+                <div className="w-14 h-14 rounded-2xl bg-dark-900 border border-zinc-800 flex items-center justify-center text-zinc-400 mb-4 shadow-inner">
+                  <Fire className="w-6 h-6" weight="regular" aria-hidden="true" />
+                </div>
+                <h3 className="text-base font-semibold text-white">Manhua characters are coming soon</h3>
+                <p className="text-xs text-zinc-400 mt-1 max-w-sm">
+                  We haven&rsquo;t curated any manhua characters yet. Check back soon, or browse manga and manhwa in the meantime.
+                </p>
+                <button
+                  type="button"
+                  onClick={() => onFilterChange('all')}
+                  className="mt-4 px-4 py-2 rounded-lg bg-zinc-800 hover-hover:hover:bg-zinc-700 text-xs font-medium text-zinc-200 transition active:scale-95 active:ease-out-strong motion-reduce:transition-none border border-zinc-700/60"
+                >
+                  Browse all characters
+                </button>
               </div>
-              <h3 className="text-base font-semibold text-white">No waifus found</h3>
-              <p className="text-xs text-zinc-500 mt-1 max-w-sm">
-                No character matching &ldquo;{searchQuery}&rdquo; in this category. Try resetting your query or medium filter.
-              </p>
-              <button
-                type="button"
-                onClick={() => {
-                  setSearchQuery('');
-                  onFilterChange('all');
-                }}
-                className="mt-4 px-4 py-2 rounded-lg bg-zinc-800 hover:bg-zinc-700 text-xs font-medium text-zinc-200 transition-colors border border-zinc-700/60"
-              >
-                Clear all filters
-              </button>
-            </div>
+            ) : (
+              <div className="flex flex-col items-center justify-center py-24 text-center">
+                <div className="w-14 h-14 rounded-2xl bg-dark-900 border border-zinc-800 flex items-center justify-center text-zinc-400 mb-4 shadow-inner">
+                  <MagnifyingGlass className="w-6 h-6" weight="regular" aria-hidden="true" />
+                </div>
+                <h3 className="text-base font-semibold text-white">No waifus found</h3>
+                <p className="text-xs text-zinc-400 mt-1 max-w-sm">
+                  No character matching &ldquo;{searchQuery}&rdquo; in this category. Try resetting your query or medium filter.
+                </p>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setSearchQuery('');
+                    onFilterChange('all');
+                  }}
+                  className="mt-4 px-4 py-2 rounded-lg bg-zinc-800 hover-hover:hover:bg-zinc-700 text-xs font-medium text-zinc-200 transition active:scale-95 active:ease-out-strong motion-reduce:transition-none border border-zinc-700/60"
+                >
+                  Clear all filters
+                </button>
+              </div>
+            )
           ) : (
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 w-full">
               {waifus.map((waifu, index) => (
-                <WaifuCard
+                <div
                   key={`${waifu.id}-${index}`}
-                  name={waifu.name}
-                  image={waifu.image}
-                  description={waifu.description}
-                  origin={waifu.origin}
-                  series={waifu.series}
-                  tags={waifu.tags}
-                  onSelect={() => setSelectedWaifu(waifu)}
-                />
+                  className={isFirstLoad ? 'animate-content-fade motion-reduce:animate-none' : undefined}
+                  style={
+                    isFirstLoad
+                      ? { animationDelay: `${Math.min(index, 10) * 40}ms`, animationFillMode: 'backwards' }
+                      : undefined
+                  }
+                >
+                  <WaifuCard
+                    name={waifu.name}
+                    image={waifu.image}
+                    description={waifu.description}
+                    origin={waifu.origin}
+                    series={waifu.series}
+                    tags={waifu.tags}
+                    onSelect={() => setSelectedWaifu(waifu)}
+                  />
+                </div>
               ))}
             </div>
-          )}
+          )
+      )}
+      </div>
 
-          {/* Infinite Scroll Sentinel */}
-          {hasMore && (
-            <div ref={loaderRef} className="flex justify-center items-center py-12">
-              {loadingMore && (
-                <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-dark-900 border border-zinc-800 text-zinc-400 text-xs font-mono">
-                  <div className="w-3.5 h-3.5 border-2 border-scarlet-500 border-t-transparent rounded-full animate-spin" />
-                  <span>Loading additional records...</span>
-                </div>
-              )}
+      {/* Infinite Scroll Sentinel — kept outside the keyed content block so it
+          isn't remounted (and its IntersectionObserver target lost) on every state swap. */}
+      {!loading && !error && hasMore && (
+        <div ref={loaderRef} className="flex justify-center items-center py-12">
+          {loadingMore && (
+            <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-dark-900 border border-zinc-800 text-zinc-400 text-xs font-mono animate-content-fade motion-reduce:animate-none">
+              <div className="w-3.5 h-3.5 border-2 border-scarlet-500 border-t-transparent rounded-full animate-spin" />
+              <span>Loading more characters…</span>
             </div>
           )}
-        </>
+        </div>
       )}
 
       {/* Linear-style Inspection Modal */}
       {selectedWaifu && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center p-4"
-          onClick={() => setSelectedWaifu(null)}
+          onClick={closeModal}
         >
           {/* Scrim: sibling of the panel, carries the fade, no backdrop-filter */}
-          <div className="absolute inset-0 bg-black/60 animate-fade-in" />
+          <div
+            className={`absolute inset-0 bg-black/60 transition-opacity duration-300 ease-out-strong ${
+              modalVisible ? 'opacity-100' : 'opacity-0'
+            }`}
+          />
 
           <div
-            className="glass-surface glass-surface--grain glass-surface--rim glass-surface--elevated relative z-10 w-full max-w-2xl border border-zinc-800/60 rounded-2xl overflow-hidden flex flex-col md:flex-row max-h-[85vh]"
+            className={`glass-surface glass-surface--grain glass-surface--rim glass-surface--elevated relative z-10 w-full max-w-2xl border border-zinc-800/60 rounded-2xl overflow-hidden flex flex-col md:flex-row max-h-[85vh] transition-[opacity,transform,backdrop-filter] duration-300 ease-out-strong motion-reduce:!scale-100 motion-reduce:!backdrop-blur-[16px] ${
+              modalVisible ? 'opacity-100 scale-100 backdrop-blur-[16px]' : 'opacity-0 scale-95 backdrop-blur-none'
+            }`}
             onClick={(e) => e.stopPropagation()}
           >
             {/* Modal Image */}
@@ -288,10 +380,11 @@ export const MainArticle = ({
                   </span>
                   <button
                     type="button"
-                    onClick={() => setSelectedWaifu(null)}
-                    className="w-7 h-7 rounded-lg bg-zinc-800/80 hover:bg-zinc-700 text-zinc-400 hover:text-white flex items-center justify-center transition-colors"
+                    onClick={closeModal}
+                    aria-label="Close"
+                    className="w-7 h-7 rounded-lg bg-zinc-800/80 hover-hover:hover:bg-zinc-700 text-zinc-400 hover-hover:hover:text-white flex items-center justify-center transition active:scale-95 active:ease-out-strong motion-reduce:transition-none"
                   >
-                    ✕
+                    <X className="w-3.5 h-3.5" weight="bold" aria-hidden="true" />
                   </button>
                 </div>
 
@@ -303,7 +396,7 @@ export const MainArticle = ({
                 </p>
 
                 <div className="border-t border-zinc-800/80 pt-3 mb-4">
-                  <span className="text-[10px] font-mono uppercase text-zinc-500 tracking-wider block mb-1">
+                  <span className="text-[10px] font-mono uppercase text-zinc-400 tracking-wider block mb-1">
                     Synopsis
                   </span>
                   <p className="text-xs text-zinc-300 leading-relaxed">
@@ -313,7 +406,7 @@ export const MainArticle = ({
 
                 {selectedWaifu.tags && selectedWaifu.tags.length > 0 && (
                   <div className="border-t border-zinc-800/80 pt-3">
-                    <span className="text-[10px] font-mono uppercase text-zinc-500 tracking-wider block mb-2">
+                    <span className="text-[10px] font-mono uppercase text-zinc-400 tracking-wider block mb-2">
                       Tags
                     </span>
                     <div className="flex flex-wrap gap-1.5">
@@ -329,11 +422,6 @@ export const MainArticle = ({
                   </div>
                 )}
               </div>
-
-              <div className="mt-6 pt-4 border-t border-zinc-800/80 flex items-center justify-between text-[11px] font-mono text-zinc-500">
-                <span>ID: {selectedWaifu.id}</span>
-                <span className="text-zinc-600">Press ESC to close</span>
-              </div>
             </div>
           </div>
         </div>
@@ -345,4 +433,10 @@ export const MainArticle = ({
 MainArticle.propTypes = {
   activeFilter: PropTypes.string,
   onFilterChange: PropTypes.func,
+  counts: PropTypes.shape({
+    all: PropTypes.number,
+    manga: PropTypes.number,
+    manhwa: PropTypes.number,
+    manhua: PropTypes.number,
+  }),
 };

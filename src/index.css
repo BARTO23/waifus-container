@@ -36,14 +36,6 @@
   background: #e11d48;
 }
 
-/* Linear-style subtle grid overlay */
-.linear-grid {
-  background-size: 32px 32px;
-  background-image:
-    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
-}
-
 @layer components {
   /* Base: tint floor + border color + 16px blur + two-stop specular rim */
   .glass-surface {
@@ -112,4 +104,21 @@
 /* No-backdrop-filter fallback: raise the tint so text stays legible */
 @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
   .glass-surface { background-color: rgb(12 12 14 / 0.94); }
+}
+
+/* Same legibility floor as the no-backdrop-filter fallback above, but for a
+   user preference rather than a missing feature: go solid instead of glassy. */
+@media (prefers-reduced-transparency: reduce) {
+  .glass-surface {
+    background-color: rgb(12 12 14 / 0.96);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+}
+
+@media (prefers-contrast: more) {
+  .glass-surface {
+    background-color: rgb(12 12 14 / 0.96);
+    border-color: rgb(63 63 70 / 1); /* zinc-700, solid */
+  }
 }

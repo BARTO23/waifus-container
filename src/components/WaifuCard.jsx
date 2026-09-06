@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { useState, useEffect } from 'react';
+import { ImageSquare, Heart } from '@phosphor-icons/react';
 
 const originBadges = {
   manga: {
@@ -44,29 +45,28 @@ export const WaifuCard = ({
     dot: 'bg-scarlet-500',
   };
 
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      onSelect?.();
+    }
+  };
+
   return (
     <div
+      role="button"
+      tabIndex={0}
       onClick={onSelect}
-      className="group relative bg-dark-900 rounded-xl border border-zinc-800/80 hover:border-scarlet-500/50 transition-all duration-300 hover:shadow-card-hover flex flex-col overflow-hidden cursor-pointer"
+      onKeyDown={handleKeyDown}
+      aria-label={`View details for ${name}`}
+      className="group relative min-w-0 bg-dark-900 rounded-xl border border-zinc-800/80 hover-hover:hover:border-scarlet-500/50 transition duration-300 active:duration-100 active:scale-[0.97] active:ease-out-strong motion-reduce:active:scale-100 hover-hover:hover:shadow-card-hover flex flex-col overflow-hidden cursor-pointer will-change-transform focus:outline-none focus-visible:ring-2 focus-visible:ring-scarlet-500 focus-visible:ring-offset-2 focus-visible:ring-offset-dark-950"
     >
       {/* Media container with 3:4 aspect ratio */}
-      <div className="relative aspect-[3/4] w-full overflow-hidden bg-dark-950">
+      <div className="relative aspect-[3/4] w-full min-w-0 overflow-hidden bg-dark-950">
         {/* Shimmer skeleton while loading */}
         {!isLoaded && !hasError && (
           <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-r from-zinc-800 via-zinc-700/60 to-zinc-800 animate-pulse">
-            <svg
-              className="w-6 h-6 text-zinc-600"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <rect width="18" height="18" x="3" y="3" rx="2" />
-              <circle cx="9" cy="9" r="2" />
-              <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21" />
-            </svg>
+            <ImageSquare className="w-6 h-6 text-zinc-600" weight="regular" aria-hidden="true" />
           </div>
         )}
 
@@ -77,23 +77,23 @@ export const WaifuCard = ({
             loading="lazy"
             onLoad={() => setIsLoaded(true)}
             onError={() => setHasError(true)}
-            className={`w-full h-full object-cover transition-all duration-500 ease-out group-hover:scale-105 ${
+            className={`w-full h-full object-cover transition-transform duration-500 ease-out hover-hover:group-hover:scale-[1.03] motion-reduce:!scale-100 will-change-transform ${
               isLoaded ? 'opacity-100' : 'opacity-0'
             }`}
           />
         ) : (
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-b from-dark-900 via-dark-950 to-black p-4 text-center">
-            <div className="w-14 h-14 rounded-full bg-scarlet-950/60 border border-scarlet-800/50 flex items-center justify-center text-xl text-scarlet-400 mb-2 font-mono font-bold shadow-scarlet-glow">
+            <div className="w-14 h-14 rounded-full bg-scarlet-950/60 border border-scarlet-800/50 flex items-center justify-center text-xl text-scarlet-400 mb-2 font-mono font-bold">
               {name.charAt(0) || '♥'}
             </div>
-            <span className="text-[10px] font-mono text-zinc-500 uppercase tracking-widest">
+            <span className="text-[10px] font-mono text-zinc-400 uppercase tracking-widest">
               {origin || 'Red Waifu'}
             </span>
           </div>
         )}
 
-        {/* Subtle dark gradient overlay for text readability */}
-        <div className="absolute inset-0 bg-gradient-to-t from-dark-950 via-dark-950/40 to-transparent pointer-events-none opacity-90 group-hover:opacity-95 transition-opacity" />
+        {/* Dark gradient overlay for text readability over character art */}
+        <div className="absolute inset-0 bg-gradient-to-t from-dark-950 via-dark-950/90 to-transparent pointer-events-none opacity-95 hover-hover:group-hover:opacity-100 transition-opacity" />
 
         {/* Top Badges */}
         <div className="absolute top-2.5 left-2.5 right-2.5 flex items-center justify-between pointer-events-none z-10">
@@ -110,30 +110,24 @@ export const WaifuCard = ({
               e.stopPropagation();
               setIsLiked((prev) => !prev);
             }}
-            className={`glass-surface glass-surface--blur-md pointer-events-auto w-7 h-7 rounded-lg flex items-center justify-center border transition-all duration-200 ${
+            className={`glass-surface glass-surface--blur-md pointer-events-auto w-7 h-7 rounded-lg flex items-center justify-center border transition duration-200 active:duration-100 active:scale-95 active:ease-out-strong motion-reduce:active:scale-100 ${
               isLiked
                 ? 'bg-scarlet-600/90 border-scarlet-500 text-white shadow-scarlet-glow'
-                : 'bg-dark-950/60 border-zinc-800/80 text-zinc-400 hover:text-white hover:border-zinc-700'
+                : 'bg-dark-950/60 border-zinc-800/80 text-zinc-400 hover-hover:hover:text-white hover-hover:hover:border-zinc-700'
             }`}
             aria-label="Save character"
           >
-            <svg
-              className="w-3.5 h-3.5"
-              viewBox="0 0 24 24"
-              fill={isLiked ? 'currentColor' : 'none'}
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
-            </svg>
+            <Heart
+              className={`w-3.5 h-3.5 motion-reduce:!animate-none ${isLiked ? 'animate-heart-pop' : ''}`}
+              weight={isLiked ? 'fill' : 'regular'}
+              aria-hidden="true"
+            />
           </button>
         </div>
 
         {/* Bottom Metadata in Image Area */}
         <div className="absolute bottom-0 left-0 right-0 p-3.5 pointer-events-none z-10">
-          <h3 className="text-sm font-semibold text-white tracking-tight leading-snug group-hover:text-scarlet-300 transition-colors truncate">
+          <h3 className="text-sm font-semibold text-white tracking-tight leading-snug hover-hover:group-hover:text-scarlet-300 transition-colors truncate">
             {name}
           </h3>
 
@@ -145,7 +139,7 @@ export const WaifuCard = ({
           )}
 
           {description && (
-            <p className="text-[11px] text-zinc-400 line-clamp-2 mt-1.5 leading-relaxed opacity-80 group-hover:opacity-100 transition-opacity">
+            <p className="text-[11px] text-zinc-400 line-clamp-2 mt-1.5 leading-relaxed opacity-80 hover-hover:group-hover:opacity-100 transition-opacity">
               {description}
             </p>
           )}
