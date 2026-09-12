@@ -8,6 +8,7 @@ export const MainArticle = ({
   activeFilter = 'all',
   onFilterChange = () => {},
   counts = { all: 0, manga: 0, manhwa: 0, manhua: 0 },
+  onSelectWaifu = () => {},
 }) => {
   const [waifus, setWaifus] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -16,8 +17,6 @@ export const MainArticle = ({
   const [loadingMore, setLoadingMore] = useState(false);
   const [page, setPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedWaifu, setSelectedWaifu] = useState(null);
-  const [modalVisible, setModalVisible] = useState(false);
   const loaderRef = useRef(null);
   // Tracks whether the grid has ever rendered real content, so the small
   // first-load stagger never replays on a later filter/search swap.
@@ -106,29 +105,6 @@ export const MainArticle = ({
     return () => observer.disconnect();
   }, [hasMore, loadingMore, loading, loadMore]);
 
-  // Materialize the modal a frame after mount so the enter transition actually runs,
-  // and mirror the same transition on the way out before unmounting (Apple HIG:
-  // enter/exit should follow the same path, never just teleport away).
-  useEffect(() => {
-    if (!selectedWaifu) return;
-    const raf = requestAnimationFrame(() => setModalVisible(true));
-    return () => cancelAnimationFrame(raf);
-  }, [selectedWaifu]);
-
-  const closeModal = useCallback(() => {
-    setModalVisible(false);
-    setTimeout(() => setSelectedWaifu(null), 320); // matches the 300ms exit transition, plus a small buffer
-  }, []);
-
-  // Handle escape key to close modal
-  useEffect(() => {
-    const handleKeyDown = (e) => {
-      if (e.key === 'Escape') closeModal();
-    };
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [closeModal]);
-
   useEffect(() => {
     if (!loading && !error && waifus.length > 0) {
       hasLoadedOnceRef.current = true;
@@ -145,7 +121,7 @@ export const MainArticle = ({
     : 'grid';
 
   return (
-    <main className="relative flex-1 w-full min-h-screen px-4 sm:px-8 py-8 flex flex-col max-w-[1600px] mx-auto">
+    <main id="archive" className="relative w-full px-4 sm:px-8 py-16 flex flex-col max-w-[1600px] mx-auto">
       {/* Top subtle scarlet radial gradient aura */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[300px] bg-scarlet-600/10 blur-[130px] pointer-events-none rounded-full -z-10" />
 
@@ -320,7 +296,7 @@ export const MainArticle = ({
                     origin={waifu.origin}
                     series={waifu.series}
                     tags={waifu.tags}
-                    onSelect={() => setSelectedWaifu(waifu)}
+                    onSelect={() => onSelectWaifu(waifu)}
                   />
                 </div>
               ))}
@@ -341,91 +317,6 @@ export const MainArticle = ({
           )}
         </div>
       )}
-
-      {/* Linear-style Inspection Modal */}
-      {selectedWaifu && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4"
-          onClick={closeModal}
-        >
-          {/* Scrim: sibling of the panel, carries the fade, no backdrop-filter */}
-          <div
-            className={`absolute inset-0 bg-black/60 transition-opacity duration-300 ease-out-strong ${
-              modalVisible ? 'opacity-100' : 'opacity-0'
-            }`}
-          />
-
-          <div
-            className={`glass-surface glass-surface--grain glass-surface--rim glass-surface--elevated relative z-10 w-full max-w-2xl border border-zinc-800/60 rounded-2xl overflow-hidden flex flex-col md:flex-row max-h-[85vh] transition-[opacity,transform,backdrop-filter] duration-300 ease-out-strong motion-reduce:!scale-100 motion-reduce:!backdrop-blur-[16px] ${
-              modalVisible ? 'opacity-100 scale-100 backdrop-blur-[16px]' : 'opacity-0 scale-95 backdrop-blur-none'
-            }`}
-            onClick={(e) => e.stopPropagation()}
-          >
-            {/* Modal Image */}
-            <div className="relative md:w-1/2 aspect-[3/4] md:aspect-auto bg-dark-950">
-              <img
-                src={selectedWaifu.image}
-                alt={selectedWaifu.name}
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-transparent to-dark-900/60 pointer-events-none" />
-            </div>
-
-            {/* Modal Info */}
-            <div className="p-6 md:w-1/2 flex flex-col justify-between overflow-y-auto">
-              <div>
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-[10px] font-mono uppercase tracking-widest px-2.5 py-1 rounded bg-scarlet-950/60 text-scarlet-400 border border-scarlet-800/50 font-bold">
-                    {selectedWaifu.origin}
-                  </span>
-                  <button
-                    type="button"
-                    onClick={closeModal}
-                    aria-label="Close"
-                    className="w-7 h-7 rounded-lg bg-zinc-800/80 hover-hover:hover:bg-zinc-700 text-zinc-400 hover-hover:hover:text-white flex items-center justify-center transition active:scale-95 active:ease-out-strong motion-reduce:transition-none"
-                  >
-                    <X className="w-3.5 h-3.5" weight="bold" aria-hidden="true" />
-                  </button>
-                </div>
-
-                <h2 className="text-xl font-bold text-white tracking-tight font-heading">
-                  {selectedWaifu.name}
-                </h2>
-                <p className="text-xs font-mono text-scarlet-400 mt-1 mb-4">
-                  {selectedWaifu.series}
-                </p>
-
-                <div className="border-t border-zinc-800/80 pt-3 mb-4">
-                  <span className="text-[10px] font-mono uppercase text-zinc-400 tracking-wider block mb-1">
-                    Synopsis
-                  </span>
-                  <p className="text-xs text-zinc-300 leading-relaxed">
-                    {selectedWaifu.description}
-                  </p>
-                </div>
-
-                {selectedWaifu.tags && selectedWaifu.tags.length > 0 && (
-                  <div className="border-t border-zinc-800/80 pt-3">
-                    <span className="text-[10px] font-mono uppercase text-zinc-400 tracking-wider block mb-2">
-                      Tags
-                    </span>
-                    <div className="flex flex-wrap gap-1.5">
-                      {selectedWaifu.tags.map((tag, i) => (
-                        <span
-                          key={i}
-                          className="text-[10px] font-mono px-2 py-0.5 rounded bg-zinc-950 border border-zinc-800 text-zinc-400"
-                        >
-                          #{tag}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                )}
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
     </main>
   );
 };
@@ -439,4 +330,5 @@ MainArticle.propTypes = {
     manhwa: PropTypes.number,
     manhua: PropTypes.number,
   }),
+  onSelectWaifu: PropTypes.func,
 };

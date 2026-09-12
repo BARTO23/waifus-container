@@ -27,6 +27,9 @@ export default {
         heading: ['Manrope', 'Inter', 'sans-serif'],
         body: ['Manrope', 'Inter', 'sans-serif'],
         mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
+        display: ['Oswald', 'Manrope', 'sans-serif'],
+        // Character-detail modal's 8-bit/chromatic-aberration material.
+        pixel: ['"Press Start 2P"', 'JetBrains Mono', 'monospace'],
       },
       boxShadow: {
         'scarlet-glow': '0 0 25px -5px rgba(225, 29, 72, 0.25)',
@@ -40,6 +43,7 @@ export default {
       animation: {
         'content-fade': 'contentFade 180ms cubic-bezier(0.16, 1, 0.3, 1)',
         'heart-pop': 'heartPop 380ms cubic-bezier(0.16, 1, 0.3, 1)',
+        'ticker-scroll': 'tickerScroll 22s linear infinite',
       },
       keyframes: {
         contentFade: {
@@ -51,6 +55,10 @@ export default {
           '30%': { transform: 'scale(1.35)' },
           '60%': { transform: 'scale(0.95)' },
           '100%': { transform: 'scale(1)' },
+        },
+        tickerScroll: {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-50%)' },
         },
       },
     },
