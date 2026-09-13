@@ -1,45 +1,57 @@
-const NAV_LINKS = ['Home', 'Archive', 'Favorites', 'About'];
+import PropTypes from 'prop-types';
+
+const NAV_LINKS = [
+  { label: 'Catalog', href: '#gallery' },
+  { label: 'Character', href: '#select' },
+  { label: 'Roster', href: '#roster' },
+];
+
+// This app's own real deployed URL (also used by the footer band) — matches
+// what the extracted design reference itself already pointed "For more
+// info" at, since it happens to be this exact app.
+const DEPLOY_URL = 'https://waifus-container.vercel.app/';
 
 /**
- * Top nav for the showcase zone (replaces the old sidebar). The four links
- * are placeholders, same as in the design-canvas prototype — only the two
- * actions actually do something, scrolling down to the archive grid.
+ * Top nav for the "Redhead Waifus" poster/editorial redesign: wordmark +
+ * three in-page anchors, Shuffle (random pick) and a "For more info" link
+ * out to the app's own deployment. Flat, sharp-edged, no glass/blur.
  */
-export const TopNav = () => {
-  const scrollToArchive = () => {
-    document.getElementById('archive')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  };
+export const TopNav = ({ onShuffle = () => {} }) => (
+  <nav className="relative z-10 flex items-center justify-between gap-6 flex-wrap px-6 py-4 bg-accent-900 border-b-2 border-paper/25">
+    <div className="flex items-baseline gap-8 flex-wrap">
+      <span className="font-heading font-black text-[15px] uppercase tracking-[.16em]">
+        Redhead<span className="text-accent-500">/</span>Waifus
+      </span>
+      {NAV_LINKS.map((link) => (
+        <a
+          key={link.label}
+          href={link.href}
+          className="text-[13px] uppercase tracking-[.1em] text-paper/70 hover-hover:hover:text-paper transition-colors"
+        >
+          {link.label}
+        </a>
+      ))}
+    </div>
+    <div className="flex gap-2">
+      <button
+        type="button"
+        onClick={onShuffle}
+        className="font-heading font-bold text-xs uppercase tracking-[.1em] px-4 py-2.5 bg-transparent text-paper border-2 border-paper/50 cursor-pointer hover-hover:hover:border-paper transition-colors active:scale-95 active:ease-out-strong motion-reduce:active:scale-100"
+      >
+        Shuffle
+      </button>
+      <a
+        href={DEPLOY_URL}
+        target="_blank"
+        rel="noreferrer"
+        className="font-heading font-bold text-xs uppercase tracking-[.1em] px-4 py-2.5 bg-accent text-white border-2 border-accent hover-hover:hover:bg-accent-600 transition-colors"
+      >
+        For more info
+      </a>
+    </div>
+  </nav>
+);
 
-  return (
-    <nav className="relative z-[5] flex items-center justify-between max-w-[1440px] mx-auto px-6 sm:px-10 py-5">
-      <div className="hidden sm:flex items-center gap-8">
-        {NAV_LINKS.map((label) => (
-          <a
-            key={label}
-            href="#"
-            onClick={(e) => e.preventDefault()}
-            className="text-[13px] font-semibold text-zinc-200 hover-hover:hover:text-white transition-colors"
-          >
-            {label}
-          </a>
-        ))}
-      </div>
-      <div className="flex items-center gap-2.5 ml-auto sm:ml-0">
-        <button
-          type="button"
-          onClick={scrollToArchive}
-          className="px-5 py-2 rounded-full border border-zinc-400/40 bg-transparent text-white text-[12px] font-bold uppercase tracking-wide hover-hover:hover:border-white transition-colors active:scale-95 active:ease-out-strong motion-reduce:active:scale-100"
-        >
-          Search
-        </button>
-        <button
-          type="button"
-          onClick={scrollToArchive}
-          className="px-5 py-2 rounded-full bg-black text-white text-[12px] font-bold uppercase tracking-wide hover-hover:hover:bg-zinc-900 transition-colors active:scale-95 active:ease-out-strong motion-reduce:active:scale-100"
-        >
-          Full Archive
-        </button>
-      </div>
-    </nav>
-  );
+TopNav.propTypes = {
+  onShuffle: PropTypes.func,
 };

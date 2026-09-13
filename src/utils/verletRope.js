@@ -12,17 +12,10 @@
  */
 
 export const ROPE_SEGMENTS = 7; // 8 points: 2 pinned anchors + 6 simulated links
-export const GRAVITY = 0.44; // px per tick^2
-export const DAMPING = 0.985; // velocity retained per tick (loses energy -> settles)
+export const GRAVITY = 0.12; // px per tick^2 — light pull so the chain floats instead of hanging heavy
+export const DAMPING = 0.99; // velocity retained per tick (loses energy -> settles)
 export const CONSTRAINT_ITERATIONS = 6;
-export const WIND_AMPLITUDE = 0.036; // tiny perpetual perturbation so it never fully sleeps
-
-// Snaps the rendered line to a 3px grid — the simulated points still move
-// continuously underneath; only the drawn path looks stepped/blocky.
-const PIXEL_GRID = 3;
-function snapPx(v) {
-  return Math.round(v / PIXEL_GRID) * PIXEL_GRID;
-}
+export const WIND_AMPLITUDE = 0.075; // ambient perpetual bob, doubled to read as a floating drift
 
 export class Rope {
   constructor() {
@@ -52,7 +45,7 @@ export class Rope {
       const t = i / ROPE_SEGMENTS;
       let x = start.x + (end.x - start.x) * t;
       let y = start.y + (end.y - start.y) * t;
-      if (sagOnly) y += Math.sin(t * Math.PI) * (dist * 0.072);
+      if (sagOnly) y += Math.sin(t * Math.PI) * (dist * 0.03);
       this.points.push({ x, y });
       this.oldPoints.push({ x, y });
       this.pinned.push(i === 0 || i === ROPE_SEGMENTS);
@@ -115,9 +108,9 @@ export class Rope {
 
   /** Serializes the current point set to an SVG path `d` string. */
   toPathD() {
-    let d = `M ${snapPx(this.points[0].x)} ${snapPx(this.points[0].y)}`;
+    let d = `M ${this.points[0].x.toFixed(2)} ${this.points[0].y.toFixed(2)}`;
     for (let i = 1; i < this.points.length; i++) {
-      d += ` L ${snapPx(this.points[i].x)} ${snapPx(this.points[i].y)}`;
+      d += ` L ${this.points[i].x.toFixed(2)} ${this.points[i].y.toFixed(2)}`;
     }
     return d;
   }

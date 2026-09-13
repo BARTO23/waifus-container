@@ -4,7 +4,7 @@
     "name": "Rias Gremory",
     "origin": "manga",
     "series": "High School DxD",
-    "description": "Crimson-Haired Ruin Princess and heiress of the Gremory Clan.",
+    "description": "Crimson-Haired Ruin Princess and heiress of the Gremory Clan, one of the seventy-two pillars of the devil aristocracy. She commands her own peerage from the Occult Research Club, fighting to keep her human members safe while resisting an arranged political marriage.",
     "tags": [
       "demon",
       "magic",
@@ -17,7 +17,7 @@
     "name": "Erza Scarlet",
     "origin": "manga",
     "series": "Fairy Tail",
-    "description": "Titania, S-Class Requip mage of Fairy Tail with iron resolve.",
+    "description": "Titania, S-Class Requip mage of Fairy Tail, able to summon hundreds of enchanted weapons and suits of armor mid-battle. A survivor of the Tower of Heaven, she holds herself and her guildmates to an iron standard, tempered by fierce, quiet devotion to the people she protects.",
     "tags": [
       "magic",
       "swordsman",
@@ -30,7 +30,7 @@
     "name": "Yoko Littner",
     "origin": "manga",
     "series": "Gurren Lagann",
-    "description": "Marksman of Team Dai-Gurren wielding a high-caliber sniper rifle.",
+    "description": "Marksman of Team Dai-Gurren, wielding a sniper rifle nearly as large as she is with unshakable precision. Once the last line of defense for her underground village, she becomes the surface world's sharpest eye and Simon's steadying, big-sister presence through the war against the Beastmen.",
     "tags": [
       "sniper",
       "mecha",
@@ -43,7 +43,7 @@
     "name": "Shana",
     "origin": "manga",
     "series": "Shakugan no Shana",
-    "description": "Flame-Haired Burning-Eyed Hunter wielding the broadsword Nietono no Shana.",
+    "description": "Flame-Haired Burning-Eyed Hunter, a Flame Haze bound to the Crimson Lord Alastor and armed with the broadsword Nietono no Shana. She stalks the Guze no Tomogara who devour human existence, guarding a fragile normal life she never expected to want.",
     "tags": [
       "flame-haze",
       "swordsman",
@@ -56,7 +56,7 @@
     "name": "Kallen Stadtfeld",
     "origin": "manga",
     "series": "Code Geass",
-    "description": "Ace Guren pilot of the Black Knights fighting for Japanese independence.",
+    "description": "Ace Guren pilot of the Black Knights, fighting to free Japan from Britannian rule under the banner of Zero. Half-Britannian, half-Japanese, she buries her divided identity beneath a public persona of frail nobility and a battlefield reputation few pilots dare to challenge.",
     "tags": [
       "mecha",
       "pilot",
@@ -69,7 +69,7 @@
     "name": "Shirayuki",
     "origin": "manga",
     "series": "Snow White with the Red Hair",
-    "description": "Skilled court herbalist of Clarines with rare apple-red hair.",
+    "description": "Skilled court herbalist of Clarines, marked by rare apple-red hair that once made her a target for a foreign prince's obsession. She fled her homeland to build a career on her own merit, earning her place as a royal pharmacist beside Prince Zen rather than as anyone's trophy.",
     "tags": [
       "herbalist",
       "royalty",
@@ -82,7 +82,7 @@
     "name": "Maki Nishikino",
     "origin": "manga",
     "series": "Love Live!",
-    "description": "Talented pianist, composer, and tsundere idol for the group μ's.",
+    "description": "Talented pianist, composer, and tsundere idol for the school idol group μ's. Raised in a wealthy hospital-owning family, she writes music that carries the group's biggest hits while stubbornly denying her own soft spot for cute, childish things.",
     "tags": [
       "idol",
       "music",
@@ -95,7 +95,7 @@
     "name": "Holo",
     "origin": "manga",
     "series": "Spice and Wolf",
-    "description": "Wise Wolf of Yoitsu with auburn hair who travels as a harvest deity.",
+    "description": "Wise Wolf of Yoitsu, a centuries-old harvest deity who has watched villages outgrow their need for her. She travels the trade roads disguised in an auburn-haired human form, trading sharp wit and sharper business instincts with the merchant Kraft Lawrence.",
     "tags": [
       "wolf-deity",
       "harvest",
@@ -108,7 +108,7 @@
     "name": "Kurisu Makise",
     "origin": "manga",
     "series": "Steins;Gate",
-    "description": "Brilliant neuroscientist and Future Gadget Lab Member 004.",
+    "description": "Brilliant neuroscientist and Future Gadget Lab Member 004, published in an American scientific journal while still a teenager. Her research into time-travel theory quietly turns the Lab's microwave experiments into something that can rewrite the past.",
     "tags": [
       "science",
       "genius",
@@ -121,7 +121,7 @@
     "name": "Kushina Uzumaki",
     "origin": "manga",
     "series": "Naruto",
-    "description": "The Red Hot Habanero and previous jinchuriki of the Nine-Tails.",
+    "description": "The Red Hot-Habanero, former jinchuriki of the Nine-Tailed Fox and a shinobi whose temper was as legendary as her fighting spirit. As Naruto's mother, she poured everything she had into a single night's sacrifice to give her son a chance at the life she never fully got to live.",
     "tags": [
       "ninja",
       "uzumaki",
@@ -134,7 +134,7 @@
     "name": "Lisara Restall",
     "origin": "manga",
     "series": "Dakara Boku wa, H ga Dekinai",
-    "description": "Grim Reaper noble searching the human realm for an energetic contractor.",
+    "description": "Grim Reaper noble of the Restall family, sent to the human realm after losing her powers in a failed contract. She searches for an energetic human partner, the \"Munin,\" while masking her aristocratic pride behind a stiff, businesslike front.",
     "tags": [
       "shinigami",
       "scythe",
@@ -147,7 +147,7 @@
     "name": "Tomo Aizawa",
     "origin": "manga",
     "series": "Tomo-chan Is a Girl!",
-    "description": "Tomboy karate champion striving to be seen as a girl by her childhood friend.",
+    "description": "Tomboy karate champion who can flatten most of the boys at school without breaking a sweat, and still can't get her childhood friend Junichirou to see her as anything but \"one of the guys.\" Every training session becomes an excuse to close the distance she's afraid to name.",
     "tags": [
       "karate",
       "tomboy",
@@ -160,7 +160,7 @@
     "name": "Minori Kushieda",
     "origin": "manga",
     "series": "Toradora!",
-    "description": "High-energy softball captain working tireless jobs to fund her dream.",
+    "description": "High-energy softball team captain who juggles a punishing schedule of part-time jobs to fund her family's future. Her relentless cheerfulness hides a years-long crush on Ryuuji that she'd rather bury under jokes than ever say out loud.",
     "tags": [
       "softball",
       "athletics",
@@ -173,7 +173,7 @@
     "name": "Lina Inverse",
     "origin": "manga",
     "series": "Slayers",
-    "description": "Feared wandering sorceress capable of casting the legendary Dragon Slave.",
+    "description": "Feared wandering sorceress capable of casting the apocalyptic Dragon Slave, infamous enough that entire bandit gangs flee at the mention of her name. Loud, proudly mercenary, and obsessed with treasure, she's still the one heroes and villains alike call when the world is actually ending.",
     "tags": [
       "sorceress",
       "dragon-slave",
@@ -186,7 +186,7 @@
     "name": "Yona",
     "origin": "manga",
     "series": "Akatsuki no Yona",
-    "description": "Exiled princess who gathers the Four Dragons to defend the Kouka Kingdom.",
+    "description": "Exiled princess of the Kouka Kingdom, forced from the palace the night her father was murdered and her throne stolen. She sets out to gather the legendary Four Dragon Warriors, trading a sheltered royal childhood for a bow, calloused hands, and a claim to take her kingdom back.",
     "tags": [
       "princess",
       "archery",
@@ -199,7 +199,7 @@
     "name": "Gou Matsuoka",
     "origin": "manga",
     "series": "Free!",
-    "description": "Passionate swim team manager with a sharp eye for athletic form.",
+    "description": "Passionate manager of the Iwatobi swim club, tracking every stroke and split time with an enthusiasm that borders on scouting-report obsession. Her sharp eye for athletic form comes from growing up alongside her older brother Rin's own competitive swimming career.",
     "tags": [
       "swimming",
       "manager",
@@ -212,7 +212,7 @@
     "name": "Ranma Saotome (Girl)",
     "origin": "manga",
     "series": "Ranma 1/2",
-    "description": "Cursed martial artist who transforms into a red-haired woman with cold water.",
+    "description": "Cursed martial artist who falls into the Spring of Drowned Girl during training in China, transforming into a red-haired woman whenever splashed with cold water. Competitive to a fault and engaged to Akane Tendo against both their wishes, Ranma treats every rival as one more match to win.",
     "tags": [
       "martial-arts",
       "curse",
@@ -225,7 +225,7 @@
     "name": "Tiese Shtolienen",
     "origin": "manga",
     "series": "Sword Art Online",
-    "description": "Swordcraft Academy valet dedicated to advancing the Knight order.",
+    "description": "Swordcraft Academy valet in the Underworld, assigned to serve a novice swordsman while quietly training toward her own dream of becoming an Integrity Knight. Her devotion to duty runs deeper than the rigid class system around her ever expects.",
     "tags": [
       "underworld",
       "swordcraft",
@@ -238,7 +238,7 @@
     "name": "Rosalia",
     "origin": "manga",
     "series": "Sword Art Online",
-    "description": "Leader of the Titan's Hand bandit guild preying on Aincrad players.",
+    "description": "Leader of the Titan's Hand bandit guild, preying on unsuspecting players trapped inside Aincrad's death game. Behind a friendly, helpful facade she runs a ruthless extortion racket, luring newcomers into ambushes deep within the dungeon floors.",
     "tags": [
       "aincrad",
       "spear",
@@ -251,7 +251,7 @@
     "name": "Baccarat",
     "origin": "manga",
     "series": "One Piece",
-    "description": "Gran Tesoro concierge manipulating fortunes with the Lucky Lucky fruit.",
+    "description": "Concierge of the floating casino resort Gran Tesoro, having eaten the Lucky Lucky Fruit to manipulate fortune itself. She works luck like a weapon on behalf of the Tesoro Group, turning every game of chance on the ship into a rigged bet.",
     "tags": [
       "luck-fruit",
       "gran-tesoro",
@@ -264,7 +264,7 @@
     "name": "Aoko Aozaki",
     "origin": "manga",
     "series": "Mahoutsukai no Yoru",
-    "description": "Fifth Magician channeling catastrophic time acceleration spells.",
+    "description": "Successor-in-training to the Fifth Magician, wielding time-acceleration magecraft passed down through the Aozaki family. She spends her nights chasing rogue sorcery through Misaki Town and her days trying, not always successfully, to pass as an ordinary high schooler.",
     "tags": [
       "fifth-magic",
       "magician",
@@ -277,7 +277,7 @@
     "name": "Flay Allster",
     "origin": "manga",
     "series": "Gundam SEED",
-    "description": "Earth Alliance survivor navigating political intrigue aboard Archangel.",
+    "description": "Earth Alliance civilian swept aboard the battleship Archangel after losing her father to the war's opening battle. Grief hardens into something colder and more calculating as she navigates the ship's shifting loyalties, using her influence over ace pilot Kira Yamato as both comfort and leverage.",
     "tags": [
       "gundam",
       "archangel",
@@ -290,7 +290,7 @@
     "name": "Meyrin Hawke",
     "origin": "manga",
     "series": "Gundam SEED Destiny",
-    "description": "Zaft communication operator guiding ace pilots through deep orbital space.",
+    "description": "ZAFT communications operator aboard the battleship Minerva, guiding ace pilots through deep orbital combat despite her own nerves. Younger sister to fellow soldier Lunamaria, she steadies herself at the console even when the ship around her is falling apart.",
     "tags": [
       "zaft",
       "operator",
@@ -303,7 +303,7 @@
     "name": "Lunamaria Hawke",
     "origin": "manga",
     "series": "Gundam SEED Destiny",
-    "description": "Red coat mobile suit pilot defending the Minerva against Earth warships.",
+    "description": "Red Coat mobile suit ace defending the Minerva against Earth Alliance warships, promoted fast on raw combat instinct. Her rivalry-turned-romance with fellow pilot Shinn Asuka plays out as fiercely as any battle she flies.",
     "tags": [
       "gundam",
       "pilot",
@@ -316,7 +316,7 @@
     "name": "Mahiru Koizumi",
     "origin": "manga",
     "series": "Danganronpa 2",
-    "description": "Ultimate Photographer documenting honest moments among island classmates.",
+    "description": "Ultimate Photographer of Hope's Peak Academy, always carrying a camera to capture honest, unposed moments among her classmates. She acts as the group's gentle, mothering anchor on Jabberwock Island, quietly nursing injured strays back to health when no one's looking.",
     "tags": [
       "photographer",
       "hope's-peak",
@@ -329,7 +329,7 @@
     "name": "Chisa Yukizome",
     "origin": "manga",
     "series": "Danganronpa 3",
-    "description": "Ultimate Housekeeper and teacher protecting the 77th Class with devotion.",
+    "description": "Ultimate Housekeeper turned homeroom teacher, devoted heart and soul to Class 77-B at Hope's Peak Academy. Her boundless warmth toward her students becomes the tragedy's fault line once the world outside the classroom starts to fall apart.",
     "tags": [
       "housekeeper",
       "teacher",
@@ -342,7 +342,7 @@
     "name": "Alice Verdier",
     "origin": "manhwa",
     "series": "Betrayal of Dignity",
-    "description": "Devoted maid accompanying Chloe into high aristocratic imperial circles.",
+    "description": "Devoted personal maid accompanying Chloe into the highest circles of imperial aristocracy. Sharp-eyed and fiercely loyal, she reads the court's shifting politics a step ahead of the nobles who'd rather not be seen doing the same.",
     "tags": [
       "maid",
       "aristocracy",
@@ -355,7 +355,7 @@
     "name": "Rowena Parvis",
     "origin": "manhwa",
     "series": "Actually, I Was the Real One",
-    "description": "Loyal knight defending the Grand Duchy of Parvis against demonic corruption.",
+    "description": "Loyal knight of the Grand Duchy of Parvis, bound to a spirit contract that sharpens her blade against demonic corruption. She holds the line for a house that doesn't always deserve her unwavering defense.",
     "tags": [
       "knight",
       "noble",
@@ -368,7 +368,7 @@
     "name": "Marianne de Elmir",
     "origin": "manhwa",
     "series": "Into the Light Once Again",
-    "description": "High priestess cultivating miracle plants in the sun gardens for the imperial palace.",
+    "description": "High priestess tending the sun gardens of the imperial palace, cultivating rare miracle plants said to heal what medicine cannot. Her quiet devotion to the gardens masks a far greater burden placed on her by the crown.",
     "tags": [
       "priestess",
       "sun-garden",
@@ -381,7 +381,7 @@
     "name": "Silvia",
     "origin": "manhwa",
     "series": "The Great Wish",
-    "description": "Royal palace archivist chronicling prophetic visions of the empire's future.",
+    "description": "Royal palace archivist entrusted with chronicling the empire's prophetic visions before they fade from memory. Her careful records have a habit of shaping the very future they were only meant to describe.",
     "tags": [
       "archivist",
       "prophecy",
@@ -394,7 +394,7 @@
     "name": "Gina",
     "origin": "manhwa",
     "series": "Solo Leveling",
-    "description": "Hunters Guild strike squad member wielding formidable psychokinetic force.",
+    "description": "Member of the Hunters Guild's elite strike squad, deploying formidable psychokinetic force against S-rank gates. Disciplined and battle-hardened, she's the kind of hunter newer recruits are told to study, not challenge.",
     "tags": [
       "hunters-guild",
       "psychokinesis",
@@ -407,7 +407,7 @@
     "name": "Lady Hwa",
     "origin": "manhwa",
     "series": "Nano Machine",
-    "description": "High matriarch of the Fire Phoenix Clan governing sacred molten cultivation caves.",
+    "description": "High matriarch of the Fire Phoenix Clan, governing the sacred molten caves where its cultivation techniques are forged. Her authority over the clan's inner sanctum is absolute, and she guards its secrets from rival sects without mercy.",
     "tags": [
       "fire-phoenix",
       "matriarch",

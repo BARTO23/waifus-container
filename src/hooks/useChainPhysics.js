@@ -13,8 +13,11 @@ import { Rope, clampImpulse } from '../utils/verletRope';
  *   fade-visible flag — physics starts as soon as the DOM anchors exist, the
  *   same timing the canvas used from `componentDidUpdate`).
  * @param {number} count - Number of ropes (one per rendered fact callout).
+ * @param {object} scrollSourceRef - Ref to the element whose `scrollTop`
+ *   drives the scroll-reactivity impulse (the modal panel's own scrollable
+ *   body, not `window`).
  */
-export function useChainPhysics(isOpen, count) {
+export function useChainPhysics(isOpen, count, scrollSourceRef) {
   const pinRefs = useRef([]);
   const factRefs = useRef([]);
   const pathRefs = useRef([]);
@@ -63,17 +66,20 @@ export function useChainPhysics(isOpen, count) {
       const anchors = anchorsFor(i);
       if (!anchors) continue;
       ropesRef.current[i].reset(anchors.start, anchors.end, false);
-      if (pathRefs.current[i]) pathRefs.current[i].classList.remove('is-live');
     }
   }, [anchorsFor]);
 
   // Resize: move the anchors without resetting the simulated shape, so the
-  // chain visibly reacts to the new geometry instead of snapping.
+  // chain visibly reacts to the new geometry instead of snapping. Re-seeds
+  // the scroll baseline too — a ResizeObserver-triggered reflow can clamp
+  // `scrollTop`, which would otherwise inject a spurious one-frame impulse
+  // from stale vs. new scrollTop.
   const remeasure = useCallback(() => {
     for (let i = 0; i < ropesRef.current.length; i++) {
       const anchors = anchorsFor(i);
       if (anchors) ropesRef.current[i].updateAnchors(anchors.start, anchors.end);
     }
+    lastScrollYRef.current = null;
   }, [anchorsFor]);
 
   const paintOnce = useCallback(() => {
@@ -83,7 +89,6 @@ export function useChainPhysics(isOpen, count) {
       ropesRef.current[i].reset(anchors.start, anchors.end, true);
       if (pathRefs.current[i]) {
         pathRefs.current[i].setAttribute('d', ropesRef.current[i].toPathD());
-        pathRefs.current[i].classList.add('is-live');
       }
     }
   }, [anchorsFor]);
@@ -105,35 +110,32 @@ export function useChainPhysics(isOpen, count) {
     return { x: clampImpulse(dx), y: clampImpulse(dy) };
   }, []);
 
-  // The actual "move the page" gesture a viewer will try: scrolling. A fixed
-  // full-screen overlay with no overflow of its own doesn't consume wheel
-  // input, so it chains to the document underneath — window.scrollY keeps
-  // changing even while the modal sits visually still, and that's the delta
-  // we turn into a vertical jolt on the chain.
+  // The actual "move the panel" gesture a viewer will try: scrolling the
+  // modal's own scrollable body. Reads `scrollSourceRef.current.scrollTop`
+  // (the panel body), not `window.scrollY` — the page behind the modal is
+  // locked, and the chain must react to the panel's own scroll only.
   const scrollImpulse = useCallback(() => {
-    const sy =
-      window.scrollY ||
-      window.pageYOffset ||
-      (document.documentElement && document.documentElement.scrollTop) ||
-      0;
+    const sy = scrollSourceRef?.current?.scrollTop ?? 0;
     if (lastScrollYRef.current === null) {
       lastScrollYRef.current = sy;
       return 0;
     }
     const dy = sy - lastScrollYRef.current;
     lastScrollYRef.current = sy;
-    return clampImpulse(dy * 1.28);
-  }, []);
+    return clampImpulse(dy * 1.9);
+  }, [scrollSourceRef]);
 
   const tick = useCallback(() => {
     windPhaseRef.current += 0.02;
+    // Read all input sources (window position, panel scroll) before any
+    // rope.step()/setAttribute('d') writes below — reading scrollTop after
+    // writing SVG attributes would force a synchronous layout flush.
     const impulse = windowImpulse();
     const scrollKick = scrollImpulse();
     for (let i = 0; i < ropesRef.current.length; i++) {
       ropesRef.current[i].step(windPhaseRef.current, i, impulse.x, impulse.y + scrollKick);
       if (pathRefs.current[i]) {
         pathRefs.current[i].setAttribute('d', ropesRef.current[i].toPathD());
-        pathRefs.current[i].classList.add('is-live');
       }
     }
     rafRef.current = requestAnimationFrame(tick);
@@ -170,7 +172,7 @@ export function useChainPhysics(isOpen, count) {
         roRef.current = null;
       }
     };
-  }, [isOpen, count, dropRopes, paintOnce, remeasure, tick]);
+  }, [isOpen, count, scrollSourceRef, dropRopes, paintOnce, remeasure, tick]);
 
   return { stageWrapRef, svgRef, getPinRef, getFactRef, getPathRef };
 }
